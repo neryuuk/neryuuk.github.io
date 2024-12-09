@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+@media print {
+  @page {
+    margin: 0;
+  }
+
+  .pagebreak {
+    min-height: 1px;
+    page-break-before: always;
+  }
+
+  #sidecolumn {
+    height: max-content;
+  }
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+h3 {
+  margin-top: 14px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 14pt;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.job-title {
+  margin: 4px;
+}
+
+.dates {
+  color: #959BA6;
+  font-size: 8pt;
+  letter-spacing: 2pt;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+#body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: max-content;
+  justify-content: center;
+  margin: auto;
+  width: 1200px;
+}
+
+#main-column {
+  color: #0D111A;
+  height: auto;
+  margin: 36pt 32pt 32pt;
+  width: 60%;
+}
+
+#main-column h2 {
+  border-bottom: #F0F0F0 1px solid;
+}
+
+header {
+  display: flex;
+  height: 80px;
+  text-align: left;
+  text-indent: 0pt;
+}
+
+#profile-picture {
+  border-radius: 80px;
+  height: 80px;
+  object-fit: cover;
+  width: 80px;
+}
+
+#name-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 24px;
+}
+
+#name-title p {
+  line-height: 1;
+}
+
+#name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32pt;
+  font-weight: 400;
+}
+
+#title {
+  font-size: 10pt;
+  letter-spacing: 3pt;
+  text-transform: uppercase;
+}
+
+section {
+  margin-top: 26pt;
+}
+
+#side-column {
+  background-color: #32084D;
+  width: 40%;
+}
+
+#side-column h2 {
+  border-bottom: #705383 1px solid;
+  margin-bottom: 10px;
+}
+
+#side-content {
+  margin: 36pt 32pt 32pt;
+}
+
+#side-content * {
+  color: #FFF;
+}
+
+progress {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  height: 8px;
+  width: 100%;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #705383;
+}
+
+progress::-webkit-progress-value {
+  background-color: white;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.lang {
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.lang img {
+  width: 24px;
+}
+
+.location-dot-small {
+  width: 5pt;
+}
+
+.details-icon {
+  width: 9pt;
+}
