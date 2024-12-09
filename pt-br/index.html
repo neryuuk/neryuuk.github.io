@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Nelson Antunes - Senior Node.js Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/fontawesome.min.css" integrity="sha512-lauN4D/0AgFUGvmMR+knQnbOADyD/XuQ8VF18I8Ll0+TLvsujshyxvU+uzogmQbSq6qJd5jnUdYtK8ShxXMlSg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/js/fontawesome.min.js" integrity="sha512-wb6S3DSfVBkb+hSBITIgbDGVQP+2h6cHRCSGjWXHqbyehs8kLtjgaIwp/vvZJNxX0NaVxhTGUetfD11t/vD2bw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/js/all.min.js" integrity="sha512-1JkMy1LR9bTo3psH+H4SV5bO2dFylgOy+UJhMus1zF4VEFuZVu5lsi4I6iIndE4N9p01z1554ZDcvMSjMaqCBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+    @media print {
+      @page {
+        margin: 0;
+      }
+
+      .pagebreak {
+        min-height: 1px;
+        page-break-before: always;
+      }
+
+      #sidecolumn {
+        height: max-content;
+      }
+    }
+
+    * {
+      font-family: 'Lato', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: justify;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 700;
+      letter-spacing: 0;
+      margin: 0;
+    }
+
+    h3 {
+      margin-top: 14px;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+
+    p {
+      font-size: 14pt;
+      font-weight: 400;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .job-title {
+      margin: 4px;
+    }
+
+    .dates {
+      color: #959BA6;
+      font-size: 8pt;
+      letter-spacing: 2pt;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    #body {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      height: max-content;
+      justify-content: center;
+      margin: auto;
+      width: 1200px;
+    }
+
+    #main-column {
+      color: #0D111A;
+      height: auto;
+      margin: 36pt 32pt 32pt;
+      width: 60%;
+    }
+
+    #main-column h2 {
+      border-bottom: #F0F0F0 1px solid;
+    }
+
+    header {
+      display: flex;
+      height: 80px;
+      text-align: left;
+      text-indent: 0pt;
+    }
+
+    #profile-picture {
+      border-radius: 80px;
+      height: 80px;
+      object-fit: cover;
+      width: 80px;
+    }
+
+    #name-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 24px;
+    }
+
+    #name-title p {
+      line-height: 1;
+    }
+
+    #name {
+      font-family: 'Oswald', sans-serif;
+      font-size: 32pt;
+      font-weight: 400;
+    }
+
+    #title {
+      font-size: 10pt;
+      letter-spacing: 3pt;
+      text-transform: uppercase;
+    }
+
+    section {
+      margin-top: 26pt;
+    }
+
+    #side-column {
+      background-color: #32084D;
+      width: 40%;
+    }
+
+    #side-column h2 {
+      border-bottom: #705383 1px solid;
+      margin-bottom: 10px;
+    }
+
+    #side-content {
+      margin: 36pt 32pt 32pt;
+    }
+
+    #side-content * {
+      color: #FFF;
+    }
+
+    progress {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      border-radius: 0;
+      height: 8px;
+      width: 100%;
+    }
+
+    progress::-webkit-progress-bar {
+      background-color: #705383;
+    }
+
+    progress::-webkit-progress-value {
+      background-color: white;
+    }
+
+    label {
+      display: block;
+      margin-top: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="body">
+    <div id="main-column">
+      <header>
+        <img id="profile-picture" alt="Profile picture" src="../profile.jpg" />
+        <div id="name-title">
+          <p id="name">Nelson Antunes</p>
+          <p id="title">Desenvolvedor Node.js Sênior</p>
+        </div>
+      </header>
+      <section>
+        <h2>Perfil</h2>
+        <p>Desenvolvedor com experiência no desenvolvimento backend, utilizando Node.js (JavaScript e TypeScript), .NET (C#), e bancos de dados como MongoDB, MySQL, PostgreSQL e MSSQL. Também possuo conhecimentos em frontend, trabalhando com React, Redux e jQuery. Tenho habilidades em integrações e resolução de problemas, utilizando ferramentas como RabbitMQ e Ansible. Além disso, tenho experiência em monitoramento de aplicações utilizando ferramentas como Dynatrace, Grafana e Datadog. Estou sempre em busca de novos desafios para continuar crescendo profissionalmente.</p>
+      </section>
+      <section>
+        <h2>Experiências</h2>
+        <h3>Software Engineer | Node.js</h3>
+        <h4>Flash, <i style="width: 5pt;" class="fa-solid fa-location-dot"></i> São Paulo, SP, Brasil</h4>
+        <p class="dates">setembro 2023 — presente</p>
+        <p>Na execução das minhas funções, aprimorei meu expertise em tecnologias como NodeJS, NestJS, Typescript e ReactJS, além de participar da estruturação e aprimoramento da arquitetura do sistema utilizando princípios como Clean Architecture, Event Driven Architecture e Domain-Driven Design (DDD). Como desenvolvedor, não só utilizo minhas habilidades técnicas, mas também compartilho conhecimentos com minha equipe.</p>
+        <h3>Software Engineer | C# - .NET - .NET Core</h3>
+        <h4>Zoop, <i style="width: 5pt;" class="fa-solid fa-location-dot"></i> Remote</h4>
+        <p class="dates">outubro 2022 — maio 2023</p>
+        <p>Atuei no time de Process Automation, realizando o desenvolvimento de aplicações RPA para serem integrados ao Zeev, utilizando C#, Javascript, Postgres, MongoDB, MySQL, e recursos da AWS como Secret Manager, Parameter Store, S3 Bucket, entre outros.</p>
+        <h3>Software Engineer | C# - .NET - .NET Core</h3>
+        <h4>Neon, <i style="width: 5pt;" class="fa-solid fa-location-dot"></i> Remote</h4>
+        <p class="dates">outubro 2020 — setembro 2022</p>
+        <p>Responsável pela monitoria, manutenção e melhoria das aplicações existentes, bem como a criação de novas aplicações utilizando tecnologias como .NET (C#), RabbitMQ, MSSQL; Identificação e resolução de problemas identificados utilizando Dynatrace e Grafana e também de questões levantadas através dos canais de suporte, para melhoria dos serviços financeiros prestados pela empresa;</p>
+        <h3>Software Engineer | Node.js</h3>
+        <h4>Evnts, <i style="width: 5pt;" class="fa-solid fa-location-dot"></i> São Paulo, SP, Brasil</h4>
+        <p class="dates">outubro 2016 — outubro 2020</p>
+        <p>Criação e manutenção dos diversos produtos da empresa, utilizando node.js (Javascript e Typescript) no backend, React no frontend, MongoDB e MySQL como bancos de dados; Configuração e gestão de CI/CD através do SemaphoreCI e Bitbucket Pipelines; Configuração e gestão dos servidores/aplicações na nuvem (AWS e Google Cloud);</p>
+      </section>
+      <div class="pagebreak">&nbsp;</div>
+      <section>
+        <h2>Education</h2>
+        <h3>Bacharelado em Ciências Aplicadas, Ciência da Computação, Graduação sanduíche</h3>
+        <h4>University of Toronto Mississauga, <i style="width: 5pt;" class="fa-solid fa-location-dot"></i> Mississauga, ON, Canada</h4>
+        <p class="dates">setembro 2013 — abril 2014</p>
+        <p>Programa de graduação sanduíche &quot;Ciência Sem Fronteiras&quot;, do governo federal.</p>
+        <h3>Tecnólogo em Redes de Computadores</h3>
+        <h4>Faculdade de Tecnologia de Osasco, <i style="width: 5pt;" class="fa-solid fa-location-dot"></i> Osasco, SP, Brasil</h4>
+        <p class="dates">janeiro 2012 — junho 2015</p>
+        <p>Não finalizado (60% concluído)</p>
+        <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
+        <h4>Faculdade de Tecnologia de São Paulo - FATEC-SP, <i style="width: 5pt;" class="fa-solid fa-location-dot"></i> São Paulo, SP, Brasil</h4>
+        <p class="dates">janeiro 2009 — dezembro 2010</p>
+        <p>Não finalizado (40% concluído)</p>
+        <h3>Técnico em Programação e Análise de Sistemas</h3>
+        <h4>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP, <i style="width: 5pt;" class="fa-solid fa-location-dot"></i> São Paulo, SP, Brasil</h4>
+        <p class="dates">janeiro 2007 — junho 2009</p>
+      </section>
+      <section>
+        <h2>Estágios</h2>
+        <h3>Software Engineer</h3>
+        <h4>Big Data University, <i style="width: 5pt;" class="fa-solid fa-location-dot"></i> Toronto, ON, Canada</h4>
+        <p class="dates">maio 2014 — august 2014</p>
+        <p>Como parte do programa Ciência sem Fronteiras, trabalhei como estagiário na Big Data University.</p>
+        <p>Lá, pude ajudar a idealizar e desenvolver um sistema caseiro de vigilância doméstica do tipo faça você mesmo usando um Raspberry Pi (junto com o módulo de câmera), e algumas tecnologias da IBM (Cloudant + Bluemix), Python e NodeJS;</p>
+        <p>Durante o projeto, meu time e eu escrevemos um artigo descrevendo e documentando o primeiro protótipo do projeto: <a href="https://bit.ly/3CnrhVE">https://bit.ly/3CnrhVE</a></p>
+      </section>
+      <div class="pagebreak">&nbsp;</div>
+    </div>
+    <div id="side-column">
+      <div id="side-content">
+        <header></header>
+        <section>
+          <h2>Detalhes</h2>
+          <p>
+            <i style="width: 9pt;" class="fa-solid fa-location-dot"></i>
+            <span>São Paulo, Brasil</span>
+          </p>
+          <!-- <p>
+            <i style="width: 9pt;" class="fa-solid fa-phone"></i>
+            <span>+55 99 99999 9999</span>
+          </p> -->
+          <p>
+            <i style="width: 9pt;" class="fa-solid fa-envelope"></i>
+            <a href="mailto:neryuuk@neryuuk.com">neryuuk@neryuuk.com</a>
+          </p>
+        </section>
+        <section>
+          <h2>Links</h2>
+          <p>
+            <i style="width: 9pt;" class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/neryuuk">linkedin.com/in/neryuuk</a>
+          </p>
+          <p>
+            <i style="width: 9pt;" class="fa-brands fa-square-github"></i>
+            <a href="https://github.com/neryuuk">github.com/neryuuk</a>
+          </p>
+        </section>
+        <section>
+          <h2>Habilidades</h2>
+          <label for="nodejs">
+            <span>Node.js</span>
+            <progress value="10" max="10" id="nodejs"></progress>
+          </label>
+          <label for="javascript">
+            <span>Javascript</span>
+            <progress value="10" max="10" id="javascript"></progress>
+          </label>
+          <label for="typescript">
+            <span>Typescript</span>
+            <progress value="10" max="10" id="typescript"></progress>
+          </label>
+          <label for="nestjs">
+            <span>NestJS</span>
+            <progress value="8" max="10" id="nestjs"></progress>
+          </label>
+          <label for="mongodb">
+            <span>MongoDB</span>
+            <progress value="8" max="10" id="mongodb"></progress>
+          </label>
+          <label for="mysql">
+            <span>MySQL</span>
+            <progress value="7" max="10" id="mysql"></progress>
+          </label>
+          <label for="gcp">
+            <span>Google Cloud Platform (GCP)</span>
+            <progress value="6" max="10" id="gcp"></progress>
+          </label>
+          <label for="aws">
+            <span>Amazon Web Services (AWS)</span>
+            <progress value="6" max="10" id="aws"></progress>
+          </label>
+          <label for="docker">
+            <span>Docker</span>
+            <progress value="6" max="10" id="docker"></progress>
+          </label>
+          <label for="python">
+            <span>Python</span>
+            <progress value="4" max="10" id="python"></progress>
+          </label>
+        </section>
+        <section>
+          <h2>Idiomas</h2>
+          <label for="portuguese">
+            <span>Português</span>
+            <progress value="10" max="10" id="portuguese"></progress>
+          </label>
+          <label for="english">
+            <span>Inglês</span>
+            <progress value="9" max="10" id="english"></progress>
+          </label>
+          <label for="french">
+            <span>Francês</span>
+            <progress value="2" max="10" id="french"></progress>
+          </label>
+          <label for="german">
+            <span>Alemão</span>
+            <progress value="1" max="10" id="german"></progress>
+          </label>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
