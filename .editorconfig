@@ -5,6 +5,8 @@ charset = utf-8
 indent_style = space
 indent_size = 2
 trim_trailing_whitespace = true
+max_line_length = off
+
 # Unix-style newlines with a newline ending every file
 end_of_line = lf
 insert_final_newline = true
@@ -15,5 +17,5 @@ quote_type = single
 [*.{yml,yaml}]
 quote_type = double
 
-[*.md]
+[*.{md,markdown}]
 trim_trailing_whitespace = false
