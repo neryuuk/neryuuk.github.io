@@ -2,55 +2,11 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
   <head>
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/img/favicons/favicon-96x96.png"
-      sizes="96x96" />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="/assets/img/favicons/favicon.svg" />
-    <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/img/favicons/apple-touch-icon.png" />
-    <link rel="manifest" href="/assets/img/favicons/site.webmanifest" />
-    <link rel="stylesheet" href="/assets/style/pretty.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/fontawesome.min.css"
-      integrity="sha512-lauN4D/0AgFUGvmMR+knQnbOADyD/XuQ8VF18I8Ll0+TLvsujshyxvU+uzogmQbSq6qJd5jnUdYtK8ShxXMlSg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/js/fontawesome.min.js"
-      integrity="sha512-wb6S3DSfVBkb+hSBITIgbDGVQP+2h6cHRCSGjWXHqbyehs8kLtjgaIwp/vvZJNxX0NaVxhTGUetfD11t/vD2bw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/js/all.min.js"
-      integrity="sha512-1JkMy1LR9bTo3psH+H4SV5bO2dFylgOy+UJhMus1zF4VEFuZVu5lsi4I6iIndE4N9p01z1554ZDcvMSjMaqCBQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"></script>
-    <title>{{ data.header.name }} - {{ data.header.title }}</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="theme-color" content="#32084D" />
-    <meta name="keywords" content="{{ data.keywords | join: ', ' }}">
-    <meta name="author" content="{{ data.header.name }}">
-    <meta property="og:title" content="{{ data.header.title }} - {{ data.header.name }}" />
-    <meta property="og:site_name" content="{{ data.header.title }} - {{ data.header.name }}" />
-    <meta property="og:description" content="{{ data.header.description }}" />
-    <meta property="og:image" content="https://neryuuk.github.io/assets/img/profile.png" />
-    <meta property="og:url" content="https://neryuuk.github.io" />
-    <meta property="og:type" content="website" />
+    <title>{{ data.header.name }} - {{ data.header.title }}</title>
+    {% include sources.html %}
+    {% include seo.html data=data.header %}
   </head>
   <body>
     <div id="body">

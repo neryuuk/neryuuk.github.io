@@ -1,24 +1,3 @@
-keywords:
-- node.js
-- javascript
-- typescript
-- nestjs
-- mongodb
-- mysql
-- google cloud platform
-- gcp
-- amazon web services
-- aws
-- docker
-- python
-- resume
-- cv
-- developer
-- web
-- web developer
-- backend
-- backend developer
-
 header:
   title: Desenvolvedor Node.js Sênior
   name: Nelson Antunes
@@ -28,6 +7,26 @@ header:
   - code: en-us
     title: Read it in English
     url: ./
+  keywords:
+  - node.js
+  - javascript
+  - typescript
+  - nestjs
+  - mongodb
+  - mysql
+  - google cloud platform
+  - gcp
+  - amazon web services
+  - aws
+  - docker
+  - python
+  - resume
+  - cv
+  - developer
+  - web
+  - web developer
+  - backend
+  - backend developer
 
 details:
   id: details
