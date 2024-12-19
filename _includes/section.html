@@ -17,7 +17,12 @@
         <h3>{{ title }}</h3>
         <h4>{{ place }},
           <i class="fa-solid fa-location-dot location-dot-small"></i>
-          {{ location }}</h4>
+          {% if each.remote %}
+            {{ each.remote }}
+          {% else %}
+            {{ location }}
+          {% endif %}
+        </h4>
         <p class="dates">{{ each.period.start }} — {{ each.period.end }}</p>
         {% for line in each.long_description %}
           <p>{{ line }}</p>

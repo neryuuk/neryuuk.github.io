@@ -66,7 +66,7 @@ work-experience:
       legal_name: FLASH TECNOLOGIA E INSTITUICAO DE PAGAMENTO LTDA
       url: https://flashapp.com.br
       location: São Paulo, SP, Brasil
-    remote: false
+    remote:
     period:
       start: setembro 2023
       end: presente
@@ -80,7 +80,7 @@ work-experience:
       legal_name: ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
       url: https://zoop.com.br
       location: Rio de Janeiro, RJ, Brasil
-    remote: true
+    remote: Remoto
     period:
       start: outubro 2022
       end: maio 2023
@@ -94,7 +94,7 @@ work-experience:
       legal_name: NEON PAGAMENTOS SA INSTITUICAO DE PAGAMENTO
       url: https://neon.com.br
       location: São Paulo, SP, Brasil
-    remote: true
+    remote: Remoto
     period:
       start: outubro 2020
       end: setembro 2022
@@ -108,7 +108,7 @@ work-experience:
       legal_name: EVENTS SERVICOS VIAGEM E TURISMO LTDA
       url: https://evnts.com.br
       location: São Paulo, SP, Brasil
-    remote: false
+    remote:
     period:
       start: outubro 2016
       end: outubro 2020
@@ -221,16 +221,12 @@ internships:
       long_name: Big Data University
       legal_name: Big Data University
       url: https://cognitiveclass.ai
+      location: Toronto, ON, Canada
     position: Software Engineer
-    location: Toronto, ON, Canada
     remote: false
     period:
-      start:
-        month: 5
-        year: 2014
-      end:
-        month: 8
-        year: 2014
+      start: maio 2014
+      end: agosto 2014
     long_description:
     - "Como parte do programa Ciência sem Fronteiras, trabalhei como estagiário na Big Data University."
     - "Lá, pude ajudar a idealizar e desenvolver um sistema caseiro de vigilância doméstica do tipo faça você mesmo usando um Raspberry Pi (junto com o módulo de câmera), e algumas tecnologias da IBM (Cloudant + Bluemix), Python e NodeJS;"

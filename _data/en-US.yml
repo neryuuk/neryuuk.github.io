@@ -66,7 +66,7 @@ work-experience:
       legal_name: FLASH TECNOLOGIA E INSTITUICAO DE PAGAMENTO LTDA
       url: https://flashapp.com.br
       location: São Paulo, SP, Brazil
-    remote: false
+    remote:
     period:
       start: september 2023
       end: present
@@ -79,7 +79,7 @@ work-experience:
       legal_name: ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
       url: https://zoop.com.br
       location: Rio de Janeiro, RJ, Brazil
-    remote: true
+    remote: Remote
     period:
       start: october 2022
       end: may 2023
@@ -92,7 +92,7 @@ work-experience:
       legal_name: NEON PAGAMENTOS SA INSTITUICAO DE PAGAMENTO
       url: https://neon.com.br
       location: São Paulo, SP, Brazil
-    remote: true
+    remote: Remote
     period:
       start: october 2020
       end: september 2022
@@ -105,7 +105,7 @@ work-experience:
       legal_name: EVENTS SERVICOS VIAGEM E TURISMO LTDA
       url: https://evnts.com.br
       location: São Paulo, SP, Brazil
-    remote: false
+    remote:
     period:
       start: october 2016
       end: october 2020
@@ -219,7 +219,7 @@ internships:
       legal_name: Big Data University
       url: https://cognitiveclass.ai
       location: Toronto, ON, Canada
-      remote: false
+    remote:
     period:
       start: may 2014
       end: august 2014
