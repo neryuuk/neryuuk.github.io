@@ -13,21 +13,19 @@
       {% assign title = each.position | default: each.course %}
       {% assign place = each.company.short_name | default: each.school.name %}
       {% assign location = each.company.location | default: each.school.location %}
-      <span>
-        <h3>{{ title }}</h3>
-        <h4>{{ place }},
-          <i class="fa-solid fa-location-dot location-dot-small"></i>
-          {% if each.remote %}
-            {{ each.remote }}
-          {% else %}
-            {{ location }}
-          {% endif %}
-        </h4>
-        <p class="dates">{{ each.period.start }} — {{ each.period.end }}</p>
-        {% for line in each.long_description %}
-          <p>{{ line }}</p>
-        {% endfor %}
-      </span>
+      <h3>{{ title }}</h3>
+      <h4>{{ place }},
+        <i class="fa-solid fa-location-dot location-dot-small"></i>
+        {% if each.remote %}
+          {{ each.remote }}
+        {% else %}
+          {{ location }}
+        {% endif %}
+      </h4>
+      <p class="dates">{{ each.period.start }} — {{ each.period.end }}</p>
+      {% for line in each.long_description %}
+        <p>{{ line }}</p>
+      {% endfor %}
     {% endfor %}
   </section>
 {% endif %}
