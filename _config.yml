@@ -9,7 +9,7 @@ defaults:
       path: pages/ats
       type: pages
     values:
-      layout: default
+      layout: ats
       permalink: /:basename
 
   -
