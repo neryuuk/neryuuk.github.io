@@ -4,12 +4,12 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>{{ data.header.name }} - {{ data.header.title }}</title>
-    {% include seo.html data=data.header %}
+    {% include seo.liquid data=data.header %}
   </head>
   <body>
     <div id="body">
       <div id="main-column">
-        <h1>Banana</h1>
+        <code>{{ data }}</code>
       </div>
     </div>
   </body>
