@@ -2,16 +2,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="theme-color" content="#32084D" />
-    <meta name="keywords" content="{{ data.keywords | join: ', ' }}">
-    <meta name="author" content="{{ data.header.name }}">
-    <meta property="og:title" content="{{ data.header.title }} - {{ data.header.name }}" />
-    <meta property="og:site_name" content="{{ data.header.title }} - {{ data.header.name }}" />
-    <meta property="og:description" content="{{ data.header.description }}" />
-    <meta property="og:image" content="https://neryuuk.github.io/assets/img/profile.png" />
-    <meta property="og:url" content="https://neryuuk.github.io" />
-    <meta property="og:type" content="website" />
     <link
       rel="icon"
       type="image/png"
@@ -55,9 +45,19 @@
       integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"></script>
+    <title>{{ data.header.name }} - {{ data.header.title }}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="theme-color" content="#32084D" />
+    <meta name="keywords" content="{{ data.keywords | join: ', ' }}">
+    <meta name="author" content="{{ data.header.name }}">
+    <meta property="og:title" content="{{ data.header.title }} - {{ data.header.name }}" />
+    <meta property="og:site_name" content="{{ data.header.title }} - {{ data.header.name }}" />
+    <meta property="og:description" content="{{ data.header.description }}" />
+    <meta property="og:image" content="https://neryuuk.github.io/assets/img/profile.png" />
+    <meta property="og:url" content="https://neryuuk.github.io" />
+    <meta property="og:type" content="website" />
     {% feed_meta %}
     {% seo %}
-    <title>{{ data.header.title }} - {{ data.header.name }}</title>
   </head>
   <body>
     <div id="body">
