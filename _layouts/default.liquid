@@ -1,0 +1,16 @@
+{% assign data = site.data[page.lang] %}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{{ data.header.name }} - {{ data.header.title }}</title>
+    {% include seo.html data=data.header %}
+  </head>
+  <body>
+    <div id="body">
+      <div id="main-column">
+        <h1>Banana</h1>
+      </div>
+    </div>
+  </body>
+</html>
