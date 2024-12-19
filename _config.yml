@@ -2,13 +2,7 @@ url: https://neryuuk.github.io
 
 timezone: America/Sao_Paulo
 
-# The base URL of your site
-baseurl: "/"
-
-pages:
-  banana:
-    layout: ats
-    path: /ats
+baseurl: /
 
 plugins:
   - jekyll-sitemap
