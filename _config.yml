@@ -19,8 +19,6 @@ exclude:
   - "*.gem"
   - "*.gemspec"
   - docs
-  - old
-  - raw
   - tools
   - README.md
   - LICENSE
