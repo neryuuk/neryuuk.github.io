@@ -2,8 +2,8 @@
   {% if include.content %}
     <img
       id="profile-picture"
-      alt="Profile picture"
-      title="Profile picture"
+      alt="{{ include.content.picture }}"
+      title="{{ include.content.picture }}"
       src="/assets/img/profile.jpg" />
     <div id="name-title">
       <p id="name">{{ include.content.name }}</p>
@@ -11,7 +11,7 @@
     </div>
     <span id="lang">
       {% for lang in include.content.languages %}
-        <a href="./{{ lang.code }}">
+        <a href="{{ lang.url }}">
           <img
             alt="{{ lang.title }}"
             title="{{ lang.title }}"
