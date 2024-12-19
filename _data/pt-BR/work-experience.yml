@@ -1,0 +1,55 @@
+id: work-experience
+title: Work Experience
+data:
+- position: Software Engineer | Node.js
+  company:
+    short_name: Flash
+    long_name: Flash Benefícios
+    legal_name: FLASH TECNOLOGIA E INSTITUICAO DE PAGAMENTO LTDA
+    url: https://flashapp.com.br
+    location: São Paulo, SP, Brazil
+  remote: false
+  period:
+    start: september 2023
+    end: null
+  long_description:
+    - In my role, I have honed my expertise in technologies such as Node.js, NestJS, (using both Javascript and Typescript), and ReactJS, and have been involved in structuring and enhancing system architecture using principles like Clean Architecture, Event Driven Architecture, and Domain-Driven Design (DDD). As a developer, I not only leverage my technical skills but also actively share knowledge with my team.
+- position: Software Engineer | C#
+  company:
+    short_name: Zoop
+    long_name: Zoop Soluções de Pagamentos
+    legal_name: ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+    url: https://zoop.com.br
+    location: Rio de Janeiro, RJ, Brazil
+  remote: true
+  period:
+    start: october 2022
+    end: may 2023
+  long_description:
+    - "I worked on the Process Automation team, performing the development of RPA applications to be integrated into Zeev, using C#, Javascript, Postgres, MongoDB, MySQL, and AWS resources such as Secret Manager, Parameter Store, S3 Bucket, among others."
+- position: Software Engineer | C#
+  company:
+    short_name: Neon
+    long_name: Neon
+    legal_name: NEON PAGAMENTOS SA INSTITUICAO DE PAGAMENTO
+    url: https://neon.com.br
+    location: São Paulo, SP, Brazil
+  remote: true
+  period:
+    start: october 2020
+    end: september 2022
+  long_description:
+    - "Responsible for monitoring, maintaining and improving existing .NET applications as well as creating new ones, using technologies such as .NET (C#), RabbitMQ, MSSQL; Identifying and troubleshooting issues using Dynatrace, Grafana and support tickets to improve the financial services;"
+- position: Software Engineer | Node.js
+  company:
+    short_name: Evnts
+    long_name: Evnts
+    legal_name: EVENTS SERVICOS VIAGEM E TURISMO LTDA
+    url: https://evnts.com.br
+    location: São Paulo, SP, Brazil
+  remote: false
+  period:
+    start: october 2016
+    end: october 2020
+  long_description:
+    - "Creation and maintenance of the company's various products/applications, using node.js (Javascript and Typescript) on the back-end, React on the front end and databases on mongodb and MySQL; CI/CD configuration and management using SemaphoreCI and Bitbucket Pipelines; Configuration, deployment and management of servers, buckets, databases and applications in various cloud providers (AWS and Google Cloud);"

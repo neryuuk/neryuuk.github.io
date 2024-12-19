@@ -1,0 +1,18 @@
+id: internships
+title: Internships
+data:
+- position: Software Engineer
+  company:
+    short_name: Big Data University
+    long_name: Big Data University
+    legal_name: Big Data University
+    url: https://cognitiveclass.ai
+    location: Toronto, ON, Canada
+    remote: false
+  period:
+    start: may 2014
+    end: august 2014
+  long_description:
+    - "As part of the Science Without Borders sandwich course initiative, sponsored by the Brazilian Government, I worked as an intern at Big Data University."
+    - "There, I was able to help envision and develop a do-it-yourself home surveillance system using a Raspberry Pi (along with it's camera module), some IBM technology (Cloudant + Bluemix), Python and Node.js."
+    - "During the project my team and I wrote this article that talks about the first prototype: <a href='https://bit.ly/3CnrhVE' target='_blank'>https://bit.ly/3CnrhVE</a>"

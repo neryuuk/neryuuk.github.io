@@ -1,0 +1,23 @@
+<header>
+  {% if include.content %}
+    <img
+      id="profile-picture"
+      alt="Profile picture"
+      title="Profile picture"
+      src="/assets/img/profile.jpg" />
+    <div id="name-title">
+      <p id="name">{{ include.content.name }}</p>
+      <p id="title">{{ include.content.title }}</p>
+    </div>
+    <span id="lang">
+      {% for lang in include.content.languages %}
+        <a href="./{{ lang.code }}">
+          <img
+            alt="{{ lang.title }}"
+            title="{{ lang.title }}"
+            src="/assets/img/{{ lang.code }}.png" />
+        </a>
+      {% endfor %}
+    </span>
+  {% endif %}
+</header>

@@ -1,0 +1,32 @@
+title: Skills
+data:
+- id: nodejs
+  name: Node.js
+  level: 10
+- id: javascript
+  name: Javascript
+  level: 10
+- id: typescript
+  name: Typescript
+  level: 10
+- id: nestjs
+  name: NestJS
+  level: 8
+- id: mongodb
+  name: MongoDB
+  level: 8
+- id: mysql
+  name: MySQL
+  level: 7
+- id: gcp
+  name: Google Cloud Platform (GCP)
+  level: 6
+- id: aws
+  name: Amazon Web Services (AWS)
+  level: 6
+- id: docker
+  name: Docker
+  level: 6
+- id: python
+  name: Python
+  level: 4

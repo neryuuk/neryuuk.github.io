@@ -1,0 +1,9 @@
+id: links
+title: Links
+data:
+- text: linkedin.com/in/neryuuk
+  icon: fa-brands fa-linkedin details-icon
+  url: https://www.linkedin.com/in/neryuuk
+- text: github.com/neryuuk
+  icon: fa-brands fa-square-github details-icon
+  url: https://github.com/neryuuk

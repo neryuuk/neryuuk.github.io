@@ -1,0 +1,45 @@
+id: education
+title: Education
+data:
+- course: Sandwich Course in Computer Science
+  school:
+    name: University of Toronto Mississauga
+    location: Mississauga, ON, Canada
+    url: https://www.utm.utoronto.ca
+  long_description:
+    - "Exchange Student sponsored by the Brazilian Federal Government through 'Science Without Borders' sandwich course initiative."
+  period:
+    start: september 2013
+    end: april 2014
+
+- course: Associate Degree in Computer Systems Networking and Telecommunications
+  school:
+    name: Faculdade de Tecnologia de Osasco
+    location: Osasco, SP, Brazil
+    url: https://fatecosasco.edu.br/osasco
+  long_description:
+    - "Completed circa 60% of course load."
+  period:
+    start: january 2012
+    end: june 2015
+
+- course: Associate Degree in Computer Systems Analysis
+  school:
+    name: Faculdade de Tecnologia de São Paulo - FATEC-SP
+    location: São Paulo, SP, Brazil
+    url: https://www.fatecsp.br
+  long_description:
+    - "Completed circa 40% of course load."
+  period:
+    start: january 2009
+    end: december 2010
+
+- course: Certificate Program, Computer Programming
+  school:
+    name: Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP
+    location: São Paulo, SP, Brazil
+    url: https://www.ifsp.edu.br
+  long_description:
+  period:
+    start: january 2007
+    end: june 2009

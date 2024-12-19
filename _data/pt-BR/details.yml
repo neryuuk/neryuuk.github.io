@@ -1,0 +1,8 @@
+id: details
+title: Details
+data:
+- text: São Paulo, Brazil
+  icon: fa-solid fa-location-dot details-icon
+- text: neryuuk@neryuuk.com
+  icon: fa-solid fa-envelope details-icon
+  url: "mailto:neryuuk@neryuuk.com"

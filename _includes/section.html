@@ -1,0 +1,28 @@
+{% if include.content %}
+  <section id="{{ include.content.id }}">
+    {% if include.content.title %}
+      <h2>{{ include.content.title }}</h2>
+    {% endif %}
+    {% for item in include.content.data %}
+      {% assign title = item.position | default: item.course %}
+      {% assign place = item.company.short_name | default: item.school.name %}
+      {% assign location = item.company.location | default: item.school.location %}
+      <span>
+        <h3>{{ title }}</h3>
+        <h4>{{ place }},
+          <i class="fa-solid fa-location-dot location-dot-small"></i>
+          {{ location }}</h4>
+        <p class="dates">{{ item.period.start }} —
+          {% if item.period.end %}
+            {{ item.period.end }}
+          {% else %}
+            present
+          {% endif %}
+        </p>
+        {% for line in item.long_description %}
+          <p>{{ line }}</p>
+        {% endfor %}
+      </span>
+    {% endfor %}
+  </section>
+{% endif %}

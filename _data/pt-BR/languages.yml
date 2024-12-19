@@ -1,0 +1,14 @@
+title: Languages
+data:
+- id: portuguese
+  name: Portuguese
+  level: 10
+- id: english
+  name: English
+  level: 9
+- id: french
+  name: French
+  level: 2
+- id: german
+  name: German
+  level: 1
