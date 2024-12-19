@@ -6,7 +6,7 @@ header:
   languages:
   - code: pt-br
     title: Ler em Português
-    url: ./portugues
+    url: ./portuguese
   keywords:
   - node.js
   - javascript
