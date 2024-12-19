@@ -4,9 +4,6 @@ timezone: America/Sao_Paulo
 
 baseurl: /
 
-plugins:
-  - jekyll-sitemap
-
 exclude:
   - "*.gem"
   - "*.gemspec"
