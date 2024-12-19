@@ -11,19 +11,11 @@ compress_html:
 defaults:
   -
     scope:
-      path: pages/ats
-      type: pages
-    values:
-      layout: ats
-      permalink: /:basename
-
-  -
-    scope:
       path: pages/pretty
       type: pages
     values:
       layout: two-column
-      permalink: /pretty/:basename
+      permalink: /:basename
 
 exclude:
   - "*.gem"
