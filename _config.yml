@@ -1,0 +1,30 @@
+url: https://neryuuk.github.io
+timezone: America/Sao_Paulo
+baseurl: /
+encoding: utf-8
+
+compress_html:
+  clippings: all
+  endings: all
+  startings: all
+
+defaults:
+  -
+    scope:
+      path: pages/pretty
+      type: pages
+    values:
+      layout: two-column
+      permalink: /:basename
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - pages/ats
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - purgecss.js
+  - rollup.config.js
+  - "package*.json"

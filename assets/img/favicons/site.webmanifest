@@ -1,0 +1,22 @@
+{
+  "short_name": "neryuuk.com",
+  "name": "Senior Node.js Developer - Nelson Antunes",
+  "icons": [
+    {
+      "src": "/assets/img/favicons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/img/favicons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#32084D",
+  "background_color": "#FFFFFF"
+}

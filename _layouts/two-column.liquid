@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{% assign data = site.data[page.lang] %}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="theme-color" content="#32084D" />
+    <title>{{ data.header.name }} - {{ data.header.title }}</title>
+    {% include sources.liquid %}
+    {% include seo.liquid data=data.header %}
+  </head>
+  <body>
+    <div id="body">
+      <div id="main-column">
+        {% include header.liquid content=data.header %}
+        {% include section.liquid content=data.profile simple=true %}
+        {% include section.liquid content=data.work-experience %}
+        <div class="pagebreak">&nbsp;</div>
+        {% include section.liquid content=data.education %}
+        {% include section.liquid content=data.internships %}
+        <div class="pagebreak">&nbsp;</div>
+      </div>
+      <div id="side-column">
+        <div id="side-content">
+          {% include header.liquid %}
+          {% include list.liquid content=data.details %}
+          {% include list.liquid content=data.links %}
+          {% include progress.liquid content=data.skills %}
+          {% include progress.liquid content=data.languages %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

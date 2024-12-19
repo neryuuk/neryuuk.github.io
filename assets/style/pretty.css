@@ -117,6 +117,21 @@ header {
   text-transform: uppercase;
 }
 
+#lang {
+  align-self: flex-end;
+  display: flex;
+  gap: 2px;
+  margin-left: auto;
+}
+
+.lang {
+  text-decoration: none;
+}
+
+#lang img {
+  width: 24px;
+}
+
 section {
   margin-top: 26pt;
 }
@@ -160,15 +175,6 @@ label {
   display: block;
   margin-top: 8px;
   text-align: left;
-}
-
-.lang {
-  align-self: flex-end;
-  margin-left: auto;
-}
-
-.lang img {
-  width: 24px;
 }
 
 .location-dot-small {
