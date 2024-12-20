@@ -73,9 +73,10 @@ work-experience:
         year: 2023
       end:
         simple: presente
+    skills:
+    bullet_point:
     long_description:
     - Na execução das minhas funções, aprimorei meu expertise em tecnologias como NodeJS, NestJS, Typescript e ReactJS, além de participar da estruturação e aprimoramento da arquitetura do sistema utilizando princípios como Clean Architecture, Event Driven Architecture e Domain-Driven Design (DDD). Como desenvolvedor, não só utilizo minhas habilidades técnicas, mas também compartilho conhecimentos com minha equipe.
-    bullet_point:
   - position: Software Engineer | C#
     company:
       short_name: Zoop
@@ -91,9 +92,10 @@ work-experience:
       end:
         month: "05"
         year: 2023
+    skills:
+    bullet_point:
     long_description:
     - Atuei no time de Process Automation, realizando o desenvolvimento de aplicações RPA para serem integrados ao Zeev, utilizando C#, Javascript, Postgres, MongoDB, MySQL, e recursos da AWS como Secret Manager, Parameter Store, S3 Bucket, entre outros.
-    bullet_point:
   - position: Software Engineer | C#
     company:
       short_name: Neon
@@ -109,9 +111,10 @@ work-experience:
       end:
         month: "09"
         year: 2022
+    skills:
+    bullet_point:
     long_description:
     - Responsável pela monitoria, manutenção e melhoria das aplicações existentes, bem como a criação de novas aplicações utilizando tecnologias como .NET (C#), RabbitMQ, MSSQL; Identificação e resolução de problemas identificados utilizando Dynatrace e Grafana e também de questões levantadas através dos canais de suporte, para melhoria dos serviços financeiros prestados pela empresa;
-    bullet_point:
   - position: Software Engineer | Node.js
     company:
       short_name: Evnts
@@ -127,9 +130,10 @@ work-experience:
       end:
         month: "10"
         year: 2020
+    skills:
+    bullet_point:
     long_description:
     - Criação e manutenção dos diversos produtos da empresa, utilizando node.js (Javascript e Typescript) no backend, React no frontend, MongoDB e MySQL como bancos de dados; Configuração e gestão de CI/CD através do SemaphoreCI e Bitbucket Pipelines; Configuração e gestão dos servidores/aplicações na nuvem (AWS e Google Cloud);
-    bullet_point:
 
 skills:
   id: skills
@@ -262,8 +266,9 @@ internships:
       end:
         month: "08"
         year: 2014
+    skills:
+    bullet_point:
     long_description:
     - "Como parte do programa Ciência sem Fronteiras, trabalhei como estagiário na Big Data University."
     - "Lá, pude ajudar a idealizar e desenvolver um sistema caseiro de vigilância doméstica do tipo faça você mesmo usando um Raspberry Pi (junto com o módulo de câmera), e algumas tecnologias da IBM (Cloudant + Bluemix), Python e NodeJS;"
     - "Durante o projeto, meu time e eu escrevemos um artigo descrevendo e documentando o primeiro protótipo do projeto: <a href='https://bit.ly/3CnrhVE' target='_blank'>https://bit.ly/3CnrhVE</a>"
-    bullet_point:

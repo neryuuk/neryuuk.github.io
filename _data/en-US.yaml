@@ -73,6 +73,8 @@ work-experience:
         year: 2023
       end:
         simple: present
+    skills:
+    bullet_point:
     long_description:
     - In my role, I have honed my expertise in technologies such as Node.js, NestJS, (using both Javascript and Typescript), and ReactJS, and have been involved in structuring and enhancing system architecture using principles like Clean Architecture, Event Driven Architecture, and Domain-Driven Design (DDD). As a developer, I not only leverage my technical skills but also actively share knowledge with my team.
   - position: Software Engineer | C#
@@ -90,6 +92,8 @@ work-experience:
       end:
         month: "05"
         year: 2023
+    skills:
+    bullet_point:
     long_description:
     - "I worked on the Process Automation team, performing the development of RPA applications to be integrated into Zeev, using C#, Javascript, Postgres, MongoDB, MySQL, and AWS resources such as Secret Manager, Parameter Store, S3 Bucket, among others."
   - position: Software Engineer | C#
@@ -107,6 +111,8 @@ work-experience:
       end:
         month: "09"
         year: 2022
+    skills:
+    bullet_point:
     long_description:
     - "Responsible for monitoring, maintaining and improving existing .NET applications as well as creating new ones, using technologies such as .NET (C#), RabbitMQ, MSSQL; Identifying and troubleshooting issues using Dynatrace, Grafana and support tickets to improve the financial services;"
   - position: Software Engineer | Node.js
@@ -124,6 +130,8 @@ work-experience:
       end:
         month: "10"
         year: 2020
+    skills:
+    bullet_point:
     long_description:
     - "Creation and maintenance of the company's various products/applications, using node.js (Javascript and Typescript) on the back-end, React on the front end and databases on mongodb and MySQL; CI/CD configuration and management using SemaphoreCI and Bitbucket Pipelines; Configuration, deployment and management of servers, buckets, databases and applications in various cloud providers (AWS and Google Cloud);"
 
@@ -258,6 +266,8 @@ internships:
       end:
         month: "08"
         year: 2014
+    skills:
+    bullet_point:
     long_description:
     - "As part of the Science Without Borders sandwich course initiative, sponsored by the Brazilian Government, I worked as an intern at Big Data University."
     - "There, I was able to help envision and develop a do-it-yourself home surveillance system using a Raspberry Pi (along with it's camera module), some IBM technology (Cloudant + Bluemix), Python and Node.js."
