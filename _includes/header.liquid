@@ -1,10 +1,6 @@
 <header>
   {% if include.content %}
-    <img
-      id="profile-picture"
-      alt="{{ include.content.picture }}"
-      title="{{ include.content.picture }}"
-      src="/assets/img/profile.jpg" />
+    <img id="profile-picture" alt="{{ include.content.picture }}" title="{{ include.content.picture }}" src="/assets/img/profile.jpg" />
     <div id="name-title">
       <p id="name">{{ include.content.name }}</p>
       <p id="title">{{ include.content.title }}</p>
@@ -12,10 +8,7 @@
     <span id="lang">
       {% for lang in include.content.languages %}
         <a href="{{ lang.url }}">
-          <img
-            alt="{{ lang.title }}"
-            title="{{ lang.title }}"
-            src="/assets/img/{{ lang.code }}.png" />
+          <img alt="{{ lang.title }}" title="{{ lang.title }}" src="/assets/img/{{ lang.code }}.png" />
         </a>
       {% endfor %}
     </span>

@@ -1,0 +1,26 @@
+{% case include.id %}
+  {% when "main-column" %}
+    {% capture content %}
+      {% include header.liquid content=data.header %}
+      {% include section.liquid content=data.profile simple=true %}
+      {% include section.liquid content=data.work-experience %}
+      <div class="pagebreak">&nbsp;</div>
+      {% include section.liquid content=data.education %}
+      {% include section.liquid content=data.internships %}
+      <div class="pagebreak">&nbsp;</div>
+    {% endcapture %}
+  {% when "side-column" %}
+    {% capture content %}
+      {% include header.liquid %}
+      {% include list.liquid content=data.details %}
+      {% include list.liquid content=data.links %}
+      {% include progress.liquid content=data.skills %}
+      {% include progress.liquid content=data.languages %}
+    {% endcapture %}
+{% endcase %}
+
+{% if content %}
+  <div id="{{ include.id }}">
+    <div class="content">{{ content }}</div>
+  </div>
+{% endif %}

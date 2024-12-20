@@ -72,7 +72,6 @@ p {
 #main-column {
   color: #0D111A;
   height: auto;
-  margin: 36pt 32pt 32pt;
   width: 60%;
 }
 
@@ -146,11 +145,11 @@ section {
   margin-bottom: 10px;
 }
 
-#side-content {
+.content {
   margin: 36pt 32pt 32pt;
 }
 
-#side-content * {
+#side-column * {
   color: #FFF;
 }
 
