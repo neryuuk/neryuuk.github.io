@@ -27,7 +27,6 @@ defaults:
 exclude:
   - "*.gem"
   - "*.gemspec"
-  - pages/ats
   - docs
   - tools
   - README.md
