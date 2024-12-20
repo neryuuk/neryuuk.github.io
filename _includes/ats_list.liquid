@@ -1,0 +1,8 @@
+{% if include.content %}
+  <section>
+    {% if include.content.title %}
+      <h2>{{ include.content.title }}</h2>
+    {% endif %}
+    <p>{{ include.content.data | map: "name" | join: ", " }}</p>
+  </section>
+{% endif %}
