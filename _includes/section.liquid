@@ -22,7 +22,7 @@
           {{ location }}
         {% endif %}
       </h4>
-      <p class="dates">{{ each.period.start }} — {{ each.period.end }}</p>
+      {% include period.liquid start=each.period.start end=each.period.end %}
       {% for line in each.long_description %}
         <p>{{ line }}</p>
       {% endfor %}

@@ -68,8 +68,11 @@ work-experience:
       location: São Paulo, SP, Brazil
     remote:
     period:
-      start: september 2023
-      end: present
+      start:
+        month: september
+        year: 2023
+      end:
+        simple: present
     long_description:
     - In my role, I have honed my expertise in technologies such as Node.js, NestJS, (using both Javascript and Typescript), and ReactJS, and have been involved in structuring and enhancing system architecture using principles like Clean Architecture, Event Driven Architecture, and Domain-Driven Design (DDD). As a developer, I not only leverage my technical skills but also actively share knowledge with my team.
   - position: Software Engineer | C#
@@ -81,8 +84,12 @@ work-experience:
       location: Rio de Janeiro, RJ, Brazil
     remote: Remote
     period:
-      start: october 2022
-      end: may 2023
+      start:
+        month: october
+        year: 2022
+      end:
+        month: may
+        year: 2023
     long_description:
     - "I worked on the Process Automation team, performing the development of RPA applications to be integrated into Zeev, using C#, Javascript, Postgres, MongoDB, MySQL, and AWS resources such as Secret Manager, Parameter Store, S3 Bucket, among others."
   - position: Software Engineer | C#
@@ -94,8 +101,12 @@ work-experience:
       location: São Paulo, SP, Brazil
     remote: Remote
     period:
-      start: october 2020
-      end: september 2022
+      start:
+        month: october
+        year: 2020
+      end:
+        month: september
+        year: 2022
     long_description:
     - "Responsible for monitoring, maintaining and improving existing .NET applications as well as creating new ones, using technologies such as .NET (C#), RabbitMQ, MSSQL; Identifying and troubleshooting issues using Dynatrace, Grafana and support tickets to improve the financial services;"
   - position: Software Engineer | Node.js
@@ -107,8 +118,12 @@ work-experience:
       location: São Paulo, SP, Brazil
     remote:
     period:
-      start: october 2016
-      end: october 2020
+      start:
+        month: october
+        year: 2016
+      end:
+        month: october
+        year: 2020
     long_description:
     - "Creation and maintenance of the company's various products/applications, using node.js (Javascript and Typescript) on the back-end, React on the front end and databases on mongodb and MySQL; CI/CD configuration and management using SemaphoreCI and Bitbucket Pipelines; Configuration, deployment and management of servers, buckets, databases and applications in various cloud providers (AWS and Google Cloud);"
 
@@ -176,8 +191,12 @@ education:
     long_description:
     - "Exchange Student sponsored by the Brazilian Federal Government through 'Science Without Borders' sandwich course initiative."
     period:
-      start: september 2013
-      end: april 2014
+      start:
+        month: september
+        year: 2013
+      end:
+        month: april
+        year: 2014
   - course: Associate Degree in Computer Systems Networking and Telecommunications
     school:
       name: Faculdade de Tecnologia de Osasco
@@ -186,8 +205,12 @@ education:
     long_description:
     - "Completed circa 60% of course load."
     period:
-      start: january 2012
-      end: june 2015
+      start:
+        month: january
+        year: 2012
+      end:
+        month: june
+        year: 2015
   - course: Associate Degree in Computer Systems Analysis
     school:
       name: Faculdade de Tecnologia de São Paulo - FATEC-SP
@@ -196,8 +219,12 @@ education:
     long_description:
     - "Completed circa 40% of course load."
     period:
-      start: january 2009
-      end: december 2010
+      start:
+        month: january
+        year: 2009
+      end:
+        month: december
+        year: 2010
   - course: Certificate Program, Computer Programming
     school:
       name: Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP
@@ -205,8 +232,12 @@ education:
       url: https://www.ifsp.edu.br
     long_description:
     period:
-      start: january 2007
-      end: june 2009
+      start:
+        month: january
+        year: 2007
+      end:
+        month: june
+        year: 2009
 
 internships:
   id: internships
@@ -221,8 +252,12 @@ internships:
       location: Toronto, ON, Canada
     remote:
     period:
-      start: may 2014
-      end: august 2014
+      start:
+        month: may
+        year: 2014
+      end:
+        month: august
+        year: 2014
     long_description:
     - "As part of the Science Without Borders sandwich course initiative, sponsored by the Brazilian Government, I worked as an intern at Big Data University."
     - "There, I was able to help envision and develop a do-it-yourself home surveillance system using a Raspberry Pi (along with it's camera module), some IBM technology (Cloudant + Bluemix), Python and Node.js."
