@@ -1,0 +1,14 @@
+<header>
+  <div id="name-title">
+    <h1 id="name">{{ data.header.name }}</h1>
+    <h2 id="title">{{ data.header.title }}</h2>
+  </div>
+  <ul>
+    {% for each in data.details.data %}
+      {% include li.liquid content=each %}
+    {% endfor %}
+    {% for each in data.links.data %}
+      {% include li.liquid content=each %}
+    {% endfor %}
+  </ul>
+</header>

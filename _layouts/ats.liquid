@@ -12,15 +12,13 @@ layout: default
   </head>
   <body>
     <div id="body">
-      {% include header.liquid content=data.header %}
-      {% include list.liquid content=data.details %}
-      {% include list.liquid content=data.links %}
+      {% include ats_header.liquid %}
       {% include section.liquid content=data.profile simple=true %}
-      {% include ats_list.liquid content=data.skills %}
-      {% include ats_list.liquid content=data.languages %}
       {% include section.liquid content=data.work-experience %}
       {% include section.liquid content=data.education %}
       {% include section.liquid content=data.internships %}
+      {% include ats_list.liquid content=data.skills %}
+      {% include ats_list.liquid content=data.languages %}
     </div>
   </body>
 </html>
