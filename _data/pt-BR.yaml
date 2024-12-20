@@ -69,7 +69,7 @@ work-experience:
     remote:
     period:
       start:
-        month: setembro
+        month: "09"
         year: 2023
       end:
         simple: presente
@@ -86,10 +86,10 @@ work-experience:
     remote: Remoto
     period:
       start:
-        month: outubro
+        month: "10"
         year: 2022
       end:
-        month: maio
+        month: "05"
         year: 2023
     long_description:
     - Atuei no time de Process Automation, realizando o desenvolvimento de aplicações RPA para serem integrados ao Zeev, utilizando C#, Javascript, Postgres, MongoDB, MySQL, e recursos da AWS como Secret Manager, Parameter Store, S3 Bucket, entre outros.
@@ -104,10 +104,10 @@ work-experience:
     remote: Remoto
     period:
       start:
-        month: outubro
+        month: "10"
         year: 2020
       end:
-        month: setembro
+        month: "09"
         year: 2022
     long_description:
     - Responsável pela monitoria, manutenção e melhoria das aplicações existentes, bem como a criação de novas aplicações utilizando tecnologias como .NET (C#), RabbitMQ, MSSQL; Identificação e resolução de problemas identificados utilizando Dynatrace e Grafana e também de questões levantadas através dos canais de suporte, para melhoria dos serviços financeiros prestados pela empresa;
@@ -122,10 +122,10 @@ work-experience:
     remote:
     period:
       start:
-        month: outubro
+        month: "10"
         year: 2016
       end:
-        month: outubro
+        month: "10"
         year: 2020
     long_description:
     - Criação e manutenção dos diversos produtos da empresa, utilizando node.js (Javascript e Typescript) no backend, React no frontend, MongoDB e MySQL como bancos de dados; Configuração e gestão de CI/CD através do SemaphoreCI e Bitbucket Pipelines; Configuração e gestão dos servidores/aplicações na nuvem (AWS e Google Cloud);
@@ -196,10 +196,10 @@ education:
     - Programa de graduação sanduíche 'Ciência Sem Fronteiras', do governo federal.
     period:
       start:
-        month: setembro
+        month: "09"
         year: 2013
       end:
-        month: abril
+        month: "04"
         year: 2014
   - course: Tecnólogo em Redes de Computadores
     school:
@@ -210,10 +210,10 @@ education:
     - Não finalizado (60% concluído)
     period:
       start:
-        month: janeiro
+        month: "01"
         year: 2012
       end:
-        month: junho
+        month: "06"
         year: 2015
   - course: Tecnólogo em Análise e Desenvolvimento de Sistemas
     school:
@@ -224,10 +224,10 @@ education:
     - Não finalizado (40% concluído)
     period:
       start:
-        month: janeiro
+        month: "01"
         year: 2009
       end:
-        month: dezembro
+        month: "12"
         year: 2010
   - course: Técnico em Programação e Análise de Sistemas
     school:
@@ -237,10 +237,10 @@ education:
     long_description:
     period:
       start:
-        month: janeiro
+        month: "01"
         year: 2007
       end:
-        month: junho
+        month: "06"
         year: 2009
 
 internships:
@@ -257,10 +257,10 @@ internships:
     remote: false
     period:
       start:
-        month: maio
+        month: "05"
         year: 2014
       end:
-        month: agosto
+        month: "08"
         year: 2014
     long_description:
     - "Como parte do programa Ciência sem Fronteiras, trabalhei como estagiário na Big Data University."
