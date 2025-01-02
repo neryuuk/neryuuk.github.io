@@ -34,10 +34,12 @@ jobs:
         with:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Update bundle
+        run: bundle update
+        env:
+          JEKYLL_ENV: production
       - name: Build with Jekyll
-        run:
-        - bundle update
-        - bundle exec jekyll build
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
