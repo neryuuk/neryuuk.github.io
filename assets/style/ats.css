@@ -1,0 +1,68 @@
+@media print {
+  @page {
+    orientation: portrait;
+  }
+
+  #body {
+    width: 1060px !important;
+  }
+
+  section {
+    page-break-inside: avoid;
+  }
+}
+
+* {
+  font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header > div {
+  margin: 0 auto 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 14pt;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+.location-period {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8pt;
+}
+
+.linebreak {
+  margin-bottom: 16pt;
+}
+
+#body {
+  margin: 36pt auto;
+  width: 1200px;
+}
+
+section {
+  margin-top: 26pt;
+}

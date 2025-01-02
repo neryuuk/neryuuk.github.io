@@ -1,0 +1,6 @@
+{% if include.start or include.end %}
+  <p class="dates">
+    {% include date.liquid date=include.start %} —
+    {% include date.liquid date=include.end %}
+  </p>
+{% endif %}

@@ -10,8 +10,16 @@
     page-break-before: always;
   }
 
+  section {
+    page-break-inside: auto;
+  }
+
   #sidecolumn {
     height: max-content;
+  }
+
+  #lang {
+    display: none !important;
   }
 }
 
@@ -19,7 +27,6 @@
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
-  text-align: justify;
 }
 
 h2,
@@ -45,6 +52,7 @@ p {
   font-weight: 400;
   line-height: 1.6;
   margin: 0;
+  text-align: justify;
 }
 
 .job-title {
@@ -72,8 +80,7 @@ p {
 #main-column {
   color: #0D111A;
   height: auto;
-  margin: 36pt 32pt 32pt;
-  width: 60%;
+  width: 66%;
 }
 
 #main-column h2 {
@@ -146,11 +153,11 @@ section {
   margin-bottom: 10px;
 }
 
-#side-content {
+.content {
   margin: 36pt 32pt 32pt;
 }
 
-#side-content * {
+#side-column * {
   color: #FFF;
 }
 

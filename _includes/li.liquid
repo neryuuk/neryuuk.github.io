@@ -1,0 +1,7 @@
+<li>
+  {% if include.content.url %}
+    <a href="{{ include.content.url }}" target="_blank">{{ include.content.text }}</a>
+  {% else %}
+    {{ include.content.text }}
+  {% endif %}
+</li>

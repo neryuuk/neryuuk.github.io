@@ -2,18 +2,24 @@
 layout: default
 ---
 {% assign data = site.data[page.lang] %}
+{% assign strings = site.data.strings[page.lang] %}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>{{ data.header.name }} - {{ data.header.title }}</title>
-    {% include seo.liquid data=data.header %}
+    {% include sources.liquid %}
+    {% include seo.liquid %}
   </head>
   <body>
     <div id="body">
-      <div id="main-column">
-        <code>{{ data }}</code>
-      </div>
+      {% include ats_header.liquid %}
+      {% include section.liquid sect="summary" simple=true %}
+      {% include skills.liquid %}
+      {% include section.liquid sect="work" %}
+      {% include section.liquid sect="education" %}
+      {% include section.liquid sect="internships" %}
+      {% include languages.liquid %}
     </div>
   </body>
 </html>

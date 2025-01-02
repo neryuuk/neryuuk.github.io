@@ -1,31 +1,24 @@
-{% if include.content %}
-  <section id="{{ include.content.id }}">
-    {% if include.content.title %}
-      <h2>{{ include.content.title }}</h2>
+{% assign section_title = strings[include.sect] %}
+<section id="{{ section_title | slugify }}">
+  {% if section_title %}<h2>{{ section_title }}</h2>{% endif %}
+  {% for each in data[include.sect] %}
+    {% if include.simple %}
+      <p>{{ each }}</p>
+      {% continue %}
     {% endif %}
 
-    {% for each in include.content.data %}
-      {% if include.simple %}
-        <p>{{ each }}</p>
-        {% continue %}
-      {% endif %}
-
-      {% assign title = each.position | default: each.course %}
-      {% assign place = each.company.short_name | default: each.school.name %}
-      {% assign location = each.company.location | default: each.school.location %}
-      <h3>{{ title }}</h3>
+    {% assign title = each.position | default: each.course %}
+    {% assign place = each.company.short_name | default: each.school.name %}
+    {% assign location = each.company.location | default: each.school.location %}
+    <h3>{{ title }}</h3>
+    <span class="location-period">
       <h4>{{ place }},
         <i class="fa-solid fa-location-dot location-dot-small"></i>
-        {% if each.remote %}
-          {{ each.remote }}
-        {% else %}
-          {{ location }}
-        {% endif %}
+        {% if each.remote %}{{ each.remote }}{% else %}{{ location }}{% endif %}
       </h4>
-      <p class="dates">{{ each.period.start }} — {{ each.period.end }}</p>
-      {% for line in each.long_description %}
-        <p>{{ line }}</p>
-      {% endfor %}
-    {% endfor %}
-  </section>
-{% endif %}
+      {% include period.liquid start=each.period.start end=each.period.end %}
+    </span>
+    {% for line in each.long_description %}<p>{{ line }}</p>{% endfor %}
+    <p class="linebreak"></p>
+  {% endfor %}
+</section>

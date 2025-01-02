@@ -1,17 +1,15 @@
-{% if include.content %}
-  <section>
-    {% if include.content.title %}
-      <h2>{{ include.content.title }}</h2>
-    {% endif %}
-    {% for item in include.content.data %}
-      <p>
-        <i class="{{ item.icon }}"></i>
-        {% if item.url %}
-          <a href="{{ item.url }}" target="_blank">{{ item.text }}</a>
-        {% else %}
-          <span>{{ item.text }}</span>
-        {% endif %}
-      </p>
-    {% endfor %}
-  </section>
-{% endif %}
+{% assign section_title = strings[include.sect] %}
+{% assign section_id = section_title | slugify %}
+<section id="{{ section_id }}">
+  {% if section_title %}<h2>{{ section_title }}</h2>{% endif %}
+  {% for item in data[include.sect] %}
+    <p>
+      <i class="{{ item.icon }}"></i>
+      {% if item.url %}
+        <a href="{{ item.url }}" target="_blank">{{ item.text }}</a>
+      {% else %}
+        <span>{{ item.text }}</span>
+      {% endif %}
+    </p>
+  {% endfor %}
+</section>
