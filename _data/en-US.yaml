@@ -134,7 +134,6 @@ work:
   - "Creation and maintenance of the company's various products/applications, using node.js (Javascript and Typescript) on the back-end, React on the front end and databases on mongodb and MySQL; CI/CD configuration and management using SemaphoreCI and Bitbucket Pipelines; Configuration, deployment and management of servers, buckets, databases and applications in various cloud providers (AWS and Google Cloud);"
 
 skills:
-# Proficient
 - name: Node.js
   level: 10
 - name: Javascript
@@ -145,8 +144,6 @@ skills:
   level: 8
 - name: MongoDB
   level: 8
-
-# Intermediate
 - name: MySQL
   level: 7
 - name: C#
@@ -169,8 +166,6 @@ skills:
   level: 5
 - name: jQuery
   level: 5
-
-# Beginner
 - name: Python
   level: 4
 - name: Ansible
