@@ -1,12 +1,12 @@
-{% if include.data %}
-  <section>
-    {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
-    {% for item in include.data %}
-      {% assign id = item.name | slugify %}
-      <label for="{{ id }}">
-        <span>{{ item.name }}</span>
-        <progress max="10" value="{{ item.level }}" id="{{ id }}"></progress>
-      </label>
-    {% endfor %}
-  </section>
-{% endif %}
+{% assign section_title = strings[include.sect] %}
+{% assign section_id = section_title | slugify %}
+<section id="{{ section_id }}">
+  {% if section_title %}<h2>{{ section_title }}</h2>{% endif %}
+  {% for item in data[include.sect] %}
+    {% assign id = item.name | slugify %}
+    <label for="{{ id }}">
+      <span>{{ item.name }}</span>
+      <progress max="10" value="{{ item.level }}" id="{{ id }}"></progress>
+    </label>
+  {% endfor %}
+</section>

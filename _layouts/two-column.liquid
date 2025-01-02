@@ -15,22 +15,22 @@ layout: default
   <body>
     <div id="body">
       {% capture content %}
-        {% include header.liquid content=data.header %}
-        {% include section.liquid title=strings.profile data=data.profile simple=true %}
-        {% include section.liquid title=strings.work data=data.work-experience %}
+        {% include header.liquid data=data.header %}
+        {% include section.liquid sect="profile" simple=true %}
+        {% include section.liquid sect="work" %}
         <div class="pagebreak">&nbsp;</div>
-        {% include section.liquid title=strings.education data=data.education %}
-        {% include section.liquid title=strings.internships data=data.internships %}
+        {% include section.liquid sect="education" %}
+        {% include section.liquid sect="internships" %}
         <div class="pagebreak">&nbsp;</div>
       {% endcapture %}
       {% include column.liquid id="main-column" data=content %}
 
       {% capture content %}
         {% include header.liquid %}
-        {% include list.liquid title=strings.details data=data.details %}
-        {% include list.liquid title=strings.links data=data.links %}
-        {% include progress.liquid title=strings.skills data=data.skills %}
-        {% include progress.liquid title=strings.languages data=data.languages %}
+        {% include list.liquid sect="details" %}
+        {% include list.liquid sect="links" %}
+        {% include progress.liquid sect="skills" %}
+        {% include progress.liquid sect="languages" %}
       {% endcapture %}
       {% include column.liquid id="side-column" data=content %}
     </div>

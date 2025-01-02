@@ -14,12 +14,12 @@ layout: default
   <body>
     <div id="body">
       {% include ats_header.liquid %}
-      {% include section.liquid title=strings.summary data=data.summary simple=true %}
-      {% include ats_list.liquid title=strings.skills data=data.skills %}
-      {% include section.liquid data=data.work-experience %}
-      {% include section.liquid data=data.education %}
-      {% include section.liquid data=data.internships %}
-      {% include ats_list.liquid title=strings.languages data=data.languages %}
+      {% include section.liquid sect="summary" simple=true %}
+      {% include ats_list.liquid sect="skills" %}
+      {% include section.liquid sect="work" %}
+      {% include section.liquid sect="education" %}
+      {% include section.liquid sect="internships" %}
+      {% include ats_list.liquid sect="languages" %}
     </div>
   </body>
 </html>

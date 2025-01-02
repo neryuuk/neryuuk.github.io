@@ -1,24 +1,23 @@
-{% if include.data %}
-  <section id="{{ include.title | slugify }}">
-    {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
-    {% for each in include.data %}
-      {% if include.simple %}
-        <p>{{ each }}</p>
-        {% continue %}
-      {% endif %}
+{% assign section_title = strings[include.sect] %}
+<section id="{{ section_title | slugify }}">
+  {% if section_title %}<h2>{{ section_title }}</h2>{% endif %}
+  {% for each in data[include.sect] %}
+    {% if include.simple %}
+      <p>{{ each }}</p>
+      {% continue %}
+    {% endif %}
 
-      {% assign title = each.position | default: each.course %}
-      {% assign place = each.company.short_name | default: each.school.name %}
-      {% assign location = each.company.location | default: each.school.location %}
-      <h3>{{ title }}</h3>
-      <h4>{{ place }},
-        <i class="fa-solid fa-location-dot location-dot-small"></i>
-        {% if each.remote %}{{ each.remote }}{% else %}{{ location }}{% endif %}
-      </h4>
-      {% include period.liquid start=each.period.start end=each.period.end %}
-      {% for line in each.long_description %}
-        <p>{{ line }}</p>
-      {% endfor %}
+    {% assign title = each.position | default: each.course %}
+    {% assign place = each.company.short_name | default: each.school.name %}
+    {% assign location = each.company.location | default: each.school.location %}
+    <h3>{{ title }}</h3>
+    <h4>{{ place }},
+      <i class="fa-solid fa-location-dot location-dot-small"></i>
+      {% if each.remote %}{{ each.remote }}{% else %}{{ location }}{% endif %}
+    </h4>
+    {% include period.liquid start=each.period.start end=each.period.end %}
+    {% for line in each.long_description %}
+      <p>{{ line }}</p>
     {% endfor %}
-  </section>
-{% endif %}
+  {% endfor %}
+</section>

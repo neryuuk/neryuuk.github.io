@@ -1,10 +1,11 @@
-{% unless include.data %}{% break %}{% endunless %}
+{% assign section_title = strings[include.sect] %}
+{% assign list = data[include.sect] %}
 <section>
-  {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
-  {% assign skills = include.data | where_exp: "_", "_.level >= 8" %}
+  {% if section_title %}<h2>{{ section_title }}</h2>{% endif %}
+  {% assign skills = list | where_exp: "_", "_.level >= 8" %}
   {% include skill_level.liquid title=strings.proficient data=skills %}
-  {% assign skills = include.data | where_exp: "_", "_.level >= 5 and _.level < 8" %}
+  {% assign skills = list | where_exp: "_", "_.level >= 5 and _.level < 8" %}
   {% include skill_level.liquid title=strings.intermediate data=skills %}
-  {% assign skills = include.data | where_exp: "_", "_.level < 5" %}
+  {% assign skills = list | where_exp: "_", "_.level < 5" %}
   {% include skill_level.liquid title=strings.beginner data=skills %}
 </section>
