@@ -1,12 +1,11 @@
-{% if include.content %}
+{% if include.data %}
   <section>
-    {% if include.content.title %}
-      <h2>{{ include.content.title }}</h2>
-    {% endif %}
-    {% for item in include.content.data %}
-      <label for="{{ item.id }}">
+    {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
+    {% for item in include.data %}
+      {% assign id = item.name | slugify %}
+      <label for="{{ id }}">
         <span>{{ item.name }}</span>
-        <progress max="10" value="{{ item.level }}" id="{{ item.id }}"></progress>
+        <progress max="10" value="{{ item.level }}" id="{{ id }}"></progress>
       </label>
     {% endfor %}
   </section>

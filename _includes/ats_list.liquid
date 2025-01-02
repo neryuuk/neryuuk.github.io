@@ -1,10 +1,10 @@
-{% unless include.content %}{% break %}{% endunless %}
+{% unless include.data %}{% break %}{% endunless %}
 <section>
-  {% if include.content.title %}<h2>{{ include.content.title }}</h2>{% endif %}
-  {% assign skills = include.content.data | where_exp: "_", "_.level >= 8" %}
-  {% include skill_level.liquid title="Proficient" data=skills %}
-  {% assign skills = include.content.data | where_exp: "_", "_.level >= 5 and _.level < 8" %}
-  {% include skill_level.liquid title="Intermediate" data=skills %}
-  {% assign skills = include.content.data | where_exp: "_", "_.level < 5" %}
-  {% include skill_level.liquid title="Beginner" data=skills %}
+  {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
+  {% assign skills = include.data | where_exp: "_", "_.level >= 8" %}
+  {% include skill_level.liquid title=strings.proficient data=skills %}
+  {% assign skills = include.data | where_exp: "_", "_.level >= 5 and _.level < 8" %}
+  {% include skill_level.liquid title=strings.intermediate data=skills %}
+  {% assign skills = include.data | where_exp: "_", "_.level < 5" %}
+  {% include skill_level.liquid title=strings.beginner data=skills %}
 </section>

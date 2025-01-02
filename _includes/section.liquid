@@ -1,10 +1,7 @@
-{% if include.content %}
-  <section id="{{ include.content.id }}">
-    {% if include.content.title %}
-      <h2>{{ include.content.title }}</h2>
-    {% endif %}
-
-    {% for each in include.content.data %}
+{% if include.data %}
+  <section id="{{ include.title | slugify }}">
+    {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
+    {% for each in include.data %}
       {% if include.simple %}
         <p>{{ each }}</p>
         {% continue %}
@@ -16,11 +13,7 @@
       <h3>{{ title }}</h3>
       <h4>{{ place }},
         <i class="fa-solid fa-location-dot location-dot-small"></i>
-        {% if each.remote %}
-          {{ each.remote }}
-        {% else %}
-          {{ location }}
-        {% endif %}
+        {% if each.remote %}{{ each.remote }}{% else %}{{ location }}{% endif %}
       </h4>
       {% include period.liquid start=each.period.start end=each.period.end %}
       {% for line in each.long_description %}

@@ -1,5 +1,5 @@
 {% if include.date.month or include.date.year %}
-  {{ months[include.date.month] }} {{ include.date.year }}
+  {{ strings.months[include.date.month] }} {{ include.date.year }}
 {% else if include.date.simple %}
   {{ include.date.simple }}
 {% endif %}

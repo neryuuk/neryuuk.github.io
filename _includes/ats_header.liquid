@@ -4,10 +4,10 @@
     <h2 id="title">{{ data.header.title }}</h2>
   </div>
   <ul>
-    {% for each in data.details.data %}
+    {% for each in data.details %}
       {% include li.liquid content=each %}
     {% endfor %}
-    {% for each in data.links.data %}
+    {% for each in data.links %}
       {% include li.liquid content=each %}
     {% endfor %}
   </ul>

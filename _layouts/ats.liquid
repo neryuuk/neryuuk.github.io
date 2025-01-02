@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign data = site.data[page.lang] %}
-{% assign months = site.data.months[page.lang] %}
+{% assign strings = site.data.strings[page.lang] %}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
   <head>
@@ -14,12 +14,12 @@ layout: default
   <body>
     <div id="body">
       {% include ats_header.liquid %}
-      {% include section.liquid content=data.summary simple=true %}
-      {% include ats_list.liquid content=data.skills %}
-      {% include section.liquid content=data.work-experience %}
-      {% include section.liquid content=data.education %}
-      {% include section.liquid content=data.internships %}
-      {% include ats_list.liquid content=data.languages %}
+      {% include section.liquid title=strings.summary data=data.summary simple=true %}
+      {% include ats_list.liquid title=strings.skills data=data.skills %}
+      {% include section.liquid data=data.work-experience %}
+      {% include section.liquid data=data.education %}
+      {% include section.liquid data=data.internships %}
+      {% include ats_list.liquid title=strings.languages data=data.languages %}
     </div>
   </body>
 </html>

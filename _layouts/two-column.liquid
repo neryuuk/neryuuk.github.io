@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign data = site.data[page.lang] %}
-{% assign months = site.data.months[page.lang] %}
+{% assign strings = site.data.strings[page.lang] %}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
   <head>
@@ -16,21 +16,21 @@ layout: default
     <div id="body">
       {% capture content %}
         {% include header.liquid content=data.header %}
-        {% include section.liquid content=data.profile simple=true %}
-        {% include section.liquid content=data.work-experience %}
+        {% include section.liquid title=strings.profile data=data.profile simple=true %}
+        {% include section.liquid title=strings.work data=data.work-experience %}
         <div class="pagebreak">&nbsp;</div>
-        {% include section.liquid content=data.education %}
-        {% include section.liquid content=data.internships %}
+        {% include section.liquid title=strings.education data=data.education %}
+        {% include section.liquid title=strings.internships data=data.internships %}
         <div class="pagebreak">&nbsp;</div>
       {% endcapture %}
       {% include column.liquid id="main-column" data=content %}
 
       {% capture content %}
         {% include header.liquid %}
-        {% include list.liquid content=data.details %}
-        {% include list.liquid content=data.links %}
-        {% include progress.liquid content=data.skills %}
-        {% include progress.liquid content=data.languages %}
+        {% include list.liquid title=strings.details data=data.details %}
+        {% include list.liquid title=strings.links data=data.links %}
+        {% include progress.liquid title=strings.skills data=data.skills %}
+        {% include progress.liquid title=strings.languages data=data.languages %}
       {% endcapture %}
       {% include column.liquid id="side-column" data=content %}
     </div>

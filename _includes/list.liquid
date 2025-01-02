@@ -1,9 +1,7 @@
-{% if include.content %}
+{% if include.data %}
   <section>
-    {% if include.content.title %}
-      <h2>{{ include.content.title }}</h2>
-    {% endif %}
-    {% for item in include.content.data %}
+    {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
+    {% for item in include.data %}
       <p>
         <i class="{{ item.icon }}"></i>
         {% if item.url %}

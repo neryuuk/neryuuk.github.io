@@ -29,246 +29,222 @@ header:
   - backend developer
 
 details:
-  id: details
-  title: Detalhes
-  data:
-  - text: São Paulo, Brasil
-    icon: fa-solid fa-location-dot details-icon
-  - text: neryuuk@neryuuk.com
-    icon: fa-solid fa-envelope details-icon
-    url: "mailto:neryuuk@neryuuk.com"
+- text: São Paulo, Brasil
+  icon: fa-solid fa-location-dot details-icon
+- text: neryuuk@neryuuk.com
+  icon: fa-solid fa-envelope details-icon
+  url: "mailto:neryuuk@neryuuk.com"
 
 links:
-  id: links
-  title: Links
-  data:
-  - text: linkedin.com/in/neryuuk
-    icon: fa-brands fa-linkedin details-icon
-    url: https://www.linkedin.com/in/neryuuk
-  - text: github.com/neryuuk
-    icon: fa-brands fa-square-github details-icon
-    url: https://github.com/neryuuk
+- text: linkedin.com/in/neryuuk
+  icon: fa-brands fa-linkedin details-icon
+  url: https://www.linkedin.com/in/neryuuk
+- text: github.com/neryuuk
+  icon: fa-brands fa-square-github details-icon
+  url: https://github.com/neryuuk
 
 profile:
-  id: profile
-  title: Perfil
-  data:
-  - Desenvolvedor com experiência no desenvolvimento backend, utilizando Node.js (JavaScript e TypeScript), .NET (C#), e bancos de dados como MongoDB, MySQL, PostgreSQL e MSSQL. Também possuo conhecimentos em frontend, trabalhando com React, Redux e jQuery. Tenho habilidades em integrações e resolução de problemas, utilizando ferramentas como RabbitMQ e Ansible. Além disso, tenho experiência em monitoramento de aplicações utilizando ferramentas como Dynatrace, Grafana e Datadog. Estou sempre em busca de novos desafios para continuar crescendo profissionalmente.
+- Desenvolvedor com experiência no desenvolvimento backend, utilizando Node.js (JavaScript e TypeScript), .NET (C#), e bancos de dados como MongoDB, MySQL, PostgreSQL e MSSQL. Também possuo conhecimentos em frontend, trabalhando com React, Redux e jQuery. Tenho habilidades em integrações e resolução de problemas, utilizando ferramentas como RabbitMQ e Ansible. Além disso, tenho experiência em monitoramento de aplicações utilizando ferramentas como Dynatrace, Grafana e Datadog. Estou sempre em busca de novos desafios para continuar crescendo profissionalmente.
 
 work-experience:
-  id: work-experience
-  title: Experiências
-  data:
-  - position: Software Engineer | Node.js
-    company:
-      short_name: Flash
-      long_name: Flash Benefícios
-      legal_name: FLASH TECNOLOGIA E INSTITUICAO DE PAGAMENTO LTDA
-      url: https://flashapp.com.br
-      location: São Paulo, SP, Brasil
-    remote:
-    period:
-      start:
-        month: "09"
-        year: 2023
-      end:
-        simple: presente
-    skills:
-    bullet_point:
-    long_description:
-    - Na execução das minhas funções, aprimorei meu expertise em tecnologias como NodeJS, NestJS, Typescript e ReactJS, além de participar da estruturação e aprimoramento da arquitetura do sistema utilizando princípios como Clean Architecture, Event Driven Architecture e Domain-Driven Design (DDD). Como desenvolvedor, não só utilizo minhas habilidades técnicas, mas também compartilho conhecimentos com minha equipe.
-  - position: Software Engineer | C#
-    company:
-      short_name: Zoop
-      long_name: Zoop Soluções de Pagamentos
-      legal_name: ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
-      url: https://zoop.com.br
-      location: Rio de Janeiro, RJ, Brasil
-    remote: Remoto
-    period:
-      start:
-        month: "10"
-        year: 2022
-      end:
-        month: "05"
-        year: 2023
-    skills:
-    bullet_point:
-    long_description:
-    - Atuei no time de Process Automation, realizando o desenvolvimento de aplicações RPA para serem integrados ao Zeev, utilizando C#, Javascript, Postgres, MongoDB, MySQL, e recursos da AWS como Secret Manager, Parameter Store, S3 Bucket, entre outros.
-  - position: Software Engineer | C#
-    company:
-      short_name: Neon
-      long_name: Neon
-      legal_name: NEON PAGAMENTOS SA INSTITUICAO DE PAGAMENTO
-      url: https://neon.com.br
-      location: São Paulo, SP, Brasil
-    remote: Remoto
-    period:
-      start:
-        month: "10"
-        year: 2020
-      end:
-        month: "09"
-        year: 2022
-    skills:
-    bullet_point:
-    long_description:
-    - Responsável pela monitoria, manutenção e melhoria das aplicações existentes, bem como a criação de novas aplicações utilizando tecnologias como .NET (C#), RabbitMQ, MSSQL; Identificação e resolução de problemas identificados utilizando Dynatrace e Grafana e também de questões levantadas através dos canais de suporte, para melhoria dos serviços financeiros prestados pela empresa;
-  - position: Software Engineer | Node.js
-    company:
-      short_name: Evnts
-      long_name: Evnts
-      legal_name: EVENTS SERVICOS VIAGEM E TURISMO LTDA
-      url: https://evnts.com.br
-      location: São Paulo, SP, Brasil
-    remote:
-    period:
-      start:
-        month: "10"
-        year: 2016
-      end:
-        month: "10"
-        year: 2020
-    skills:
-    bullet_point:
-    long_description:
-    - Criação e manutenção dos diversos produtos da empresa, utilizando node.js (Javascript e Typescript) no backend, React no frontend, MongoDB e MySQL como bancos de dados; Configuração e gestão de CI/CD através do SemaphoreCI e Bitbucket Pipelines; Configuração e gestão dos servidores/aplicações na nuvem (AWS e Google Cloud);
+- position: Software Engineer | Node.js
+  company:
+    short_name: Flash
+    long_name: Flash Benefícios
+    legal_name: FLASH TECNOLOGIA E INSTITUICAO DE PAGAMENTO LTDA
+    url: https://flashapp.com.br
+    location: São Paulo, SP, Brasil
+  remote:
+  period:
+    start:
+      month: "09"
+      year: 2023
+    end:
+      simple: presente
+  skills:
+  bullet_point:
+  long_description:
+  - Na execução das minhas funções, aprimorei meu expertise em tecnologias como NodeJS, NestJS, Typescript e ReactJS, além de participar da estruturação e aprimoramento da arquitetura do sistema utilizando princípios como Clean Architecture, Event Driven Architecture e Domain-Driven Design (DDD). Como desenvolvedor, não só utilizo minhas habilidades técnicas, mas também compartilho conhecimentos com minha equipe.
+- position: Software Engineer | C#
+  company:
+    short_name: Zoop
+    long_name: Zoop Soluções de Pagamentos
+    legal_name: ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+    url: https://zoop.com.br
+    location: Rio de Janeiro, RJ, Brasil
+  remote: Remoto
+  period:
+    start:
+      month: "10"
+      year: 2022
+    end:
+      month: "05"
+      year: 2023
+  skills:
+  bullet_point:
+  long_description:
+  - Atuei no time de Process Automation, realizando o desenvolvimento de aplicações RPA para serem integrados ao Zeev, utilizando C#, Javascript, Postgres, MongoDB, MySQL, e recursos da AWS como Secret Manager, Parameter Store, S3 Bucket, entre outros.
+- position: Software Engineer | C#
+  company:
+    short_name: Neon
+    long_name: Neon
+    legal_name: NEON PAGAMENTOS SA INSTITUICAO DE PAGAMENTO
+    url: https://neon.com.br
+    location: São Paulo, SP, Brasil
+  remote: Remoto
+  period:
+    start:
+      month: "10"
+      year: 2020
+    end:
+      month: "09"
+      year: 2022
+  skills:
+  bullet_point:
+  long_description:
+  - Responsável pela monitoria, manutenção e melhoria das aplicações existentes, bem como a criação de novas aplicações utilizando tecnologias como .NET (C#), RabbitMQ, MSSQL; Identificação e resolução de problemas identificados utilizando Dynatrace e Grafana e também de questões levantadas através dos canais de suporte, para melhoria dos serviços financeiros prestados pela empresa;
+- position: Software Engineer | Node.js
+  company:
+    short_name: Evnts
+    long_name: Evnts
+    legal_name: EVENTS SERVICOS VIAGEM E TURISMO LTDA
+    url: https://evnts.com.br
+    location: São Paulo, SP, Brasil
+  remote:
+  period:
+    start:
+      month: "10"
+      year: 2016
+    end:
+      month: "10"
+      year: 2020
+  skills:
+  bullet_point:
+  long_description:
+  - Criação e manutenção dos diversos produtos da empresa, utilizando node.js (Javascript e Typescript) no backend, React no frontend, MongoDB e MySQL como bancos de dados; Configuração e gestão de CI/CD através do SemaphoreCI e Bitbucket Pipelines; Configuração e gestão dos servidores/aplicações na nuvem (AWS e Google Cloud);
 
 skills:
-  id: skills
-  title: Habilidades
-  data:
-  - id: nodejs
-    name: Node.js
-    level: 10
-  - id: javascript
-    name: Javascript
-    level: 10
-  - id: typescript
-    name: Typescript
-    level: 10
-  - id: nestjs
-    name: NestJS
-    level: 8
-  - id: mongodb
-    name: MongoDB
-    level: 8
-  - id: mysql
-    name: MySQL
-    level: 7
-  - id: gcp
-    name: Google Cloud Platform (GCP)
-    level: 6
-  - id: aws
-    name: Amazon Web Services (AWS)
-    level: 6
-  - id: docker
-    name: Docker
-    level: 6
-  - id: python
-    name: Python
-    level: 4
+- id: nodejs
+  name: Node.js
+  level: 10
+- id: javascript
+  name: Javascript
+  level: 10
+- id: typescript
+  name: Typescript
+  level: 10
+- id: nestjs
+  name: NestJS
+  level: 8
+- id: mongodb
+  name: MongoDB
+  level: 8
+- id: mysql
+  name: MySQL
+  level: 7
+- id: gcp
+  name: Google Cloud Platform (GCP)
+  level: 6
+- id: aws
+  name: Amazon Web Services (AWS)
+  level: 6
+- id: docker
+  name: Docker
+  level: 6
+- id: python
+  name: Python
+  level: 4
 
 languages:
-  id: languages
-  title: Idiomas
-  data:
-  - id: portuguese
-    name: Português
-    level: 10
-  - id: english
-    name: Inglês
-    level: 10
-  - id: french
-    name: Francês
-    level: 2
-  - id: german
-    name: Alemão
-    level: 1
+- id: portuguese
+  name: Português
+  level: 10
+- id: english
+  name: Inglês
+  level: 10
+- id: french
+  name: Francês
+  level: 2
+- id: german
+  name: Alemão
+  level: 1
 
 education:
-  id: education
-  title: Formação
-  data:
-  - course: Bacharelado em Ciências Aplicadas, Ciência da Computação, Graduação sanduíche
-    school:
-      name: University of Toronto Mississauga
-      location: Mississauga, ON, Canada
-      url: https://www.utm.utoronto.ca
-    long_description:
-    - Programa de graduação sanduíche 'Ciência Sem Fronteiras', do governo federal.
-    period:
-      start:
-        month: "09"
-        year: 2013
-      end:
-        month: "04"
-        year: 2014
-  - course: Tecnólogo em Redes de Computadores
-    school:
-      name: Faculdade de Tecnologia de Osasco
-      location: Osasco, SP, Brasil
-      url: https://fatecosasco.edu.br/osasco
-    long_description:
-    - Não finalizado (60% concluído)
-    period:
-      start:
-        month: "01"
-        year: 2012
-      end:
-        month: "06"
-        year: 2015
-  - course: Tecnólogo em Análise e Desenvolvimento de Sistemas
-    school:
-      name: Faculdade de Tecnologia de São Paulo - FATEC-SP
-      location: São Paulo, SP, Brasil
-      url: https://www.fatecsp.br
-    long_description:
-    - Não finalizado (40% concluído)
-    period:
-      start:
-        month: "01"
-        year: 2009
-      end:
-        month: "12"
-        year: 2010
-  - course: Técnico em Programação e Análise de Sistemas
-    school:
-      name: Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP
-      location: São Paulo, SP, Brasil
-      url: https://www.ifsp.edu.br
-    long_description:
-    period:
-      start:
-        month: "01"
-        year: 2007
-      end:
-        month: "06"
-        year: 2009
+- course: Bacharelado em Ciências Aplicadas, Ciência da Computação, Graduação sanduíche
+  school:
+    name: University of Toronto Mississauga
+    location: Mississauga, ON, Canada
+    url: https://www.utm.utoronto.ca
+  long_description:
+  - Programa de graduação sanduíche 'Ciência Sem Fronteiras', do governo federal.
+  period:
+    start:
+      month: "09"
+      year: 2013
+    end:
+      month: "04"
+      year: 2014
+- course: Tecnólogo em Redes de Computadores
+  school:
+    name: Faculdade de Tecnologia de Osasco
+    location: Osasco, SP, Brasil
+    url: https://fatecosasco.edu.br/osasco
+  long_description:
+  - Não finalizado (60% concluído)
+  period:
+    start:
+      month: "01"
+      year: 2012
+    end:
+      month: "06"
+      year: 2015
+- course: Tecnólogo em Análise e Desenvolvimento de Sistemas
+  school:
+    name: Faculdade de Tecnologia de São Paulo - FATEC-SP
+    location: São Paulo, SP, Brasil
+    url: https://www.fatecsp.br
+  long_description:
+  - Não finalizado (40% concluído)
+  period:
+    start:
+      month: "01"
+      year: 2009
+    end:
+      month: "12"
+      year: 2010
+- course: Técnico em Programação e Análise de Sistemas
+  school:
+    name: Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP
+    location: São Paulo, SP, Brasil
+    url: https://www.ifsp.edu.br
+  long_description:
+  period:
+    start:
+      month: "01"
+      year: 2007
+    end:
+      month: "06"
+      year: 2009
 
 internships:
-  id: internships
-  title: Estágios e outras experiências
-  data:
-  - company:
-      short_name: Big Data University
-      long_name: Big Data University
-      legal_name: Big Data University
-      url: https://cognitiveclass.ai
-      location: Toronto, ON, Canada
-    position: Software Engineer
-    remote: false
-    period:
-      start:
-        month: "05"
-        year: 2014
-      end:
-        month: "08"
-        year: 2014
-    skills:
-    bullet_point:
-    long_description:
-    - "Como parte do programa Ciência sem Fronteiras, trabalhei como estagiário na Big Data University."
-    - "Lá, pude ajudar a idealizar e desenvolver um sistema caseiro de vigilância doméstica do tipo faça você mesmo usando um Raspberry Pi (junto com o módulo de câmera), e algumas tecnologias da IBM (Cloudant + Bluemix), Python e NodeJS;"
-    - "Durante o projeto, meu time e eu escrevemos um artigo descrevendo e documentando o primeiro protótipo do projeto: <a href='https://bit.ly/3CnrhVE' target='_blank'>https://bit.ly/3CnrhVE</a>"
+- company:
+    short_name: Big Data University
+    long_name: Big Data University
+    legal_name: Big Data University
+    url: https://cognitiveclass.ai
+    location: Toronto, ON, Canada
+  position: Software Engineer
+  remote: false
+  period:
+    start:
+      month: "05"
+      year: 2014
+    end:
+      month: "08"
+      year: 2014
+  skills:
+  bullet_point:
+  long_description:
+  - "Como parte do programa Ciência sem Fronteiras, trabalhei como estagiário na Big Data University."
+  - "Lá, pude ajudar a idealizar e desenvolver um sistema caseiro de vigilância doméstica do tipo faça você mesmo usando um Raspberry Pi (junto com o módulo de câmera), e algumas tecnologias da IBM (Cloudant + Bluemix), Python e NodeJS;"
+  - "Durante o projeto, meu time e eu escrevemos um artigo descrevendo e documentando o primeiro protótipo do projeto: <a href='https://bit.ly/3CnrhVE' target='_blank'>https://bit.ly/3CnrhVE</a>"
