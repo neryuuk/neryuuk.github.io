@@ -34,7 +34,7 @@ jobs:
         with:
           bundler-cache: true
           cache-version: 0
-          ruby-version: 3.4.0
+          ruby-version: '3.4.0'
       - name: Build with Jekyll
         run: bundle exec jekyll build
         env:
