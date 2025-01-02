@@ -1,8 +1,31 @@
+@media print {
+  @page {
+    orientation: portrait;
+  }
+
+  #body {
+    margin: auto;
+    width: 100%;
+  }
+
+  section {
+    page-break-inside: avoid;
+    word-break: normal;
+  }
+}
+
 * {
   font-family: 'Calibri', 'Trebuchet MS', sans-serif;
   margin: 0;
   padding: 0;
-  text-align: justify;
+}
+
+header {
+  text-align: center;
+}
+
+header > div {
+  margin: 0 auto 16px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -17,6 +40,7 @@ p {
   font-size: 14pt;
   font-weight: 400;
   line-height: 1.6;
+  text-align: justify;
 }
 
 #body {

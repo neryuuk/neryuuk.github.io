@@ -1,14 +1,20 @@
 <header>
   <div id="name-title">
     <h1 id="name">{{ data.header.name }}</h1>
-    <h2 id="title">{{ data.header.title }}</h2>
+    <h3 id="title">{{ data.header.title }}</h3>
   </div>
-  <ul>
-    {% for each in data.details %}
-      {% include li.liquid content=each %}
-    {% endfor %}
-    {% for each in data.links %}
-      {% include li.liquid content=each %}
-    {% endfor %}
-  </ul>
+  <div>
+    <div>
+      {% for each in data.details %}
+      {% unless each.text %}{% continue %}{% endunless %}
+        <span><strong>{{ strings[each.item] }}:</strong> {{ each.text }}</span>
+      {% endfor %}
+    </div>
+    <div>
+      {% for each in data.links %}
+        {% unless each.text %}{% continue %}{% endunless %}
+        <span><strong>{{ strings[each.item] }}:</strong> {{ each.text }}</span>
+      {% endfor %}
+    </div>
+  </div>
 </header>

@@ -29,17 +29,22 @@ header:
   - backend developer
 
 details:
-- text: São Paulo, Brazil
+- item: location
+  text: São Paulo, SP, Brazil
   icon: fa-solid fa-location-dot details-icon
-- text: neryuuk@neryuuk.com
+- item: phone
+- item: email
+  text: neryuuk@neryuuk.com
   icon: fa-solid fa-envelope details-icon
   url: "mailto:neryuuk@neryuuk.com"
 
 links:
-- text: linkedin.com/in/neryuuk
+- item: linkedin
+  text: linkedin.com/in/neryuuk
   icon: fa-brands fa-linkedin details-icon
   url: https://www.linkedin.com/in/neryuuk
-- text: github.com/neryuuk
+- item: github
+  text: github.com/neryuuk
   icon: fa-brands fa-square-github details-icon
   url: https://github.com/neryuuk
 
@@ -170,21 +175,11 @@ skills:
   level: 4
 - name: Ansible
   level: 3
-- name: Redux
-  level: 2
 - name: Grafana
   level: 2
 - name: Dynatrace
   level: 2
 - name: Datadog
-  level: 2
-- name: Redux
-  level: 2
-- name: Redux
-  level: 2
-- name: Redux
-  level: 2
-- name: Redux
   level: 2
 - name: Redux
   level: 2

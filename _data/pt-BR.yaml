@@ -29,9 +29,12 @@ header:
   - backend developer
 
 details:
-- text: São Paulo, Brasil
+- item: location
+  text: São Paulo, SP, Brasil
   icon: fa-solid fa-location-dot details-icon
-- text: neryuuk@neryuuk.com
+- item: phone
+- item: email
+  text: neryuuk@neryuuk.com
   icon: fa-solid fa-envelope details-icon
   url: "mailto:neryuuk@neryuuk.com"
 
@@ -124,36 +127,55 @@ work:
   - Criação e manutenção dos diversos produtos da empresa, utilizando node.js (Javascript e Typescript) no backend, React no frontend, MongoDB e MySQL como bancos de dados; Configuração e gestão de CI/CD através do SemaphoreCI e Bitbucket Pipelines; Configuração e gestão dos servidores/aplicações na nuvem (AWS e Google Cloud);
 
 skills:
-- id: nodejs
-  name: Node.js
+# Proficient
+- name: Node.js
   level: 10
-- id: javascript
-  name: Javascript
+- name: Javascript
   level: 10
-- id: typescript
-  name: Typescript
+- name: Typescript
   level: 10
-- id: nestjs
-  name: NestJS
+- name: NestJS
   level: 8
-- id: mongodb
-  name: MongoDB
+- name: MongoDB
   level: 8
-- id: mysql
-  name: MySQL
+
+# Intermediate
+- name: MySQL
   level: 7
-- id: gcp
-  name: Google Cloud Platform (GCP)
+- name: C#
   level: 6
-- id: aws
-  name: Amazon Web Services (AWS)
+- name: Google Cloud Platform (GCP)
   level: 6
-- id: docker
-  name: Docker
+- name: Amazon Web Services (AWS)
   level: 6
-- id: python
-  name: Python
+- name: Docker
+  level: 6
+- name: PostgreSQL
+  level: 5
+- name: MSSQL
+  level: 5
+- name: RabbitMQ
+  level: 5
+- name: Kafka
+  level: 5
+- name: React
+  level: 5
+- name: jQuery
+  level: 5
+
+# Beginner
+- name: Python
   level: 4
+- name: Ansible
+  level: 3
+- name: Grafana
+  level: 2
+- name: Dynatrace
+  level: 2
+- name: Datadog
+  level: 2
+- name: Redux
+  level: 2
 
 languages:
 - id: portuguese
