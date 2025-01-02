@@ -1,0 +1,2 @@
+{% unless include.title and include.data %}{% break %}{% endunless %}
+<p><strong>{{ include.title }}:</strong> {{ include.data | map: "name" | compact | join: ", " }}</p>

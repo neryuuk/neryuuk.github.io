@@ -15,10 +15,10 @@ layout: default
     <div id="body">
       {% include ats_header.liquid %}
       {% include section.liquid content=data.profile simple=true %}
+      {% include ats_list.liquid content=data.skills %}
       {% include section.liquid content=data.work-experience %}
       {% include section.liquid content=data.education %}
       {% include section.liquid content=data.internships %}
-      {% include ats_list.liquid content=data.skills %}
       {% include ats_list.liquid content=data.languages %}
     </div>
   </body>

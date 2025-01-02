@@ -1,8 +1,10 @@
-{% if include.content %}
-  <section>
-    {% if include.content.title %}
-      <h2>{{ include.content.title }}</h2>
-    {% endif %}
-    <p>{{ include.content.data | map: "name" | join: ", " }}</p>
-  </section>
-{% endif %}
+{% unless include.content %}{% break %}{% endunless %}
+<section>
+  {% if include.content.title %}<h2>{{ include.content.title }}</h2>{% endif %}
+  {% assign skills = include.content.data | where_exp: "_", "_.level >= 8" %}
+  {% include skill_level.liquid title="Proficient" data=skills %}
+  {% assign skills = include.content.data | where_exp: "_", "_.level >= 5 and _.level < 8" %}
+  {% include skill_level.liquid title="Intermediate" data=skills %}
+  {% assign skills = include.content.data | where_exp: "_", "_.level < 5" %}
+  {% include skill_level.liquid title="Beginner" data=skills %}
+</section>
