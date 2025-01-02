@@ -1,9 +1,9 @@
 <section>
   {% if strings.skills %}<h2>{{ strings.skills }}</h2>{% endif %}
-  {% assign skills = data.skills | where_exp: "_", "_.level >= 8" %}
+  {% assign skills = data.skills | where_exp: "item", "item.level >= 8" %}
   {% include skill_level.liquid title=strings.proficient data=skills %}
-  {% assign skills = data.skills | where_exp: "_", "_.level >= 5 and _.level < 8" %}
+  {% assign skills = data.skills | where_exp: "item", "item.level >= 5 and item.level < 8" %}
   {% include skill_level.liquid title=strings.intermediate data=skills %}
-  {% assign skills = data.skills | where_exp: "_", "_.level < 5" %}
+  {% assign skills = data.skills | where_exp: "item", "item.level < 5" %}
   {% include skill_level.liquid title=strings.beginner data=skills %}
 </section>
