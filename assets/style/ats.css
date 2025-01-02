@@ -4,20 +4,16 @@
   }
 
   #body {
-    margin: auto;
-    width: 100%;
+    width: 1060px !important;
   }
 
   section {
     page-break-inside: avoid;
-    word-break: normal;
   }
 }
 
 * {
   font-family: 'Calibri', 'Trebuchet MS', sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 header {
@@ -30,6 +26,12 @@ header > div {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-weight: 400;
 }
 
 a {
@@ -40,7 +42,20 @@ p {
   font-size: 14pt;
   font-weight: 400;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
   text-align: justify;
+}
+
+.location-period {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8pt;
+}
+
+.linebreak {
+  margin-bottom: 16pt;
 }
 
 #body {

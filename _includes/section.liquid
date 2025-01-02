@@ -11,13 +11,14 @@
     {% assign place = each.company.short_name | default: each.school.name %}
     {% assign location = each.company.location | default: each.school.location %}
     <h3>{{ title }}</h3>
-    <h4>{{ place }},
-      <i class="fa-solid fa-location-dot location-dot-small"></i>
-      {% if each.remote %}{{ each.remote }}{% else %}{{ location }}{% endif %}
-    </h4>
-    {% include period.liquid start=each.period.start end=each.period.end %}
-    {% for line in each.long_description %}
-      <p>{{ line }}</p>
-    {% endfor %}
+    <span class="location-period">
+      <h4>{{ place }},
+        <i class="fa-solid fa-location-dot location-dot-small"></i>
+        {% if each.remote %}{{ each.remote }}{% else %}{{ location }}{% endif %}
+      </h4>
+      {% include period.liquid start=each.period.start end=each.period.end %}
+    </span>
+    {% for line in each.long_description %}<p>{{ line }}</p>{% endfor %}
+    <p class="linebreak"></p>
   {% endfor %}
 </section>
