@@ -1,0 +1,8 @@
+<span>
+  <strong>{{ strings[include.data.item] }}:</strong>
+  {% if include.data.url %}
+    <a href="{{ include.data.url }}" target="_blank">{{ include.data.text }}</a>
+  {% else %}
+    {{ include.data.text }}
+  {% endif %}
+</span>
