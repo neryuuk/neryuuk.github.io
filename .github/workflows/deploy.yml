@@ -27,7 +27,6 @@ jobs:
             --env JEKYLL_GID=`id --group` \
             --env JEKYLL_UID=`id --user` \
             --volume ${{ github.workspace }}:/srv/jekyll \
-            --volume ${{ github.workspace }}/_site:/srv/jekyll/_site \
             jekyll/builder:latest \
             /bin/bash -c "bundle update && bundle exec jekyll build --future --trace --verbose"
       - uses: actions/configure-pages@v5
