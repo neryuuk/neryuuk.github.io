@@ -29,9 +29,3 @@ jobs:
             --volume ${{ github.workspace }}:/srv/jekyll \
             jekyll/builder:latest \
             /bin/bash -c "bundle update && bundle exec jekyll build --future --trace --verbose"
-      - uses: actions/configure-pages@v5
-        name: Configure Pages
-      - uses: actions/upload-pages-artifact@v3
-        name: Upload Pages Artifact
-        with:
-          path: ${{ github.workspace }}/_site
