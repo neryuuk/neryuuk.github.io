@@ -1,3 +1,5 @@
+<title>{{ data.header.name }} - {{ data.header.title }}</title>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="theme-color" content="#32084D" />
 <meta name="keywords" content="{{ data.skills | map: "name" | join: ', ' }}">
@@ -8,11 +10,13 @@
 <meta property="og:image" content="https://neryuuk.github.io/assets/img/profile.png" />
 <meta property="og:url" content="https://neryuuk.github.io" />
 <meta property="og:type" content="website" />
+
 <link rel="icon" type="image/png" href="/assets/img/favicons/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/assets/img/favicons/favicon.svg" />
 <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png" />
 <link rel="manifest" href="/assets/img/favicons/site.webmanifest" />
+
 {% case page.layout %}
   {% when "two-column" %}
     <link rel="stylesheet" href="/assets/style/pretty.css" />
@@ -23,4 +27,3 @@
   {% when "ats" %}
     <link rel="stylesheet" href="/assets/style/ats.css" />
 {% endcase %}
-<title>{{ data.header.name }} - {{ data.header.title }}</title>
