@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        name: Build with jekyll/builder container
+      - name: Build with jekyll/builder container
         run: |
           docker run \
             --env JEKYLL_ENV=production \
@@ -30,9 +30,7 @@ jobs:
             jekyll/builder:latest \
             /bin/bash -c "bundle update && bundle exec jekyll build --future --verbose"
       - uses: actions/configure-pages@v5
-        name: Setup Pages
       - uses: actions/upload-pages-artifact@v3
-        name: Upload artifact
         with:
           path: ${{ github.workspace }}/_site
   deploy:
@@ -43,5 +41,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/deploy-pages@v4
-        name: Deploy to GitHub Pages
         id: deployment
