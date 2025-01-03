@@ -22,10 +22,10 @@ jobs:
         name: Checkout
       - name: Build with container
         run: |
-          docker run \
+          JEKYLL_GID=`id --group` JEKYLL_UID=`id --user` docker run \
             --env JEKYLL_ENV=production \
-            --env JEKYLL_GID=${id --group} \
-            --env JEKYLL_UID=${id --user} \
+            --env JEKYLL_GID=${JEKYLL_GID} \
+            --env JEKYLL_UID=${JEKYLL_UID} \
             --volume ${{ github.workspace }}:/srv/jekyll \
             --volume ${{ github.workspace }}/_site:/srv/jekyll/_site \
             jekyll/builder:latest \
