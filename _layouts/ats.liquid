@@ -5,12 +5,7 @@ layout: default
 {% assign strings = site.data.strings[page.lang] %}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>{{ data.header.name }} - {{ data.header.title }}</title>
-    {% include sources.liquid %}
-    {% include seo.liquid %}
-  </head>
+  <head>{% include meta.liquid %}</head>
   <body>
     <div id="body">
       {% include ats_header.liquid %}
