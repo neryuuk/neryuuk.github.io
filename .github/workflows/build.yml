@@ -1,0 +1,31 @@
+name: Test Build Jekyll
+
+on:
+  pull_request:
+    branches: ["main","master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  Build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        name: Checkout
+      - name: Build with container
+        run: |
+          docker run \
+            --env JEKYLL_ENV=production \
+            --env JEKYLL_GID=`id --group` \
+            --env JEKYLL_UID=`id --user` \
+            --volume ${{ github.workspace }}:/srv/jekyll \
+            jekyll/builder:latest \
+            /bin/bash -c "bundle update && bundle exec jekyll build --future --trace --verbose"

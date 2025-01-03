@@ -1,4 +1,4 @@
-name: Deploy Jekyll to GitHub Pages
+name: Deploy GitHub Pages
 
 on:
   push:
@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   Build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         name: Checkout
@@ -36,7 +36,7 @@ jobs:
         with:
           path: ${{ github.workspace }}/_site
   Deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: Build
     environment:
       name: github-pages
