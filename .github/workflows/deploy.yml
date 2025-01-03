@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  Build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,21 +24,21 @@ jobs:
         run: |
           docker run \
             --env JEKYLL_ENV=production \
-            --env JEKYLL_GID=1001 \
-            --env JEKYLL_UID=1001 \
+            --env JEKYLL_GID=1000 \
+            --env JEKYLL_UID=1000 \
             --volume ${{ github.workspace }}:/srv/jekyll \
             --volume ${{ github.workspace }}/_site:/srv/jekyll/_site \
             jekyll/builder:latest \
-            /bin/bash -c "bundle update && bundle exec jekyll build --future --verbose"
+            /bin/bash -c "bundle update && bundle exec jekyll build --future --trace --verbose"
       - uses: actions/configure-pages@v5
         name: Configure Pages
       - uses: actions/upload-pages-artifact@v3
         name: Upload Pages Artifact
         with:
           path: ${{ github.workspace }}/_site
-  deploy:
+  Deploy:
     runs-on: ubuntu-latest
-    needs: build
+    needs: Build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
