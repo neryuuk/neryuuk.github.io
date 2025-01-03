@@ -189,5 +189,6 @@ label {
 }
 
 .details-icon {
+  height: auto;
   width: 9pt;
 }
