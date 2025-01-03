@@ -23,8 +23,8 @@ jobs:
         run: |
           docker run \
             --env JEKYLL_ENV=production \
-            --env JEKYLL_GID=${{ $GROUPS }} \
-            --env JEKYLL_UID=${{ $UID }} \
+            --env JEKYLL_GID=${GROUPS} \
+            --env JEKYLL_UID=${UID} \
             --volume ${{ github.workspace }}:/srv/jekyll \
             --volume ${{ github.workspace }}/_site:/srv/jekyll/_site \
             jekyll/builder:latest \
