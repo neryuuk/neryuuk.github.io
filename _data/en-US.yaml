@@ -7,26 +7,6 @@ header:
   - code: pt-br
     title: Ler em Português
     url: ./portuguese
-  keywords:
-  - node.js
-  - javascript
-  - typescript
-  - nestjs
-  - mongodb
-  - mysql
-  - google cloud platform
-  - gcp
-  - amazon web services
-  - aws
-  - docker
-  - python
-  - resume
-  - cv
-  - developer
-  - web
-  - web developer
-  - backend
-  - backend developer
 
 details:
 - item: location
@@ -70,7 +50,6 @@ work:
     end:
       month: "12"
       year: 2024
-
   skills:
   bullet_point:
   long_description:

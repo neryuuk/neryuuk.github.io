@@ -7,26 +7,6 @@ header:
   - code: en-us
     title: Read it in English
     url: ./
-  keywords:
-  - node.js
-  - javascript
-  - typescript
-  - nestjs
-  - mongodb
-  - mysql
-  - google cloud platform
-  - gcp
-  - amazon web services
-  - aws
-  - docker
-  - python
-  - resume
-  - cv
-  - developer
-  - web
-  - web developer
-  - backend
-  - backend developer
 
 details:
 - item: location

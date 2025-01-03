@@ -1,4 +1,4 @@
-<meta name="keywords" content="{{ data.header.keywords | join: ', ' }}">
+<meta name="keywords" content="{{ data.skills | map: "name" | join: ', ' }}">
 <meta name="author" content="{{ data.header.name }}">
 <meta property="og:title" content="{{ data.header.title }} - {{ data.header.name }}" />
 <meta property="og:site_name" content="{{ data.header.title }} - {{ data.header.name }}" />
