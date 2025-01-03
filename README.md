@@ -1,3 +1,6 @@
+[![Deploy Jekyll to GitHub Pages](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/deploy.yml)
+---
+
 <header>
   <div>
     <h1>Nelson Antunes</h1>
@@ -9,10 +12,16 @@
   <p>Developer with experience in back-end development, using NodeJS (JavaScript and Typescript), .NET (C#), and databases such as MongoDB, MySQL, PostgreSQL, and MSSQL. I also have knowledge in front-end development, working with React, Redux and jQuery. I have skills in integration and problem-solving, utilizing tools like RabbitMQ and Ansible. Additionally, I have experience in application monitoring using tools like Dynatrace, Grafana, and Datadog. I am always seeking new challenges to continue growing professionally.</p>
 </section>
 <section>
+  <h2>Skills</h2>
+  <p><strong>Proficient:</strong> Node.js, Javascript, Typescript, NestJS, MongoDB</p>
+  <p><strong>Intermediate:</strong> MySQL, C#, Google Cloud Platform (GCP), Amazon Web Services (AWS), Docker, PostgreSQL, MSSQL, RabbitMQ, Kafka, React, jQuery</p>
+  <p><strong>Beginner:</strong> Python, Ansible, Grafana, Dynatrace, Datadog, Redux</p>
+</section>
+<section>
   <h2>Work Experience</h2>
   <h3>Software Engineer | Node.js</h3>
   <h4>Flash, São Paulo, SP, Brazil</h4>
-  <p>september 2023 — present</p>
+  <p>september 2023 — december 2024</p>
   <p>In my role, I have honed my expertise in technologies such as Node.js, NestJS, (using both Javascript and Typescript), and ReactJS, and have been involved in structuring and enhancing system architecture using principles like Clean Architecture, Event Driven Architecture, and Domain-Driven Design (DDD). As a developer, I not only leverage my technical skills but also actively share knowledge with my team.</p>
   <h3>Software Engineer | C#</h3>
   <h4>Zoop, Remote</h4>
@@ -65,10 +74,8 @@
   <p><a href="https://github.com/neryuuk" target="_blank">github.com/neryuuk</a></p>
 </section>
 <section>
-  <h2>Skills</h2>
-  <span>Node.js, Javascript, Typescript, NestJS, MongoDB, MySQL, Google Cloud Platform (GCP), Amazon Web Services (AWS), Docker, Python</span>
-</section>
-<section>
   <h2>Languages</h2>
-  <span>Portuguese, English, French, German</span>
+  <p><strong>Native:</strong> Portuguese</p>
+  <p><strong>Fluent:</strong> English</p><p>
+  <strong>Basic:</strong> French, German</p>
 </section>
