@@ -1,3 +1,4 @@
+{% unless include.data.text %}{% continue %}{% endunless %}
 <span>
   <strong>{{ strings[include.data.item] }}:</strong>
   {% if include.data.url %}
