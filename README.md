@@ -1,4 +1,4 @@
-[![Deploy Jekyll to GitHub Pages](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/deploy.yml)
+[![Deploy Jekyll to GitHub Pages](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy.yml)
 ---
 
 <header>
