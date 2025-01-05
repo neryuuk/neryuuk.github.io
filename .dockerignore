@@ -1,0 +1,10 @@
+_site
+.dockerignore
+.editorconfig
+.git*
+.jekyll-cache
+.vscode
+Dockerfile
+docs
+Gemfile.lock
+README.md
