@@ -374,7 +374,7 @@
       "bullet_point": null,
       "long_description": [
         "As part of the Science Without Borders sandwich course initiative, sponsored by the Brazilian Government, I worked as an intern at Big Data University.",
-        "There, I was able to help envision and develop a do-it-yourself home surveillance system using a Raspberry Pi (along with it's camera module), some IBM technology (Cloudant + Bluemix), Python and Node.js.",
+        "There, I was able to help envision and develop a do-it-yourself home surveillance system using a RaspberryPi board and camera module, some IBM technology (Cloudant + Bluemix), Python and Node.js.",
         "During the project my team and I wrote this article that talks about the first prototype: <a href='https://bit.ly/3CnrhVE' target='_blank'>https://bit.ly/3CnrhVE</a>"
       ]
     }
