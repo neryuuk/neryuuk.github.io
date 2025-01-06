@@ -18,9 +18,9 @@
     "intermediate": "Intermediário",
     "beginner": "Iniciante",
     "languages": "Idiomas",
-    "native":"Native",
-    "fluent": "Fluent",
-    "basic": "Basic",
+    "native":"Nativo",
+    "fluent": "Fluente",
+    "basic": "Básico",
     "months": {
       "01": "janeiro",
       "02": "fevereiro",
