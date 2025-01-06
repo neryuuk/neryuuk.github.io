@@ -51,7 +51,7 @@
   ],
   "work": [
     {
-      "position": "Software Engineer | Node.js",
+      "position": "Software Engineer",
       "company": {
         "short_name": "Flash",
         "long_name": "Flash Benefícios",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "position": "Software Engineer | C#",
+      "position": "Software Engineer",
       "company": {
         "short_name": "Zoop",
         "long_name": "Zoop Soluções de Pagamentos",
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "position": "Software Engineer | C#",
+      "position": "Software Engineer",
       "company": {
         "short_name": "Neon",
         "long_name": "Neon",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "position": "Software Engineer | Node.js",
+      "position": "Software Engineer",
       "company": {
         "short_name": "Evnts",
         "long_name": "Evnts",
