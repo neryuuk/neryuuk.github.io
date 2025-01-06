@@ -121,7 +121,8 @@
       "skills": null,
       "bullet_point": null,
       "long_description": [
-        "Responsável pela monitoria, manutenção e melhoria das aplicações existentes, bem como a criação de novas aplicações utilizando tecnologias como .NET (C#), RabbitMQ, MSSQL; Identificação e resolução de problemas identificados utilizando Dynatrace e Grafana e também de questões levantadas através dos canais de suporte, para melhoria dos serviços financeiros prestados pela empresa;"
+        "Responsável pela monitoria, manutenção e melhoria das aplicações existentes, bem como a criação de novas aplicações utilizando tecnologias como .NET (C#), RabbitMQ, MSSQL;",
+        "Identificação e resolução de problemas identificados utilizando Dynatrace e Grafana e também de questões levantadas através dos canais de suporte, para melhoria dos serviços financeiros prestados pela empresa;"
       ]
     },
     {
@@ -147,7 +148,9 @@
       "skills": null,
       "bullet_point": null,
       "long_description": [
-        "Criação e manutenção dos diversos produtos da empresa, utilizando node.js (Javascript e Typescript) no backend, React no frontend, MongoDB e MySQL como bancos de dados; Configuração e gestão de CI/CD através do SemaphoreCI e Bitbucket Pipelines; Configuração e gestão dos servidores/aplicações na nuvem (AWS e Google Cloud);"
+        "Criação e manutenção dos diversos produtos da empresa, utilizando node.js (Javascript e Typescript) no backend, React no frontend, MongoDB e MySQL como bancos de dados;",
+        "Configuração e gestão de CI/CD através do SemaphoreCI e Bitbucket Pipelines;",
+        "Configuração e gestão dos servidores/aplicações na nuvem (AWS e Google Cloud);"
       ]
     }
   ],
