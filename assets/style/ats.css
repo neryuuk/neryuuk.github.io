@@ -3,12 +3,12 @@
     orientation: portrait;
   }
 
-  #body {
-    width: 1060px !important;
-  }
-
   section {
     page-break-inside: avoid;
+  }
+
+  #body {
+    width: 1060px !important;
   }
 }
 
@@ -24,10 +24,19 @@ header > div {
   margin: 0 auto 16px;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+}
+
+h3 {
+  margin-top: 10pt;
 }
 
 h4 {
@@ -41,7 +50,7 @@ a {
 p {
   font-size: 14pt;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
   text-align: justify;
@@ -64,5 +73,5 @@ p {
 }
 
 section {
-  margin-top: 26pt;
+  margin-top: 30pt;
 }

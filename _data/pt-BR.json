@@ -2,7 +2,6 @@
   "header": {
     "title": "Desenvolvedor Node.js Sênior",
     "name": "Nelson Antunes",
-    "description": "Desenvolvedor com experiência no desenvolvimento backend, utilizando Node.js (JavaScript e TypeScript), .NET (C#), e bancos de dados como MongoDB, MySQL, PostgreSQL e MSSQL. Também possuo conhecimentos em frontend, trabalhando com React, Redux e jQuery. Tenho habilidades em integrações e resolução de problemas, utilizando ferramentas como RabbitMQ e Ansible. Além disso, tenho experiência em monitoramento de aplicações utilizando ferramentas como Dynatrace, Grafana e Datadog. Estou sempre em busca de novos desafios para continuar crescendo profissionalmente.",
     "picture": "Foto do perfil",
     "languages": [
       {
@@ -48,7 +47,7 @@
   ],
   "work": [
     {
-      "position": "Software Engineer | Node.js",
+      "position": "Software Engineer",
       "company": {
         "short_name": "Flash",
         "long_name": "Flash Benefícios",
@@ -74,7 +73,7 @@
       ]
     },
     {
-      "position": "Software Engineer | C#",
+      "position": "Software Engineer",
       "company": {
         "short_name": "Zoop",
         "long_name": "Zoop Soluções de Pagamentos",
@@ -100,7 +99,7 @@
       ]
     },
     {
-      "position": "Software Engineer | C#",
+      "position": "Software Engineer",
       "company": {
         "short_name": "Neon",
         "long_name": "Neon",
@@ -122,11 +121,12 @@
       "skills": null,
       "bullet_point": null,
       "long_description": [
-        "Responsável pela monitoria, manutenção e melhoria das aplicações existentes, bem como a criação de novas aplicações utilizando tecnologias como .NET (C#), RabbitMQ, MSSQL; Identificação e resolução de problemas identificados utilizando Dynatrace e Grafana e também de questões levantadas através dos canais de suporte, para melhoria dos serviços financeiros prestados pela empresa;"
+        "Responsável pela monitoria, manutenção e melhoria das aplicações existentes, bem como a criação de novas aplicações utilizando tecnologias como .NET (C#), RabbitMQ, MSSQL;",
+        "Identificação e resolução de problemas identificados utilizando Dynatrace e Grafana e também de questões levantadas através dos canais de suporte, para melhoria dos serviços financeiros prestados pela empresa;"
       ]
     },
     {
-      "position": "Software Engineer | Node.js",
+      "position": "Software Engineer",
       "company": {
         "short_name": "Evnts",
         "long_name": "Evnts",
@@ -148,7 +148,9 @@
       "skills": null,
       "bullet_point": null,
       "long_description": [
-        "Criação e manutenção dos diversos produtos da empresa, utilizando node.js (Javascript e Typescript) no backend, React no frontend, MongoDB e MySQL como bancos de dados; Configuração e gestão de CI/CD através do SemaphoreCI e Bitbucket Pipelines; Configuração e gestão dos servidores/aplicações na nuvem (AWS e Google Cloud);"
+        "Criação e manutenção dos diversos produtos da empresa, utilizando node.js (Javascript e Typescript) no backend, React no frontend, MongoDB e MySQL como bancos de dados;",
+        "Configuração e gestão de CI/CD através do SemaphoreCI e Bitbucket Pipelines;",
+        "Configuração e gestão dos servidores/aplicações na nuvem (AWS e Google Cloud);"
       ]
     }
   ],
@@ -373,7 +375,7 @@
       "bullet_point": null,
       "long_description": [
         "Como parte do programa Ciência sem Fronteiras, trabalhei como estagiário na Big Data University.",
-        "Lá, pude ajudar a idealizar e desenvolver um sistema caseiro de vigilância doméstica do tipo faça você mesmo usando um Raspberry Pi (junto com o módulo de câmera), e algumas tecnologias da IBM (Cloudant + Bluemix), Python e NodeJS;",
+        "Lá, pude ajudar a idealizar e desenvolver um sistema caseiro de vigilância doméstica do tipo faça você mesmo usando o RaspberryPi, juntamente com o módulo de câmera, e algumas tecnologias da IBM (Cloudant + Bluemix), Python e NodeJS;",
         "Durante o projeto, meu time e eu escrevemos um artigo descrevendo e documentando o primeiro protótipo do projeto: <a href='https://bit.ly/3CnrhVE' target='_blank'>https://bit.ly/3CnrhVE</a>"
       ]
     }

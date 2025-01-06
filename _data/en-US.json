@@ -2,7 +2,6 @@
   "header": {
     "title": "Senior Node.js Developer",
     "name": "Nelson Antunes",
-    "description": "Developer with experience in back-end development, using NodeJS (JavaScript and Typescript), .NET (C#), and databases such as MongoDB, MySQL, PostgreSQL, and MSSQL",
     "picture": "Profile picture",
     "languages": [
       {
@@ -51,7 +50,7 @@
   ],
   "work": [
     {
-      "position": "Software Engineer | Node.js",
+      "position": "Software Engineer",
       "company": {
         "short_name": "Flash",
         "long_name": "Flash Benefícios",
@@ -77,7 +76,7 @@
       ]
     },
     {
-      "position": "Software Engineer | C#",
+      "position": "Software Engineer",
       "company": {
         "short_name": "Zoop",
         "long_name": "Zoop Soluções de Pagamentos",
@@ -103,7 +102,7 @@
       ]
     },
     {
-      "position": "Software Engineer | C#",
+      "position": "Software Engineer",
       "company": {
         "short_name": "Neon",
         "long_name": "Neon",
@@ -125,11 +124,12 @@
       "skills": null,
       "bullet_point": null,
       "long_description": [
-        "Responsible for monitoring, maintaining and improving existing .NET applications as well as creating new ones, using technologies such as .NET (C#), RabbitMQ, MSSQL; Identifying and troubleshooting issues using Dynatrace, Grafana and support tickets to improve the financial services;"
+        "Responsible for monitoring, maintaining and improving existing .NET applications as well as creating new ones, using technologies such as .NET (C#), RabbitMQ, MSSQL;",
+        "Identifying and troubleshooting issues using Dynatrace, Grafana and support tickets to improve the financial services;"
       ]
     },
     {
-      "position": "Software Engineer | Node.js",
+      "position": "Software Engineer",
       "company": {
         "short_name": "Evnts",
         "long_name": "Evnts",
@@ -151,7 +151,9 @@
       "skills": null,
       "bullet_point": null,
       "long_description": [
-        "Creation and maintenance of the company's various products/applications, using node.js (Javascript and Typescript) on the back-end, React on the front end and databases on mongodb and MySQL; CI/CD configuration and management using SemaphoreCI and Bitbucket Pipelines; Configuration, deployment and management of servers, buckets, databases and applications in various cloud providers (AWS and Google Cloud);"
+        "Creation and maintenance of the company's various products/applications, using node.js (Javascript and Typescript) on the back-end, React on the front end and databases on mongodb and MySQL;",
+        "CI/CD configuration and management using SemaphoreCI and Bitbucket Pipelines;",
+        "Configuration, deployment and management of servers, buckets, databases and applications in various cloud providers (AWS and Google Cloud);"
       ]
     }
   ],
@@ -372,7 +374,7 @@
       "bullet_point": null,
       "long_description": [
         "As part of the Science Without Borders sandwich course initiative, sponsored by the Brazilian Government, I worked as an intern at Big Data University.",
-        "There, I was able to help envision and develop a do-it-yourself home surveillance system using a Raspberry Pi (along with it's camera module), some IBM technology (Cloudant + Bluemix), Python and Node.js.",
+        "There, I was able to help envision and develop a do-it-yourself home surveillance system using a RaspberryPi board and camera module, some IBM technology (Cloudant + Bluemix), Python and Node.js.",
         "During the project my team and I wrote this article that talks about the first prototype: <a href='https://bit.ly/3CnrhVE' target='_blank'>https://bit.ly/3CnrhVE</a>"
       ]
     }
