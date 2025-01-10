@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Node.js, Javascript, Typescript",
+    "level": 10
+  },
+  {
+    "name": "NestJS, Express",
+    "level": 8
+  },
+  {
+    "name": "MongoDB",
+    "level": 8
+  },
+  {
+    "name": "MySQL",
+    "level": 7
+  },
+  {
+    "name": ".NET, C#",
+    "level": 6
+  },
+  {
+    "name": "Google Cloud (GCP), Amazon Web Services (AWS)",
+    "level": 6
+  },
+  {
+    "name": "Docker, CI/CD",
+    "level": 6
+  },
+  {
+    "name": "PostgreSQL, MSSQL",
+    "level": 5
+  },
+  {
+    "name": "RabbitMQ, Kafka, SQS",
+    "level": 5
+  },
+  {
+    "name": "React, jQuery",
+    "level": 5
+  },
+  {
+    "name": "Python",
+    "level": 4
+  },
+  {
+    "name": "Grafana, Dynatrace, Datadog",
+    "level": 3
+  },
+  {
+    "name": "Ansible",
+    "level": 2
+  },
+  {
+    "name": "Redux",
+    "level": 2
+  }
+]

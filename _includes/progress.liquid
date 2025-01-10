@@ -1,8 +1,13 @@
+{% if include.sect == "skills" %}
+  {% assign items = site.data.content.skills %}
+{% else %}
+  {% assign items = data[include.sect] %}
+{% endif %}
 {% assign title = i18n[include.sect] %}
 {% assign id = title | slugify: "latin" %}
 <section id="{{ id }}">
   {% if title %}<h2>{{ title }}</h2>{% endif %}
-  {% for item in data[include.sect] %}
+  {% for item in items %}
     {% assign id = item.name | slugify: "latin" %}
     <label for="{{ id }}">
       <span>{{ item.name }}</span>
