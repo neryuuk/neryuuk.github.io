@@ -246,22 +246,18 @@
   ],
   "languages": [
     {
-      "id": "portuguese",
       "name": "Português",
       "level": 10
     },
     {
-      "id": "english",
       "name": "Inglês",
       "level": 9
     },
     {
-      "id": "french",
       "name": "Francês",
       "level": 2
     },
     {
-      "id": "german",
       "name": "Alemão",
       "level": 1
     }
