@@ -30,4 +30,4 @@ jobs:
             --env VERBOSE=true \
             --volume ${{ github.workspace }}:/srv/jekyll \
             jekyll/builder:latest \
-            /bin/bash -c "apk add ruby=3.2.6 && ruby -v && bundle update --verbose && bundle exec jekyll build --future --profile --safe --trace --verbose"
+            /bin/bash -c "apk update && ruby -v && bundle update --verbose && bundle exec jekyll build --future --profile --safe --trace --verbose"
