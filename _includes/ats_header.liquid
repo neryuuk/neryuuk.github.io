@@ -8,7 +8,7 @@
       {% for each in data.details %}{% include span.liquid data=each %}{% endfor %}
     </div>
     <div>
-      {% for each in data.links %}{% include span.liquid data=each %}{% endfor %}
+      {% for each in site.data.content.links %}{% include span.liquid data=each %}{% endfor %}
     </div>
   </div>
 </header>
