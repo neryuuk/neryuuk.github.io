@@ -1,7 +1,7 @@
 {% if include.sect == "skills" %}
   {% assign items = site.data.content.skills %}
 {% else %}
-  {% assign items = data[include.sect] %}
+  {% assign items = site.data.content.languages %}
 {% endif %}
 {% assign title = i18n[include.sect] %}
 {% assign id = title | slugify: "latin" %}
