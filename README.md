@@ -13,9 +13,9 @@
 </section>
 <section>
   <h2>Skills</h2>
-  <p><strong>Proficient:</strong> Node.js, Javascript, Typescript, NestJS, MongoDB</p>
-  <p><strong>Intermediate:</strong> MySQL, C#, Google Cloud Platform (GCP), Amazon Web Services (AWS), Docker, PostgreSQL, MSSQL, RabbitMQ, Kafka, React, jQuery</p>
-  <p><strong>Beginner:</strong> Python, Ansible, Grafana, Dynatrace, Datadog, Redux</p>
+  <p><strong>Proficient:</strong> Node.js, Javascript, Typescript, NestJS, Express, MongoDB</p>
+  <p><strong>Intermediate:</strong> MySQL, .NET, C#, Google Cloud (GCP), Amazon Web Services (AWS), Docker, CI/CD, PostgreSQL, MSSQL, RabbitMQ, Kafka, SQS, React, jQuery</p>
+  <p><strong>Beginner:</strong> Python, Grafana, Dynatrace, Datadog, Ansible, Redux</p>
 </section>
 <section>
   <h2>Work Experience</h2>
@@ -30,11 +30,14 @@
   <h3>Software Engineer | C#</h3>
   <h4>Neon, Remote</h4>
   <p>october 2020 — september 2022</p>
-  <p>Responsible for monitoring, maintaining and improving existing .NET applications as well as creating new ones, using technologies such as .NET (C#), RabbitMQ, MSSQL; Identifying and troubleshooting issues using Dynatrace, Grafana and support tickets to improve the financial services;</p>
+  <p>Responsible for monitoring, maintaining and improving existing .NET applications as well as creating new ones, using technologies such as .NET (C#), RabbitMQ, MSSQL;</p>
+  <p>Identifying and troubleshooting issues using Dynatrace, Grafana and support tickets to improve the financial services;</p>
   <h3>Software Engineer | Node.js</h3>
   <h4>Evnts, São Paulo, SP, Brazil</h4>
   <p>october 2016 — october 2020</p>
-  <p>Creation and maintenance of the company's various products/applications, using node.js (Javascript and Typescript) on the back-end, React on the front end and databases on mongodb and MySQL; CI/CD configuration and management using SemaphoreCI and Bitbucket Pipelines; Configuration, deployment and management of servers, buckets, databases and applications in various cloud providers (AWS and Google Cloud);</p>
+  <p>Creation and maintenance of the company's various products/applications, using node.js (Javascript and Typescript) on the back-end, React on the front end and databases on mongodb and MySQL;</p>
+  <p>CI/CD configuration and management using SemaphoreCI and Bitbucket Pipelines;</p>
+  <p>Configuration, deployment and management of servers, buckets, databases and applications in various cloud providers (AWS and Google Cloud);</p>
 </section>
 <section>
   <h2>Education</h2>
@@ -75,7 +78,7 @@
 </section>
 <section>
   <h2>Languages</h2>
-  <p><strong>Native:</strong> Portuguese</p>
+  <p><strong>Native:</strong> Português</p>
   <p><strong>Fluent:</strong> English</p><p>
-  <strong>Basic:</strong> French, German</p>
+  <strong>Basic:</strong> Français, Deutsch</p>
 </section>
