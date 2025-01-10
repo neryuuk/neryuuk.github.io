@@ -29,5 +29,5 @@ jobs:
             --env JEKYLL_DEBUG=true \
             --env VERBOSE=true \
             --volume ${{ github.workspace }}:/srv/jekyll \
-            jekyll/builder:latest \
-            /bin/bash -c "bundle update && bundle exec jekyll build --future --profile --safe --trace --verbose"
+            bretfisher/jekyll:latest \
+            /bin/bash -c "bundle update --trace --verbose && bundle exec jekyll build --future --profile --safe --trace --verbose"
