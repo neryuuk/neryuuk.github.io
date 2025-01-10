@@ -27,6 +27,9 @@ jobs:
             --env JEKYLL_GID=`id --group` \
             --env JEKYLL_UID=`id --user` \
             --env JEKYLL_DEBUG=true \
+            --env RUBY_DOWNLOAD_SHA256=d9cb65ecdf3f18669639f2638b63379ed6fbb17d93ae4e726d4eb2bf68a48370 \
+            --env RUBY_MAJOR=3.2 \
+            --env RUBY_VERSION=3.2.6 \
             --env VERBOSE=true \
             --volume ${{ github.workspace }}:/srv/jekyll \
             jekyll/builder:latest \
