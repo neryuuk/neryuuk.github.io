@@ -26,8 +26,6 @@ jobs:
             --env JEKYLL_ENV=production \
             --env JEKYLL_GID=`id --group` \
             --env JEKYLL_UID=`id --user` \
-            --env JEKYLL_DEBUG=true \
-            --env VERBOSE=true \
             --volume ${{ github.workspace }}:/srv/jekyll \
             jekyll/builder:latest \
-            /bin/bash -c "bundle update --verbose && bundle exec jekyll build --future --profile --safe --trace --verbose"
+            /bin/bash -c "bundle update && bundle exec jekyll build --future --safe"
