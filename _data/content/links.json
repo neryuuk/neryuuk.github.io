@@ -10,5 +10,11 @@
     "icon": "fa-brands fa-square-github details-icon",
     "text": "github.com/neryuuk",
     "url": "https://github.com/neryuuk"
+  },
+  {
+    "item": "webpage",
+    "icon": "fa-solid fa-briefcase details-icon",
+    "text": "neryuuk.com",
+    "url": "https://neryuuk.com"
   }
 ]

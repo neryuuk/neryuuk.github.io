@@ -75,6 +75,7 @@
   <h2>Links</h2>
   <p><a href="https://www.linkedin.com/in/neryuuk" target="_blank">linkedin.com/in/neryuuk</a></p>
   <p><a href="https://github.com/neryuuk" target="_blank">github.com/neryuuk</a></p>
+  <p><a href="https://neryuuk.com" target="_blank">neryuuk.com</a></p>
 </section>
 <section>
   <h2>Languages</h2>
