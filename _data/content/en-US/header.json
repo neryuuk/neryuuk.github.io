@@ -1,0 +1,12 @@
+{
+  "title": "Senior Node.js Developer",
+  "name": "Nelson Antunes",
+  "picture": "Profile picture",
+  "languages": [
+    {
+      "code": "pt-br",
+      "title": "Ler em Português",
+      "url": "./portuguese"
+    }
+  ]
+}
