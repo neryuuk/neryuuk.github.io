@@ -1,0 +1,17 @@
+[
+  {
+    "item": "location",
+    "text": "São Paulo, SP, Brasil",
+    "icon": "fa-solid fa-location-dot details-icon"
+  },
+  {
+    "item": "phone",
+    "icon": "fa-solid fa-phone details-icon"
+  },
+  {
+    "item": "email",
+    "text": "neryuuk@neryuuk.com",
+    "icon": "fa-solid fa-envelope details-icon",
+    "url": "mailto:neryuuk@neryuuk.com"
+  }
+]
