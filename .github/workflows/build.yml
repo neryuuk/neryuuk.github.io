@@ -30,4 +30,4 @@ jobs:
             --env VERBOSE=true \
             --volume ${{ github.workspace }}:/srv/jekyll \
             jekyll/builder:latest \
-            /bin/bash -c "ruby -v && bundle update --trace --verbose && bundle exec jekyll build --future --profile --safe --trace --verbose"
+            /bin/bash -c "ruby -v && bundle update --verbose && bundle exec jekyll build --future --profile --safe --trace --verbose"
