@@ -1,4 +1,4 @@
-{% assign section_title = strings[include.sect] %}
+{% assign section_title = i18n[include.sect] %}
 <section id="{{ section_title | slugify }}">
   {% if section_title %}<h2>{{ section_title }}</h2>{% endif %}
   {% for each in data[include.sect] %}
