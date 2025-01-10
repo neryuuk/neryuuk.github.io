@@ -28,4 +28,4 @@ jobs:
             --env JEKYLL_UID=`id --user` \
             --volume ${{ github.workspace }}:/srv/jekyll \
             jekyll/builder:latest \
-            /bin/bash -c "bundle update && bundle exec jekyll build --future --trace --verbose"
+            /bin/bash -c "bundle update && bundle exec jekyll build --future --safe"

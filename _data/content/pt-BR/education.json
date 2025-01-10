@@ -1,0 +1,84 @@
+[
+  {
+    "course": "Bacharelado em Ciências Aplicadas, Ciência da Computação, Graduação sanduíche",
+    "school": {
+      "name": "University of Toronto Mississauga",
+      "location": "Mississauga, ON, Canada",
+      "url": "https://www.utm.utoronto.ca"
+    },
+    "long_description": [
+      "Programa de graduação sanduíche 'Ciência Sem Fronteiras', do governo federal."
+    ],
+    "period": {
+      "start": {
+        "month": "09",
+        "year": 2013
+      },
+      "end": {
+        "month": "04",
+        "year": 2014
+      }
+    }
+  },
+  {
+    "course": "Tecnólogo em Redes de Computadores",
+    "school": {
+      "name": "Faculdade de Tecnologia de Osasco",
+      "location": "Osasco, SP, Brasil",
+      "url": "https://fatecosasco.edu.br/osasco"
+    },
+    "long_description": [
+      "Não finalizado (60% concluído)"
+    ],
+    "period": {
+      "start": {
+        "month": "01",
+        "year": 2012
+      },
+      "end": {
+        "month": "06",
+        "year": 2015
+      }
+    }
+  },
+  {
+    "course": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+    "school": {
+      "name": "Faculdade de Tecnologia de São Paulo - FATEC-SP",
+      "location": "São Paulo, SP, Brasil",
+      "url": "https://www.fatecsp.br"
+    },
+    "long_description": [
+      "Não finalizado (40% concluído)"
+    ],
+    "period": {
+      "start": {
+        "month": "01",
+        "year": 2009
+      },
+      "end": {
+        "month": "12",
+        "year": 2010
+      }
+    }
+  },
+  {
+    "course": "Técnico em Programação e Análise de Sistemas",
+    "school": {
+      "name": "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP",
+      "location": "São Paulo, SP, Brasil",
+      "url": "https://www.ifsp.edu.br"
+    },
+    "long_description": null,
+    "period": {
+      "start": {
+        "month": "01",
+        "year": 2007
+      },
+      "end": {
+        "month": "06",
+        "year": 2009
+      }
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "company": {
+      "short_name": "Big Data University",
+      "long_name": "Big Data University",
+      "legal_name": "Big Data University",
+      "url": "https://cognitiveclass.ai",
+      "location": "Toronto, ON, Canada"
+    },
+    "position": "Software Engineer",
+    "remote": false,
+    "period": {
+      "start": {
+        "month": "05",
+        "year": 2014
+      },
+      "end": {
+        "month": "08",
+        "year": 2014
+      }
+    },
+    "skills": null,
+    "bullet_point": null,
+    "long_description": [
+      "Como parte do programa Ciência sem Fronteiras, trabalhei como estagiário na Big Data University.",
+      "Lá, pude ajudar a idealizar e desenvolver um sistema caseiro de vigilância doméstica do tipo faça você mesmo usando o RaspberryPi, juntamente com o módulo de câmera, e algumas tecnologias da IBM (Cloudant + Bluemix), Python e NodeJS;",
+      "Durante o projeto, meu time e eu escrevemos um artigo descrevendo e documentando o primeiro protótipo do projeto: <a href='https://bit.ly/3CnrhVE' target='_blank'>https://bit.ly/3CnrhVE</a>"
+    ]
+  }
+]

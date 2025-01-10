@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-{% assign data = site.data[page.lang] %}
-{% assign strings = site.data.strings[page.lang] %}
+{% assign data = site.data.content[page.lang] %}
+{% assign i18n = site.data.i18n[page.lang] %}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
   <head>{% include meta.liquid %}</head>

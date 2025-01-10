@@ -1,7 +1,7 @@
 {% if page.layout == "ats" %}
   {% assign date_string = include.date.month | append: "/" %}
 {% else %}
-  {% assign date_string = strings.months[include.date.month] | append: " " %}
+  {% assign date_string = i18n.months[include.date.month] | append: " " %}
 {% endif %}
 {% assign date_string = date_string | append: include.date.year %}
 {% if include.date.month or include.date.year %}

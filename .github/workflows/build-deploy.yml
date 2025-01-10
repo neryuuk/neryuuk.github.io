@@ -28,7 +28,7 @@ jobs:
             --env JEKYLL_UID=`id --user` \
             --volume ${{ github.workspace }}:/srv/jekyll \
             jekyll/builder:latest \
-            /bin/bash -c "bundle update && bundle exec jekyll build --future --trace --verbose"
+            /bin/bash -c "bundle update && bundle exec jekyll build --future --safe"
       - uses: actions/configure-pages@v5
         name: Configure Pages
       - uses: actions/upload-pages-artifact@v3
