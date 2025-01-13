@@ -1,0 +1,7 @@
+<section id="badges">
+  {% for badge in site.data.badges %}
+    <p><a href="{{ badge.href }}">
+      <img title="{{ badge.title }}" src="{{ badge.src }}" />
+    </a></p>
+  {% endfor %}
+</section>

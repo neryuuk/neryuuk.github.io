@@ -22,7 +22,7 @@
     height: max-content;
   }
 
-  #lang {
+  #lang, #badges {
     display: none !important;
   }
 }
@@ -31,6 +31,10 @@
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
+}
+
+html, body {
+  height: max-content;
 }
 
 h2,
@@ -94,6 +98,7 @@ p {
 header {
   display: flex;
   height: 80px;
+  padding-top: 36pt;
   text-align: left;
   text-indent: 0pt;
 }
@@ -158,11 +163,26 @@ section {
 }
 
 .content {
-  margin: 36pt 32pt 32pt;
+  display: flex;
+  flex-direction: column;
+  margin: 0 32pt;
 }
 
 #side-column * {
   color: #FFF;
+}
+
+#side-column .content {
+  height: 100%;
+}
+
+#badges {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  margin-bottom: 16pt;
+  margin-top: auto;
 }
 
 progress {

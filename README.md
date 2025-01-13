@@ -1,4 +1,7 @@
 [![Deploy Jekyll to GitHub Pages](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy.yml)
+[![jekyll/builder:stable](https://img.shields.io/badge/jekyll/builder-stable-purple?logo=docker&logoColor=FFFFFF&labelColor=333A41)](https://hub.docker.com/r/jekyll/builder/tags?name=stable)
+[![ruby-3.1.1](https://img.shields.io/badge/ruby-3.1.1-purple?logo=ruby&logoColor=FFFFFF&labelColor=333A41)](https://www.ruby-lang.org/en/news/2022/02/18/ruby-3-1-1-released)
+[![jekyll-4.3.4](https://img.shields.io/badge/jekyll-4.3.4-purple?logo=rubygems&logoColor=FFFFFF&labelColor=333A41)](https://rubygems.org/gems/jekyll/versions/4.3.4)
 ---
 
 <header>
@@ -19,20 +22,20 @@
 </section>
 <section>
   <h2>Work Experience</h2>
-  <h3>Software Engineer | Node.js</h3>
+  <h3>Software Engineer</h3>
   <h4>Flash, São Paulo, SP, Brazil</h4>
   <p>september 2023 — december 2024</p>
   <p>In my role, I have honed my expertise in technologies such as Node.js, NestJS, (using both Javascript and Typescript), and ReactJS, and have been involved in structuring and enhancing system architecture using principles like Clean Architecture, Event Driven Architecture, and Domain-Driven Design (DDD). As a developer, I not only leverage my technical skills but also actively share knowledge with my team.</p>
-  <h3>Software Engineer | C#</h3>
+  <h3>Software Engineer</h3>
   <h4>Zoop, Remote</h4>
   <p>october 2022 — may 2023</p>
   <p>I worked on the Process Automation team, performing the development of RPA applications to be integrated into Zeev, using C#, Javascript, Postgres, MongoDB, MySQL, and AWS resources such as Secret Manager, Parameter Store, S3 Bucket, among others.</p>
-  <h3>Software Engineer | C#</h3>
+  <h3>Software Engineer</h3>
   <h4>Neon, Remote</h4>
   <p>october 2020 — september 2022</p>
   <p>Responsible for monitoring, maintaining and improving existing .NET applications as well as creating new ones, using technologies such as .NET (C#), RabbitMQ, MSSQL;</p>
   <p>Identifying and troubleshooting issues using Dynatrace, Grafana and support tickets to improve the financial services;</p>
-  <h3>Software Engineer | Node.js</h3>
+  <h3>Software Engineer</h3>
   <h4>Evnts, São Paulo, SP, Brazil</h4>
   <p>october 2016 — october 2020</p>
   <p>Creation and maintenance of the company's various products/applications, using node.js (Javascript and Typescript) on the back-end, React on the front end and databases on mongodb and MySQL;</p>
@@ -68,7 +71,7 @@
 </section>
 <section>
   <h2>Details</h2>
-  <p><span>São Paulo, Brazil</span></p>
+  <p><span>São Paulo, SP, Brazil</span></p>
   <p><a href="mailto:neryuuk@neryuuk.com" target="_blank">neryuuk@neryuuk.com</a></p>
 </section>
 <section>
