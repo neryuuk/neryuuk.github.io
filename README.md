@@ -1,4 +1,7 @@
 [![Deploy Jekyll to GitHub Pages](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy.yml)
+[![jekyll/builder:stable](https://img.shields.io/badge/jekyll/builder-stable-purple?logo=docker&logoColor=FFFFFF&labelColor=333A41)](https://hub.docker.com/r/jekyll/builder/tags?name=stable)
+[![ruby-3.1.1](https://img.shields.io/badge/ruby-3.1.1-purple?logo=ruby&logoColor=FFFFFF&labelColor=333A41)](https://www.ruby-lang.org/en/news/2022/02/18/ruby-3-1-1-released)
+[![jekyll-4.3.4](https://img.shields.io/badge/jekyll-4.3.4-purple?logo=rubygems&logoColor=FFFFFF&labelColor=333A41)](https://rubygems.org/gems/jekyll/versions/4.3.4)
 ---
 
 <header>
