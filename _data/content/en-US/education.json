@@ -21,14 +21,14 @@
     }
   },
   {
-    "course": "Associate Degree in Computer Systems Networking and Telecommunications",
+    "course": "Associate Degree in Computer Systems Networking and Telecommunications (Withdrawn)",
     "school": {
       "name": "Faculdade de Tecnologia de Osasco",
       "location": "Osasco, SP, Brazil",
       "url": "https://fatecosasco.edu.br/osasco"
     },
     "long_description": [
-      "Completed circa 60% of course load."
+      "Completed circa 60% of course load. (Withdrawn)"
     ],
     "period": {
       "start": {
@@ -42,14 +42,14 @@
     }
   },
   {
-    "course": "Associate Degree in Computer Systems Analysis",
+    "course": "Associate Degree in Computer Systems Analysis (Withdrawn)",
     "school": {
       "name": "Faculdade de Tecnologia de São Paulo - FATEC-SP",
       "location": "São Paulo, SP, Brazil",
       "url": "https://www.fatecsp.br"
     },
     "long_description": [
-      "Completed circa 40% of course load."
+      "Completed circa 40% of course load. (Withdrawn)"
     ],
     "period": {
       "start": {
