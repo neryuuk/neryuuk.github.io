@@ -5,14 +5,14 @@
     "src": "https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy.yml/badge.svg"
   },
   {
-    "title": "jekyll/builder:stable",
-    "href": "https://hub.docker.com/r/jekyll/builder/tags?name=stable",
-    "src": "https://img.shields.io/badge/jekyll/builder-stable-purple?logo=docker&logoColor=FFFFFF&labelColor=333A41"
+    "title": "ruby:3.3.7-alpine3.21",
+    "href": "https://hub.docker.com/_/ruby/tags?name=3.3.7-alpine3.21",
+    "src": "https://img.shields.io/badge/docker/ruby-3.3.7--alpine3.21-purple?logo=docker&logoColor=FFFFFF&labelColor=333A41"
   },
   {
-    "title": "ruby-3.1.1",
-    "href": "https://www.ruby-lang.org/en/news/2022/02/18/ruby-3-1-1-released",
-    "src": "https://img.shields.io/badge/ruby-3.1.1-purple?logo=ruby&logoColor=FFFFFF&labelColor=333A41"
+    "title": "ruby-3.3.7",
+    "href": "https://www.ruby-lang.org/en/news/2025/01/15/ruby-3-3-7-released",
+    "src": "https://img.shields.io/badge/ruby-3.3.7-purple?logo=ruby&logoColor=FFFFFF&labelColor=333A41"
   },
   {
     "title": "jekyll-4.3.4",
