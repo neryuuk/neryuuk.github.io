@@ -1,10 +1,12 @@
-FROM jekyll/builder:stable
+FROM ruby:3.3.7-alpine
 
-COPY --chown=jekyll:jekyll . /srv/jekyll/
+COPY --chown=0:0 . /usr/src/
 
-WORKDIR /srv/jekyll
+RUN ["apk", "add", "--update", "build-base"]
 
-RUN ["bundle", "update"]
+WORKDIR /usr/src
+
+RUN ["bundle", "install"]
 
 EXPOSE 4000
 
