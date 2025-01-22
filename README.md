@@ -1,6 +1,6 @@
 [![Deploy Jekyll to GitHub Pages](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy.yml)
-[![jekyll/builder:stable](https://img.shields.io/badge/jekyll/builder-stable-purple?logo=docker&logoColor=FFFFFF&labelColor=333A41)](https://hub.docker.com/r/jekyll/builder/tags?name=stable)
-[![ruby-3.1.1](https://img.shields.io/badge/ruby-3.1.1-purple?logo=ruby&logoColor=FFFFFF&labelColor=333A41)](https://www.ruby-lang.org/en/news/2022/02/18/ruby-3-1-1-released)
+[![ruby:3.3.7-alpine3.21](https://img.shields.io/badge/docker/ruby-3.3.7--alpine3.21-purple?logo=docker&logoColor=FFFFFF&labelColor=333A41)](https://hub.docker.com/_/ruby/tags?name=3.3.7-alpine3.21)
+[![ruby-3.3.7](https://img.shields.io/badge/ruby-3.3.7-purple?logo=ruby&logoColor=FFFFFF&labelColor=333A41)](https://www.ruby-lang.org/en/news/2025/01/15/ruby-3-3-7-released)
 [![jekyll-4.3.4](https://img.shields.io/badge/jekyll-4.3.4-purple?logo=rubygems&logoColor=FFFFFF&labelColor=333A41)](https://rubygems.org/gems/jekyll/versions/4.3.4)
 ---
 
@@ -48,14 +48,14 @@
   <h4>University of Toronto Mississauga, Mississauga, ON, Canada</h4>
   <p>september 2013 — april 2014</p>
   <p>Exchange Student sponsored by the Brazilian Federal Government through 'Science Without Borders' sandwich course initiative.</p>
-  <h3>Associate Degree in Computer Systems Networking and Telecommunications</h3>
+  <h3>Associate Degree in Computer Systems Networking and Telecommunications (Withdrawn)</h3>
   <h4>Faculdade de Tecnologia de Osasco, Osasco, SP, Brazil</h4>
   <p>january 2012 — june 2015</p>
-  <p>Completed circa 60% of course load.</p>
-  <h3>Associate Degree in Computer Systems Analysis</h3>
+  <p>Completed circa 60% of course load. (Withdrawn)</p>
+  <h3>Associate Degree in Computer Systems Analysis (Withdrawn)</h3>
   <h4>Faculdade de Tecnologia de São Paulo - FATEC-SP, São Paulo, SP, Brazil</h4>
   <p>january 2009 — december 2010</p>
-  <p>Completed circa 40% of course load.</p>
+  <p>Completed circa 40% of course load. (Withdrawn)</p>
   <h3>Certificate Program, Computer Programming</h3>
   <h4>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP, São Paulo, SP, Brazil</h4>
   <p>january 2007 — june 2009</p>
