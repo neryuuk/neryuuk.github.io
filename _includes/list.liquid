@@ -1,5 +1,5 @@
-{% if include.sect == "links" %}
-  {% assign items = site.data.content.links %}
+{% if include.sect == "links" or include.sect == "details" %}
+  {% assign items = site.data.content[include.sect] %}
 {% else %}
   {% assign items = data[include.sect] %}
 {% endif %}
