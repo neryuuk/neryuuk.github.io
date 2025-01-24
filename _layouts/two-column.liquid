@@ -1,34 +1,34 @@
 ---
 layout: default
 ---
-{% assign data = site.data.content[page.lang] %}
-{% assign i18n = site.data.i18n[page.lang] %}
+{%- assign data = site.data.content[page.lang] -%}
+{%- assign i18n = site.data.i18n[page.lang] -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
-  <head>{% include meta.liquid %}</head>
+  <head>{%- include meta.liquid -%}</head>
   <body>
     <div id="body">
-      {% capture content %}
-        {% include header.liquid data=data.header %}
-        {% include section.liquid sect="profile" simple=true %}
-        {% include section.liquid sect="work" %}
+      {%- capture content -%}
+        {%- include header.liquid data=data.header -%}
+        {%- include section.liquid sect="profile" simple=true -%}
+        {%- include section.liquid sect="work" -%}
         <div class="pagebreak">&nbsp;</div>
-        {% include section.liquid sect="education" %}
-        {% include section.liquid sect="internships" %}
+        {%- include section.liquid sect="education" -%}
+        {%- include section.liquid sect="internships" -%}
         <div class="pagebreak">&nbsp;</div>
-      {% endcapture %}
-      {% include column.liquid id="main-column" data=content %}
+      {%- endcapture -%}
+      {%- include column.liquid id="main-column" data=content -%}
 
-      {% capture content %}
-        {% include header.liquid %}
-        {% include list.liquid sect="details" %}
-        {% include list.liquid sect="links" %}
-        {% include progress.liquid sect="skills" %}
+      {%- capture content -%}
+        {%- include header.liquid -%}
+        {%- include list.liquid sect="details" -%}
+        {%- include list.liquid sect="links" -%}
+        {%- include progress.liquid sect="skills" -%}
         <div class="pagebreak">&nbsp;</div>
-        {% include progress.liquid sect="languages" %}
-        {% include badges.liquid %}
-      {% endcapture %}
-      {% include column.liquid id="side-column" data=content %}
+        {%- include progress.liquid sect="languages" -%}
+        {%- include badges.liquid -%}
+      {%- endcapture -%}
+      {%- include column.liquid id="side-column" data=content -%}
     </div>
   </body>
 </html>

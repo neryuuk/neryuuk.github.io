@@ -1,23 +1,23 @@
-{% assign title = i18n[include.sect] %}
+{%- assign title = i18n[include.sect] -%}
 <section id="{{ title | slugify: "latin" }}">
-  {% if title %}<h2>{{ title }}</h2>{% endif %}
-  {% for each in data[include.sect] %}
-    {% if include.simple %}
+  {%- if title -%}<h2>{{ title }}</h2>{%- endif -%}
+  {%- for each in data[include.sect] -%}
+    {%- if include.simple -%}
       <p>{{ each }}</p>
-      {% continue %}
-    {% endif %}
-    {% assign title = each.position | default: each.course %}
-    {% assign place = each.company.short_name | default: each.school.name %}
-    {% assign location = each.company.location | default: each.school.location %}
+      {%- continue -%}
+    {%- endif -%}
+    {%- assign title = each.position | default: each.course -%}
+    {%- assign place = each.company.short_name | default: each.school.name -%}
+    {%- assign location = each.company.location | default: each.school.location -%}
     <h3>{{ title }}</h3>
     <span class="location-period">
       <h4>{{ place }},
         <i class="fa-solid fa-location-dot location-dot-small"></i>
-        {% if each.remote %}{{ each.remote }}{% else %}{{ location }}{% endif %}
+        {%- if each.remote -%}{{ each.remote }}{%- else -%}{{ location }}{%- endif -%}
       </h4>
-      {% include period.liquid start=each.period.start end=each.period.end %}
+      {%- include period.liquid start=each.period.start end=each.period.end -%}
     </span>
-    {% for line in each.long_description %}<p>{{ line }}</p>{% endfor %}
+    {%- for line in each.long_description -%}<p>{{ line }}</p>{%- endfor -%}
     <p class="linebreak"></p>
-  {% endfor %}
+  {%- endfor -%}
 </section>
