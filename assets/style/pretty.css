@@ -209,10 +209,12 @@ label {
 }
 
 .location-dot-small {
+  margin-right: 2px;
   width: 5pt;
 }
 
 .details-icon {
   height: auto;
+  margin-right: 2px;
   width: 9pt;
 }
