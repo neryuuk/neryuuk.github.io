@@ -2,9 +2,9 @@ name: Build & Deploy GitHub Pages
 
 on:
   pull_request:
-    branches: ["main","master"]
+    branches: [ main, master ]
   push:
-    branches: ["main","master"]
+    branches: [ main, master ]
   workflow_dispatch:
 
 permissions:
