@@ -34,7 +34,7 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
         if: ${{ github.event_name == 'push' }}
-      - name: Upload Pages Artifact
+      - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         if: ${{ github.event_name == 'push' }}
         with:
