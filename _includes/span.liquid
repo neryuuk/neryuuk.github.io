@@ -1,9 +1,14 @@
 {% unless include.data.text %}{% continue %}{% endunless %}
 <span>
   <strong>{{ i18n[include.data.item] }}:</strong>
-  {% if include.data.url %}
-    <a href="{{ include.data.url }}" target="_blank">{{ include.data.text }}</a>
+  {% if i18n[include.data.text] %}
+    {% assign text = i18n[include.data.text] %}
   {% else %}
-    {{ include.data.text }}
+    {% assign text = include.data.text %}
+  {% endif %}
+  {% if include.data.url %}
+    <a href="{{ include.data.url }}" target="_blank">{{ text }}</a>
+  {% else %}
+    {{ text }}
   {% endif %}
 </span>

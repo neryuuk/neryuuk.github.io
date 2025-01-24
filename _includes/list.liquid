@@ -9,12 +9,17 @@
   {% if title %}<h2>{{ title }}</h2>{% endif %}
   {% for item in items %}
     {% unless item.text %}{% continue %}{% endunless %}
+    {% if i18n[item.text] %}
+      {% assign text = i18n[item.text] %}
+    {% else %}
+      {% assign text = item.text %}
+    {% endif %}
     <p>
       <i class="{{ item.icon }}"></i>
       {% if item.url %}
-        <a href="{{ item.url }}" target="_blank">{{ item.text }}</a>
+        <a href="{{ item.url }}" target="_blank">{{ text }}</a>
       {% else %}
-        <span>{{ item.text }}</span>
+        <span>{{ text }}</span>
       {% endif %}
     </p>
   {% endfor %}
