@@ -1,6 +1,8 @@
-name: Deploy GitHub Pages
+name: Build & Deploy GitHub Pages
 
 on:
+  pull_request:
+    branches: ["main","master"]
   push:
     branches: ["main","master"]
   workflow_dispatch:
@@ -18,8 +20,8 @@ jobs:
   Build:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-        name: Checkout
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Build with container
         run: |
           docker run \
@@ -29,19 +31,22 @@ jobs:
               apk add --update build-base && \
               bundle install && \
               JEKYLL_ENV=production bundle exec jekyll build --future --safe --trace"
-      - uses: actions/configure-pages@v5
-        name: Configure Pages
-      - uses: actions/upload-pages-artifact@v3
-        name: Upload Pages Artifact
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        if: ${{ github.event_name == 'push' }}
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        if: ${{ github.event_name == 'push' }}
         with:
           path: ${{ github.workspace }}/_site
   Deploy:
     runs-on: ubuntu-24.04
     needs: Build
+    if: ${{ github.event_name == 'push' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
-        name: Deploy Pages
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4
         id: deployment
