@@ -1,7 +1,7 @@
 <section id="badges">
-  {% for badge in site.data.badges %}
+  {%- for badge in site.data.badges -%}
     <p><a href="{{ badge.href }}" target="_blank">
       <img title="{{ badge.title }}" src="{{ badge.src }}" />
     </a></p>
-  {% endfor %}
+  {%- endfor -%}
 </section>

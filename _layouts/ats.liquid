@@ -1,20 +1,20 @@
 ---
 layout: default
 ---
-{% assign data = site.data.content[page.lang] %}
-{% assign i18n = site.data.i18n[page.lang] %}
+{%- assign data = site.data.content[page.lang] -%}
+{%- assign i18n = site.data.i18n[page.lang] -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
-  <head>{% include meta.liquid %}</head>
+  <head>{%- include meta.liquid -%}</head>
   <body>
     <div id="body">
-      {% include ats_header.liquid %}
-      {% include section.liquid sect="summary" simple=true %}
-      {% include skills.liquid %}
-      {% include section.liquid sect="work" %}
-      {% include section.liquid sect="education" %}
-      {% include section.liquid sect="internships" %}
-      {% include languages.liquid %}
+      {%- include ats_header.liquid -%}
+      {%- include section.liquid sect="summary" simple=true -%}
+      {%- include skills.liquid -%}
+      {%- include section.liquid sect="work" -%}
+      {%- include section.liquid sect="education" -%}
+      {%- include section.liquid sect="internships" -%}
+      {%- include languages.liquid -%}
     </div>
   </body>
 </html>

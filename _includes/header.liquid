@@ -1,16 +1,16 @@
 <header>
-  {% if include.data %}
+  {%- if include.data -%}
     <img id="profile-picture" alt="{{ i18n.picture }}" title="{{ i18n.picture }}" src="/assets/img/profile.jpg" />
     <div id="name-title">
       <p id="name">{{ include.data.name }}</p>
       <p id="title">{{ include.data.title }}</p>
     </div>
     <span id="lang">
-      {% for lang in include.data.languages %}
+      {%- for lang in include.data.languages -%}
         <a href="{{ lang.url }}">
           <img alt="{{ lang.title }}" title="{{ lang.title }}" src="/assets/img/{{ lang.code }}.png" />
         </a>
-      {% endfor %}
+      {%- endfor -%}
     </span>
-  {% endif %}
+  {%- endif -%}
 </header>

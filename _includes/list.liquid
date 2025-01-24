@@ -1,21 +1,26 @@
-{% if include.sect == "links" %}
-  {% assign items = site.data.content.links %}
-{% else %}
-  {% assign items = data[include.sect] %}
-{% endif %}
-{% assign title = i18n[include.sect] %}
-{% assign id = title | slugify: "latin" %}
+{%- if include.sect == "links" or include.sect == "details" -%}
+  {%- assign items = site.data.content[include.sect] -%}
+{%- else -%}
+  {%- assign items = data[include.sect] -%}
+{%- endif -%}
+{%- assign title = i18n[include.sect] -%}
+{%- assign id = title | slugify: "latin" -%}
 <section id="{{ id }}">
-  {% if title %}<h2>{{ title }}</h2>{% endif %}
-  {% for item in items %}
-    {% unless item.text %}{% continue %}{% endunless %}
+  {%- if title -%}<h2>{{ title }}</h2>{%- endif -%}
+  {%- for item in items -%}
+    {%- unless item.text -%}{%- continue -%}{%- endunless -%}
+    {%- if i18n[item.text] -%}
+      {%- assign text = i18n[item.text] -%}
+    {%- else -%}
+      {%- assign text = item.text -%}
+    {%- endif -%}
     <p>
       <i class="{{ item.icon }}"></i>
-      {% if item.url %}
-        <a href="{{ item.url }}" target="_blank">{{ item.text }}</a>
-      {% else %}
-        <span>{{ item.text }}</span>
-      {% endif %}
+      {%- if item.url -%}
+        <a href="{{ item.url }}" target="_blank">{{ text }}</a>
+      {%- else -%}
+        <span>{{ text }}</span>
+      {%- endif -%}
     </p>
-  {% endfor %}
+  {%- endfor -%}
 </section>
