@@ -1,5 +1,5 @@
 {%- if include.start or include.end -%}
   <p class="dates">
-    {%- include date.liquid date=include.start -%} {{ i18n.to }} {%- include date.liquid date=include.end -%}
+    {%- include date.liquid date=include.start %} {{ i18n.to }} {% include date.liquid date=include.end -%}
   </p>
 {%- endif -%}
