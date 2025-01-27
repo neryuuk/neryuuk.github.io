@@ -1,84 +1,24 @@
-[
-  {
+{
+  "University of Toronto Mississauga": {
     "course": "Bacharelado em Ciências Aplicadas, Ciência da Computação, Graduação sanduíche",
-    "school": {
-      "name": "University of Toronto Mississauga",
-      "location": "Mississauga, ON, Canada",
-      "url": "https://www.utm.utoronto.ca"
-    },
     "long_description": [
       "Programa de graduação sanduíche 'Ciência Sem Fronteiras', do governo federal."
-    ],
-    "period": {
-      "start": {
-        "month": "09",
-        "year": 2013
-      },
-      "end": {
-        "month": "04",
-        "year": 2014
-      }
-    }
+    ]
   },
-  {
+  "Faculdade de Tecnologia de Osasco": {
     "course": "Tecnólogo em Redes de Computadores (Não finalizado)",
-    "school": {
-      "name": "Faculdade de Tecnologia de Osasco",
-      "location": "Osasco, SP, Brasil",
-      "url": "https://fatecosasco.edu.br/osasco"
-    },
     "long_description": [
       "Não finalizado (60% concluído)"
-    ],
-    "period": {
-      "start": {
-        "month": "01",
-        "year": 2012
-      },
-      "end": {
-        "month": "06",
-        "year": 2015
-      }
-    }
+    ]
   },
-  {
+  "Faculdade de Tecnologia de São Paulo - FATEC-SP": {
     "course": "Tecnólogo em Análise e Desenvolvimento de Sistemas (Não finalizado)",
-    "school": {
-      "name": "Faculdade de Tecnologia de São Paulo - FATEC-SP",
-      "location": "São Paulo, SP, Brasil",
-      "url": "https://www.fatecsp.br"
-    },
     "long_description": [
       "Não finalizado (40% concluído)"
-    ],
-    "period": {
-      "start": {
-        "month": "01",
-        "year": 2009
-      },
-      "end": {
-        "month": "12",
-        "year": 2010
-      }
-    }
+    ]
   },
-  {
+  "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP": {
     "course": "Técnico em Programação e Análise de Sistemas",
-    "school": {
-      "name": "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP",
-      "location": "São Paulo, SP, Brasil",
-      "url": "https://www.ifsp.edu.br"
-    },
-    "long_description": null,
-    "period": {
-      "start": {
-        "month": "01",
-        "year": 2007
-      },
-      "end": {
-        "month": "06",
-        "year": 2009
-      }
-    }
+    "long_description": null
   }
-]
+}
