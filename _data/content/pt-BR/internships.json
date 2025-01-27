@@ -1,24 +1,6 @@
-[
-  {
-    "company": {
-      "short_name": "Big Data University",
-      "long_name": "Big Data University",
-      "legal_name": "Big Data University",
-      "url": "https://cognitiveclass.ai",
-      "location": "Toronto, ON, Canada"
-    },
+{
+  "Big Data University": {
     "position": "Software Engineer",
-    "remote": false,
-    "period": {
-      "start": {
-        "month": "05",
-        "year": 2014
-      },
-      "end": {
-        "month": "08",
-        "year": 2014
-      }
-    },
     "skills": null,
     "bullet_point": null,
     "long_description": [
@@ -27,4 +9,4 @@
       "Durante o projeto, meu time e eu escrevemos um artigo descrevendo e documentando o primeiro protótipo do projeto: <a href='https://bit.ly/3CnrhVE' target='_blank'>https://bit.ly/3CnrhVE</a>"
     ]
   }
-]
+}

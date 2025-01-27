@@ -1,0 +1,22 @@
+[
+  {
+    "company": {
+      "short_name": "Big Data University",
+      "long_name": "Big Data University",
+      "legal_name": "Big Data University",
+      "url": "https://cognitiveclass.ai",
+      "location": "toronto_on_canada"
+    },
+    "remote": false,
+    "period": {
+      "start": {
+        "month": "05",
+        "year": 2014
+      },
+      "end": {
+        "month": "08",
+        "year": 2014
+      }
+    }
+  }
+]

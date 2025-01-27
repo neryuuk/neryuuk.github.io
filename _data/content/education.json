@@ -1,0 +1,70 @@
+[
+  {
+    "school": {
+      "name": "University of Toronto Mississauga",
+      "location": "mississauga_on_canada",
+      "url": "https://www.utm.utoronto.ca"
+    },
+    "period": {
+      "start": {
+        "month": "09",
+        "year": 2013
+      },
+      "end": {
+        "month": "04",
+        "year": 2014
+      }
+    }
+  },
+  {
+    "school": {
+      "name": "Faculdade de Tecnologia de Osasco",
+      "location": "osasco_sp_brazil",
+      "url": "https://fatecosasco.edu.br/osasco"
+    },
+    "period": {
+      "start": {
+        "month": "01",
+        "year": 2012
+      },
+      "end": {
+        "month": "06",
+        "year": 2015
+      }
+    }
+  },
+  {
+    "school": {
+      "name": "Faculdade de Tecnologia de São Paulo - FATEC-SP",
+      "location": "sao_paulo_sp_brazil",
+      "url": "https://www.fatecsp.br"
+    },
+    "period": {
+      "start": {
+        "month": "01",
+        "year": 2009
+      },
+      "end": {
+        "month": "12",
+        "year": 2010
+      }
+    }
+  },
+  {
+    "school": {
+      "name": "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP",
+      "location": "sao_paulo_sp_brazil",
+      "url": "https://www.ifsp.edu.br"
+    },
+    "period": {
+      "start": {
+        "month": "01",
+        "year": 2007
+      },
+      "end": {
+        "month": "06",
+        "year": 2009
+      }
+    }
+  }
+]
