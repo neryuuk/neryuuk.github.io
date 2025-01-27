@@ -33,6 +33,11 @@ jobs:
               gem install bundler --version 2.6.3 && \
               bundle install && \
               JEKYLL_ENV=production bundle exec jekyll build --future --safe --trace"
+      # - name: Write cache
+      #   uses: actions/cache@v3
+      #   with:
+      #     key: ${{ runner.os }}-build-${{ hashFiles('_data','_includes','_layouts','assets','pages','_config.yml','Gemfile') }}
+      #     path: ${{ github.workspace }}/_site
       - name: Configure Pages
         uses: actions/configure-pages@v5
         if: ${{ github.event_name == 'push' }}
