@@ -29,6 +29,8 @@ jobs:
             ruby:3.3.7-alpine3.21 \
             /bin/sh -c "cd /usr/src && \
               apk add --update build-base && \
+              gem update --system 3.6.3 && \
+              gem install bundler --version 2.6.3 && \
               bundle install && \
               JEKYLL_ENV=production bundle exec jekyll build --future --safe --trace"
       - name: Configure Pages
