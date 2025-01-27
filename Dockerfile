@@ -1,6 +1,6 @@
 FROM ruby:3.3.7-alpine
 
-COPY --chown=0:0 . /usr/src/
+COPY --chown=0:0 Gemfile /usr/src/Gemfile
 
 WORKDIR /usr/src
 
