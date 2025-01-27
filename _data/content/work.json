@@ -1,0 +1,82 @@
+[
+  {
+    "company": {
+      "short_name": "Flash",
+      "long_name": "Flash Benefícios",
+      "legal_name": "FLASH TECNOLOGIA E INSTITUICAO DE PAGAMENTO LTDA",
+      "url": "https://flashapp.com.br",
+      "location": "São Paulo, SP, Brazil"
+    },
+    "remote": false,
+    "period": {
+      "start": {
+        "month": "09",
+        "year": 2023
+      },
+      "end": {
+        "month": "12",
+        "year": 2024
+      }
+    }
+  },
+  {
+    "company": {
+      "short_name": "Zoop",
+      "long_name": "Zoop Soluções de Pagamentos",
+      "legal_name": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+      "url": "https://zoop.com.br",
+      "location": "Rio de Janeiro, RJ, Brazil"
+    },
+    "remote": true,
+    "period": {
+      "start": {
+        "month": "10",
+        "year": 2022
+      },
+      "end": {
+        "month": "05",
+        "year": 2023
+      }
+    }
+  },
+  {
+    "company": {
+      "short_name": "Neon",
+      "long_name": "Neon",
+      "legal_name": "NEON PAGAMENTOS SA INSTITUICAO DE PAGAMENTO",
+      "url": "https://neon.com.br",
+      "location": "São Paulo, SP, Brazil"
+    },
+    "remote": true,
+    "period": {
+      "start": {
+        "month": "10",
+        "year": 2020
+      },
+      "end": {
+        "month": "09",
+        "year": 2022
+      }
+    }
+  },
+  {
+    "company": {
+      "short_name": "Evnts",
+      "long_name": "Evnts",
+      "legal_name": "EVENTS SERVICOS VIAGEM E TURISMO LTDA",
+      "url": "https://evnts.com.br",
+      "location": "São Paulo, SP, Brazil"
+    },
+    "remote": false,
+    "period": {
+      "start": {
+        "month": "10",
+        "year": 2016
+      },
+      "end": {
+        "month": "10",
+        "year": 2020
+      }
+    }
+  }
+]
