@@ -10,7 +10,7 @@ layout: default
     <div id="body">
       {%- capture content -%}
         {%- include header.liquid data=data.header -%}
-        {%- include section.liquid sect="profile" simple=true -%}
+        {%- include simple.liquid sect="profile" -%}
         {%- include section.liquid sect="work" -%}
         <div class="pagebreak">&nbsp;</div>
         {%- include section.liquid sect="education" -%}
