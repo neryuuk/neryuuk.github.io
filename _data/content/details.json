@@ -6,7 +6,8 @@
   },
   {
     "item": "phone",
-    "icon": "fa-solid fa-phone details-icon"
+    "icon": "fa-solid fa-phone details-icon",
+    "url": "https://wa.me/5511"
   },
   {
     "item": "email",
