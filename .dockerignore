@@ -8,4 +8,4 @@ Dockerfile
 docs
 Gemfile.lock
 README.md
-serve.sh
+*.sh
