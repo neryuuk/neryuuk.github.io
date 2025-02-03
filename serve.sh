@@ -1,3 +1,5 @@
+rm -rf _site .jekyll-cache Gemfile.lock;
+
 ruby -v;
 gem -v;
 bundle -v;
