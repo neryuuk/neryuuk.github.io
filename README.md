@@ -17,7 +17,7 @@
 <section>
   <h2>Skills</h2>
   <p><strong>Proficient:</strong> Node.js, Javascript, Typescript, NestJS, Express, MongoDB</p>
-  <p><strong>Intermediate:</strong> MySQL, .NET, C#, Google Cloud (GCP), Amazon Web Services (AWS), Docker, CI/CD, PostgreSQL, MSSQL, RabbitMQ, Kafka, SQS, React, jQuery</p>
+  <p><strong>Intermediate:</strong> MySQL, .NET, C#, Google Cloud (GCP), Amazon Web Services (AWS), Docker, CI/CD, Jest, Unit tests, Automated testing, PostgreSQL, MSSQL, RabbitMQ, Kafka, SQS, React, jQuery</p>
   <p><strong>Beginner:</strong> Python, Grafana, Dynatrace, Datadog, Ansible, Redux</p>
 </section>
 <section>
