@@ -16,4 +16,6 @@ EXPOSE 4000
 
 EXPOSE 35729
 
-ENTRYPOINT ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--trace"]
+VOLUME ["/usr/src"]
+
+ENTRYPOINT ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--disable-disk-cache", "--future", "--livereload", "--safe", "--trace"]

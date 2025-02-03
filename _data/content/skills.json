@@ -28,6 +28,10 @@
     "level": 6
   },
   {
+    "name": "Jest, Unit tests, Automated testing",
+    "level": 6
+  },
+  {
     "name": "PostgreSQL, MSSQL",
     "level": 5
   },

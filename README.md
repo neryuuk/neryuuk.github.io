@@ -1,7 +1,7 @@
 [![Deploy Jekyll to GitHub Pages](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy-github-pages.yml/badge.svg)](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy-github-pages.yml)
 [![ruby:3.3.7-alpine3.21](https://img.shields.io/badge/docker/ruby-3.3.7--alpine3.21-purple?logo=docker&logoColor=FFFFFF&labelColor=333A41)](https://hub.docker.com/_/ruby/tags?name=3.3.7-alpine3.21)
 [![ruby-3.3.7](https://img.shields.io/badge/ruby-3.3.7-purple?logo=ruby&logoColor=FFFFFF&labelColor=333A41)](https://www.ruby-lang.org/en/news/2025/01/15/ruby-3-3-7-released)
-[![jekyll-4.3.4](https://img.shields.io/badge/jekyll-4.3.4-purple?logo=rubygems&logoColor=FFFFFF&labelColor=333A41)](https://rubygems.org/gems/jekyll/versions/4.3.4)
+[![jekyll-4.4.1](https://img.shields.io/badge/jekyll-4.4.1-purple?logo=rubygems&logoColor=FFFFFF&labelColor=333A41)](https://rubygems.org/gems/jekyll/versions/4.4.1)
 ---
 
 <header>
@@ -17,7 +17,7 @@
 <section>
   <h2>Skills</h2>
   <p><strong>Proficient:</strong> Node.js, Javascript, Typescript, NestJS, Express, MongoDB</p>
-  <p><strong>Intermediate:</strong> MySQL, .NET, C#, Google Cloud (GCP), Amazon Web Services (AWS), Docker, CI/CD, PostgreSQL, MSSQL, RabbitMQ, Kafka, SQS, React, jQuery</p>
+  <p><strong>Intermediate:</strong> MySQL, .NET, C#, Google Cloud (GCP), Amazon Web Services (AWS), Docker, CI/CD, Jest, Unit tests, Automated testing, PostgreSQL, MSSQL, RabbitMQ, Kafka, SQS, React, jQuery</p>
   <p><strong>Beginner:</strong> Python, Grafana, Dynatrace, Datadog, Ansible, Redux</p>
 </section>
 <section>
