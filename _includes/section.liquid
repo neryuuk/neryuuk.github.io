@@ -1,17 +1,28 @@
 {%- assign title = i18n[include.sect] -%}
+{%- if include.sect == "education" -%}
+  {%- assign sect = "education.liquid" -%}
+{%- else -%}
+  {%- assign sect = "work.liquid" -%}
+{%- endif -%}
 <div class="section" id="{{ title | slugify: "latin" }}">
   {%- if title -%}<h2>{{ title }}</h2>{%- endif -%}
   {%- for each in site.data.content[include.sect] -%}
-    {%- assign place = each.company.long_name | default: each.school.name -%}
-    {%- assign location = each.company.location | default: each.school.location -%}
+    {%- if include.sect == "education" -%}
+      {%- assign sect = "education.liquid" -%}
+      {%- assign place = each.school.name -%}
+      {%- assign content = data[include.sect][place] -%}
+      {%- assign location = each.school.location -%}
+      {%- assign title = content.course -%}
+    {%- else -%}
+      {%- assign sect = "work.liquid" -%}
+      {%- assign place = each.company.long_name -%}
+      {%- assign content = data[include.sect][place] -%}
+      {%- assign location = each.company.location -%}
+      {%- assign title = content.position -%}
+    {%- endif -%}
     {%- assign location = i18n[location] | default: location -%}
-    {%- assign content = data[include.sect][place] -%}
-    {%- assign title = content.position | default: content.course -%}
-    <h3>{{ title }}</h3>
-    <span class="location-period">
-      <h4>{{- place }} - {% if each.remote %}{{ i18n.remote }}{% else %}{{ location }}{% endif -%}</h4>
-      {%- include period.liquid start=each.period.start end=each.period.end -%}
-    </span>
+    {%- if each.remote -%}{%- assign location = i18n.remote -%}{%- endif -%}
+    {%- include {{sect}} title=title place=place location=location period=each.period -%}
     {%- for line in content.long_description -%}<p>{{ line }}</p>{%- endfor -%}
     <p class="linebreak"></p>
   {%- endfor -%}

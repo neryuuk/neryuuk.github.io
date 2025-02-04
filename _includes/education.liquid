@@ -1,0 +1,5 @@
+<div class="location-period">
+  <h3>{{ include.title }}</h3>
+  <h4>{{- include.place }} - {{ include.location }}</h4>
+  {%- include period.liquid start=include.period.start end=include.period.end -%}
+</div>

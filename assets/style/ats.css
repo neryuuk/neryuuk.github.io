@@ -20,6 +20,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h3 { margin-top: 10pt; }
 
+h3 > span {
+  font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
+}
+
 h4 { font-weight: 400; }
 
 a { text-decoration: underline; }
@@ -37,7 +43,7 @@ p {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8pt;
+  /* margin-bottom: 8pt; */
 }
 
 .linebreak { margin-bottom: 16pt; }
