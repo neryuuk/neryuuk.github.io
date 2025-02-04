@@ -26,6 +26,7 @@ defaults:
 exclude:
   - "*.gem"
   - "*.gemspec"
+  - "*.sh"
   - Dockerfile
   - docs
   - tools
