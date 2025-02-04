@@ -2,7 +2,12 @@
   {
     "title": "Deploy Jekyll to GitHub Pages",
     "href": "https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy-github-pages.yml",
-    "src": "https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy-github-pages.yml/badge.svg"
+    "src": "https://img.shields.io/github/actions/workflow/status/neryuuk/neryuuk.github.io/build-deploy-github-pages.yml?logo=github&logoColor=FFFFFF&label=Build%20%26%20Deploy%20GitHub%20Pages&labelColor=333A41"
+  },
+  {
+    "title": "W3C Validation",
+    "href": "https://about.validator.nu",
+    "src": "https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fneryuuk.com%2F&logo=html5&logoColor=FFFFFF&label=HTML&labelColor=333A41"
   },
   {
     "title": "docker/ruby:3.3.7-alpine3.21",
