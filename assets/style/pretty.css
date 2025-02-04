@@ -31,8 +31,6 @@ h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-h3 { margin-top: 16pt; }
-
 h3 > span {
   font-weight: 400;
   font-size: 1em;
@@ -47,6 +45,10 @@ p {
   line-height: 1.5;
   margin: 0;
   text-align: justify;
+}
+
+.title-location-period {
+  margin-top: 16pt;
 }
 
 .job-title { margin: 4px; }
