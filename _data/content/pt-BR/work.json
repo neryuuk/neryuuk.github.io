@@ -1,5 +1,5 @@
 {
-  "Flash": {
+  "Flash Benefícios": {
     "position": "Software Engineer",
     "skills": null,
     "bullet_point": null,
@@ -7,7 +7,7 @@
       "Na execução das minhas funções, aprimorei meu expertise em tecnologias como NodeJS, NestJS, Typescript e ReactJS, além de participar da estruturação e aprimoramento da arquitetura do sistema utilizando princípios como Clean Architecture, Event Driven Architecture e Domain-Driven Design (DDD). Como desenvolvedor, não só utilizo minhas habilidades técnicas, mas também compartilho conhecimentos com minha equipe."
     ]
   },
-  "Zoop": {
+  "Zoop Soluções de Pagamentos": {
     "position": "Software Engineer",
     "skills": null,
     "bullet_point": null,
@@ -15,7 +15,7 @@
       "Atuei no time de Process Automation, realizando o desenvolvimento de aplicações RPA para serem integrados ao Zeev, utilizando C#, Javascript, Postgres, MongoDB, MySQL, e recursos da AWS como Secret Manager, Parameter Store, S3 Bucket, entre outros."
     ]
   },
-  "Neon": {
+  "Neon Pagamentos": {
     "position": "Software Engineer",
     "skills": null,
     "bullet_point": null,
