@@ -8,20 +8,18 @@ compress_html:
   startings: all
 
 defaults:
-  -
-    scope:
-      path: pages/pretty
-      type: pages
-    values:
-      layout: two-column
-      permalink: /:basename
-  -
-    scope:
-      path: pages/ats
-      type: pages
-    values:
-      layout: ats
-      permalink: /cv/:basename
+- scope:
+    path: pages/pretty
+    type: pages
+  values:
+    layout: two-column
+    permalink: /:basename
+- scope:
+    path: pages/ats
+    type: pages
+  values:
+    layout: ats
+    permalink: /cv/:basename
 
 exclude:
   - "*.gem"
