@@ -1,4 +1,5 @@
 _site
+*.sh
 .dockerignore
 .editorconfig
 .git*
@@ -8,4 +9,3 @@ Dockerfile
 docs
 Gemfile.lock
 README.md
-*.sh

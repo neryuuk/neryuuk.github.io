@@ -1,51 +1,32 @@
 @media print {
-  @page {
-    orientation: portrait;
-  }
+  @page { orientation: portrait; }
 
-  section {
-    page-break-inside: avoid;
-  }
+  div.section { page-break-inside: avoid; }
 
-  #body {
-    width: 1060px !important;
-  }
+  #body { width: 1060px !important; }
 }
 
-* {
-  font-family: 'Calibri', 'Trebuchet MS', sans-serif;
-}
+* { font-family: 'Calibri', 'Trebuchet MS', sans-serif; }
 
-header {
-  text-align: center;
-}
+header { text-align: center; }
 
-header > div {
-  margin: 0 auto 16px;
-}
+header > div { margin: 0 auto 16px; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-h3 {
-  margin-top: 10pt;
-}
-
-h4 {
+h3 > span {
   font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
 }
 
-a {
-  text-decoration: underline;
-}
+h4 { font-weight: 400; }
+
+a { text-decoration: underline; }
 
 p {
   font-size: 14pt;
@@ -56,22 +37,21 @@ p {
   text-align: justify;
 }
 
+.title-location-period {
+  margin-top: 10pt;
+}
+
 .location-period {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8pt;
 }
 
-.linebreak {
-  margin-bottom: 16pt;
-}
+.linebreak { margin-bottom: 16pt; }
 
 #body {
   margin: 36pt auto;
   width: 1200px;
 }
 
-section {
-  margin-top: 30pt;
-}
+div.section { margin-top: 30pt; }

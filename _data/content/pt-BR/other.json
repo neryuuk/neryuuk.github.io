@@ -8,5 +8,11 @@
       "Lá, pude ajudar a idealizar e desenvolver um sistema caseiro de vigilância doméstica do tipo faça você mesmo usando o RaspberryPi, juntamente com o módulo de câmera, e algumas tecnologias da IBM (Cloudant + Bluemix), Python e NodeJS;",
       "Durante o projeto, meu time e eu escrevemos um artigo descrevendo e documentando o primeiro protótipo do projeto: <a href='https://bit.ly/3CnrhVE' target='_blank'>https://bit.ly/3CnrhVE</a>"
     ]
+  },
+  "University of Toronto Mississauga": {
+    "course": "Bacharelado em Ciências Aplicadas, Ciência da Computação, Graduação sanduíche",
+    "long_description": [
+      "Programa de graduação sanduíche 'Ciência Sem Fronteiras', do governo federal."
+    ]
   }
 }

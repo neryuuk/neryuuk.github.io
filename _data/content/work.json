@@ -7,7 +7,7 @@
       "url": "https://flashapp.com.br",
       "location": "sao_paulo_sp_brazil"
     },
-    "remote": false,
+    "remote": true,
     "period": {
       "start": {
         "month": "09",
@@ -22,7 +22,7 @@
   {
     "company": {
       "short_name": "Zoop",
-      "long_name": "Zoop Soluções de Pagamentos",
+      "long_name": "Zoop Soluções de Pagamento",
       "legal_name": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
       "url": "https://zoop.com.br",
       "location": "rio_de_janeiro_rj_brazil"
@@ -42,7 +42,7 @@
   {
     "company": {
       "short_name": "Neon",
-      "long_name": "Neon",
+      "long_name": "Neon Pagamentos",
       "legal_name": "NEON PAGAMENTOS SA INSTITUICAO DE PAGAMENTO",
       "url": "https://neon.com.br",
       "location": "sao_paulo_sp_brazil"

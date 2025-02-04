@@ -18,5 +18,23 @@
         "year": 2014
       }
     }
+  },
+  {
+    "school": {
+      "name": "University of Toronto Mississauga",
+      "location": "mississauga_on_canada",
+      "url": "https://www.utm.utoronto.ca"
+    },
+    "remote": false,
+    "period": {
+      "start": {
+        "month": "09",
+        "year": 2013
+      },
+      "end": {
+        "month": "04",
+        "year": 2014
+      }
+    }
   }
 ]
