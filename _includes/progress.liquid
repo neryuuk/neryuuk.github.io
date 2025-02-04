@@ -5,7 +5,7 @@
 {%- endif -%}
 {%- assign title = i18n[include.sect] -%}
 {%- assign id = title | slugify: "latin" -%}
-<section id="{{ id }}">
+<div class="section" id="{{ id }}">
   {%- if title -%}<h2>{{ title }}</h2>{%- endif -%}
   {%- for item in items -%}
     {%- assign id = item.name | slugify: "latin" -%}
@@ -14,4 +14,4 @@
       <progress max="10" value="{{ item.level }}" id="{{ id }}"></progress>
     </label>
   {%- endfor -%}
-</section>
+</div>

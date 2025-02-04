@@ -1,5 +1,5 @@
 {%- assign title = i18n[include.sect] -%}
-<section id="{{ title | slugify: "latin" }}">
+<div class="section" id="{{ title | slugify: "latin" }}">
   {%- if title -%}<h2>{{ title }}</h2>{%- endif -%}
   {%- for each in data[include.sect] -%}<p>{{ each }}</p>{%- endfor -%}
-</section>
+</div>

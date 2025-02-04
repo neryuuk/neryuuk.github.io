@@ -1,4 +1,4 @@
-<section>
+<div class="section">
   {%- if i18n.languages -%}<h2>{{ i18n.languages }}</h2>{%- endif -%}
   {%- assign skills = site.data.content.languages | where_exp: "item", "item.level >= 10" -%}
   {%- include skill_level.liquid title=i18n.native data=skills -%}
@@ -6,4 +6,4 @@
   {%- include skill_level.liquid title=i18n.fluent data=skills -%}
   {%- assign skills = site.data.content.languages | where_exp: "item", "item.level < 5" -%}
   {%- include skill_level.liquid title=i18n.basic data=skills -%}
-</section>
+</div>

@@ -1,7 +1,7 @@
 @media print {
   @page { orientation: portrait; }
 
-  section { page-break-inside: avoid; }
+  div.section { page-break-inside: avoid; }
 
   #body { width: 1060px !important; }
 }
@@ -47,4 +47,4 @@ p {
   width: 1200px;
 }
 
-section { margin-top: 30pt; }
+div.section { margin-top: 30pt; }

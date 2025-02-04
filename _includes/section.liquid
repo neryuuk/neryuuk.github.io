@@ -1,5 +1,5 @@
 {%- assign title = i18n[include.sect] -%}
-<section id="{{ title | slugify: "latin" }}">
+<div class="section" id="{{ title | slugify: "latin" }}">
   {%- if title -%}<h2>{{ title }}</h2>{%- endif -%}
   {%- for each in site.data.content[include.sect] -%}
     {%- assign place = each.company.long_name | default: each.school.name -%}
@@ -15,4 +15,4 @@
     {%- for line in content.long_description -%}<p>{{ line }}</p>{%- endfor -%}
     <p class="linebreak"></p>
   {%- endfor -%}
-</section>
+</div>

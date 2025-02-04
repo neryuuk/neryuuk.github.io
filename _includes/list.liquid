@@ -5,7 +5,7 @@
 {%- endif -%}
 {%- assign title = i18n[include.sect] -%}
 {%- assign id = title | slugify: "latin" -%}
-<section id="{{ id }}">
+<div class="section" id="{{ id }}">
   {%- if title -%}<h2>{{ title }}</h2>{%- endif -%}
   {%- for item in items -%}
     {%- unless item.text -%}{%- continue -%}{%- endunless -%}
@@ -23,4 +23,4 @@
       {%- endif -%}
     </p>
   {%- endfor -%}
-</section>
+</div>
