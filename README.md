@@ -11,17 +11,17 @@
     <p>Senior Node.js Developer</p>
   </div>
 </header>
-<section>
+<div>
   <h2>Profile</h2>
   <p>Developer with experience in back-end development, using NodeJS (JavaScript and Typescript), .NET (C#), and databases such as MongoDB, MySQL, PostgreSQL, and MSSQL. I also have knowledge in front-end development, working with React, Redux and jQuery. I have skills in integration and problem-solving, utilizing tools like RabbitMQ and Ansible. Additionally, I have experience in application monitoring using tools like Dynatrace, Grafana, and Datadog. I am always seeking new challenges to continue growing professionally.</p>
-</section>
-<section>
+</div>
+<div>
   <h2>Skills</h2>
   <p><strong>Proficient:</strong> Node.js, Javascript, Typescript, NestJS, Express, MongoDB</p>
   <p><strong>Intermediate:</strong> MySQL, .NET, C#, Google Cloud (GCP), Amazon Web Services (AWS), Docker, CI/CD, Jest, Unit tests, Automated testing, PostgreSQL, MSSQL, RabbitMQ, Kafka, SQS, React, jQuery</p>
   <p><strong>Beginner:</strong> Python, Grafana, Dynatrace, Datadog, Ansible, Redux</p>
-</section>
-<section>
+</div>
+<div>
   <h2>Work Experience</h2>
   <h3>Software Engineer</h3>
   <h4>Flash, São Paulo, SP, Brazil</h4>
@@ -42,13 +42,9 @@
   <p>Creation and maintenance of the company's various products/applications, using node.js (Javascript and Typescript) on the back-end, React on the front end and databases on mongodb and MySQL;</p>
   <p>CI/CD configuration and management using SemaphoreCI and Bitbucket Pipelines;</p>
   <p>Configuration, deployment and management of servers, buckets, databases and applications in various cloud providers (AWS and Google Cloud);</p>
-</section>
-<section>
+</div>
+<div>
   <h2>Education</h2>
-  <h3>Sandwich Course in Computer Science</h3>
-  <h4>University of Toronto Mississauga, Mississauga, ON, Canada</h4>
-  <p>september 2013 to april 2014</p>
-  <p>Exchange Student sponsored by the Brazilian Federal Government through 'Science Without Borders' sandwich course initiative.</p>
   <h3>Associate Degree in Computer Systems Networking and Telecommunications (Withdrawn)</h3>
   <h4>Faculdade de Tecnologia de Osasco, Osasco, SP, Brazil</h4>
   <p>january 2012 to june 2015</p>
@@ -60,8 +56,8 @@
   <h3>Certificate Program, Computer Programming</h3>
   <h4>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP, São Paulo, SP, Brazil</h4>
   <p>january 2007 to june 2009</p>
-</section>
-<section>
+</div>
+<div>
   <h2>Internships and other experiences</h2>
   <h3>Software Engineer</h3>
   <h4>Big Data University, Toronto, ON, Canada</h4>
@@ -69,21 +65,25 @@
   <p>As part of the Science Without Borders sandwich course initiative, sponsored by the Brazilian Government, I worked as an intern at Big Data University.</p>
   <p>There, I was able to help envision and develop a do-it-yourself home surveillance system using a Raspberry Pi (along with it's camera module), some IBM technology (Cloudant + Bluemix), Python and Node.js.</p>
   <p>During the project my team and I wrote this article that talks about the first prototype: <a href='https://bit.ly/3CnrhVE' target='_blank'>https://bit.ly/3CnrhVE</a></p>
-</section>
-<section>
+  <h3>Sandwich Course in Computer Science</h3>
+  <h4>University of Toronto Mississauga, Mississauga, ON, Canada</h4>
+  <p>september 2013 to april 2014</p>
+  <p>Exchange Student sponsored by the Brazilian Federal Government through 'Science Without Borders' sandwich course initiative.</p>
+</div>
+<div>
   <h2>Details</h2>
   <p><span>São Paulo, SP, Brazil</span></p>
   <p><a href="mailto:neryuuk@neryuuk.com" target="_blank">neryuuk@neryuuk.com</a></p>
-</section>
-<section>
+</div>
+<div>
   <h2>Links</h2>
   <p><a href="https://www.linkedin.com/in/neryuuk" target="_blank">linkedin.com/in/neryuuk</a></p>
   <p><a href="https://github.com/neryuuk" target="_blank">github.com/neryuuk</a></p>
   <p><a href="https://neryuuk.com" target="_blank">neryuuk.com</a></p>
-</section>
-<section>
+</div>
+<div>
   <h2>Languages</h2>
   <p><strong>Native:</strong> Português</p>
   <p><strong>Fluent:</strong> English</p><p>
   <strong>Basic:</strong> Français, Deutsch</p>
-</section>
+</div>
