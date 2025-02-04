@@ -7,7 +7,7 @@
       "url": "https://flashapp.com.br",
       "location": "sao_paulo_sp_brazil"
     },
-    "remote": false,
+    "remote": true,
     "period": {
       "start": {
         "month": "09",
