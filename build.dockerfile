@@ -12,8 +12,6 @@ RUN ["gem", "install", "bundler", "--version", "V_BUNDLER"]
 
 RUN ["bundle", "install"]
 
-ENV JEKYLL_ENV=production
-
 VOLUME ["/usr/src"]
 
 ENTRYPOINT ["bundle", "exec", "jekyll", "build", "--future", "--safe", "--trace", "--future"]
