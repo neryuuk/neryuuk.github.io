@@ -23,16 +23,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build with container
-        run: |
-          docker run \
-            --volume ${{ github.workspace }}:/usr/src \
-            ruby:3.4.2-alpine3.21 \
-            /bin/sh -c "cd /usr/src && \
-              apk add --update build-base && \
-              gem update --system 3.6.4 && \
-              gem install bundler --version 2.6.4 && \
-              bundle install && \
-              JEKYLL_ENV=production bundle exec jekyll build --future --safe --trace"
+        run: VOLUME=${{ github.workspace }} ./build.sh
       - name: Configure Pages
         uses: actions/configure-pages@v5
         if: ${{ github.event_name == 'push' }}
