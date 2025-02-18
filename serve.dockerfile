@@ -1,4 +1,4 @@
-FROM ruby:3.3.7-alpine
+FROM ruby:V_RUBY-alpine
 
 COPY --chown=0:0 Gemfile /usr/src/Gemfile
 
@@ -6,9 +6,9 @@ WORKDIR /usr/src
 
 RUN ["apk", "add", "--update", "build-base"]
 
-RUN ["gem", "update", "--system", "3.6.3"]
+RUN ["gem", "update", "--system", "V_GEMS"]
 
-RUN ["gem", "install", "bundler", "--version", "2.6.3"]
+RUN ["gem", "install", "bundler", "--version", "V_BUNDLER"]
 
 RUN ["bundle", "install"]
 

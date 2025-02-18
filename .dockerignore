@@ -1,11 +1,12 @@
 _site
+*.dockerfile
 *.sh
 .dockerignore
 .editorconfig
 .git*
 .jekyll-cache
 .vscode
-Dockerfile
 docs
+Dockerfile
 Gemfile.lock
 README.md
