@@ -12,10 +12,8 @@ RUN ["gem", "install", "bundler", "--version", "V_BUNDLER"]
 
 RUN ["bundle", "install"]
 
-EXPOSE 4000
-
-EXPOSE 35729
+ENV JEKYLL_ENV=production
 
 VOLUME ["/usr/src"]
 
-ENTRYPOINT ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--disable-disk-cache", "--future", "--livereload", "--safe", "--trace"]
+ENTRYPOINT ["bundle", "exec", "jekyll", "build", "--future", "--safe", "--trace", "--future"]
