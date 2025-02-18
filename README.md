@@ -1,7 +1,7 @@
 [![Deploy Jekyll to GitHub Pages](https://img.shields.io/github/actions/workflow/status/neryuuk/neryuuk.github.io/build-deploy-github-pages.yml?logo=github&logoColor=FFFFFF&label=Build%20%26%20Deploy%20GitHub%20Pages&labelColor=333A41)](https://github.com/neryuuk/neryuuk.github.io/actions/workflows/build-deploy-github-pages.yml)
 [![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fneryuuk.com%2F&logo=html5&logoColor=FFFFFF&label=HTML&labelColor=333A41)](https://about.validator.nu)
-[![ruby:3.3.7-alpine3.21](https://img.shields.io/badge/docker/ruby-3.3.7--alpine3.21-purple?logo=docker&logoColor=FFFFFF&labelColor=333A41)](https://hub.docker.com/_/ruby/tags?name=3.3.7-alpine3.21)
-[![ruby-3.3.7](https://img.shields.io/badge/ruby-3.3.7-purple?logo=ruby&logoColor=FFFFFF&labelColor=333A41)](https://www.ruby-lang.org/en/news/2025/01/15/ruby-3-3-7-released)
+[![ruby:3.4.2-alpine3.21](https://img.shields.io/badge/docker/ruby-3.4.2--alpine3.21-purple?logo=docker&logoColor=FFFFFF&labelColor=333A41)](https://hub.docker.com/_/ruby/tags?name=3.4.2-alpine3.21)
+[![ruby-3.4.2](https://img.shields.io/badge/ruby-3.4.2-purple?logo=ruby&logoColor=FFFFFF&labelColor=333A41)](https://www.ruby-lang.org/en/news/2025/01/15/ruby-3-3-7-released)
 [![jekyll-4.4.1](https://img.shields.io/badge/jekyll-4.4.1-purple?logo=rubygems&logoColor=FFFFFF&labelColor=333A41)](https://rubygems.org/gems/jekyll/versions/4.4.1)
 ---
 
