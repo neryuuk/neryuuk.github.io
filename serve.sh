@@ -1,9 +1,14 @@
-rm -rf _site .jekyll-cache Gemfile.lock;
+source vars.sh
 
-echo "ruby $(ruby -v | egrep -o "[0-9]+\.[0-9]+\.[0-9]+")";
-echo "gem $(gem -v | egrep -o "[0-9]+\.[0-9]+\.[0-9]+")";
-echo "bundle $(bundle -v | egrep -o "[0-9]+\.[0-9]+\.[0-9]+")";
-echo "jekyll $(jekyll -v | egrep -o "[0-9]+\.[0-9]+\.[0-9]+")";
+rm -rf _site .jekyll-cache Dockerfile Gemfile.lock;
 
-bundle install;
-JEKYLL_ENV=production bundle exec jekyll serve --disable-disk-cache --future --livereload --safe --trace;
+sed "s/V_RUBY/$V_RUBY/;s/V_GEMS/$V_GEMS/;s/V_BUNDLER/$V_BUNDLER/" serve.dockerfile > Dockerfile;
+
+docker build . --no-cache --tag $TAG;
+
+docker run --detach \
+  --env JEKYLL_ENV=production \
+  --publish 4000:4000 \
+  --publish 35729:35729 \
+  --volume $VOLUME:/usr/src \
+  $TAG;
