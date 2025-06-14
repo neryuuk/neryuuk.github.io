@@ -6,6 +6,8 @@
 {%- assign date_string = date_string | append: include.date.year -%}
 {%- if include.date.month or include.date.year -%}
   {{ date_string }}
+{%- elsif include.date.simple and i18n[include.date.simple] -%}
+  {{ i18n[include.date.simple] }}
 {%- elsif include.date.simple -%}
   {{ include.date.simple }}
 {%- endif -%}

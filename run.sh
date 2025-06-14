@@ -11,8 +11,9 @@ setup ()
 
   export TAG="neryuuk.github.io"
   export V_RUBY=`grep -E '^ruby' Gemfile | grep -Eo '[0-9.]+'`;
-  export V_GEMS="3.6.4";
-  export V_BUNDLER="2.6.4";
+  export V_ALPINE="3.22";
+  export V_GEMS="3.6.9";
+  export V_BUNDLER="2.6.9";
 
   if [[ -z ${VOLUME+x} ]]; then export VOLUME=.; fi;
 }
@@ -20,7 +21,7 @@ setup ()
 dockerbuild ()
 {
   echo "Selecting '$1.dockerfile' as Dockerfile";
-  sed "s/V_RUBY/$V_RUBY/;s/V_GEMS/$V_GEMS/;s/V_BUNDLER/$V_BUNDLER/" $1.dockerfile > Dockerfile;
+  sed "s/V_RUBY/$V_RUBY/;s/V_ALPINE/$V_ALPINE/;s/V_GEMS/$V_GEMS/;s/V_BUNDLER/$V_BUNDLER/" $1.dockerfile > Dockerfile;
 
   echo "Docker build $TAG";
   docker build . \

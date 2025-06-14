@@ -9,6 +9,7 @@
   "location": "Localidade",
   "at": "-",
   "remote": "Remoto",
+  "hybrid": "Híbrido",
   "toronto_on_canada": "Toronto, ON, Canadá",
   "mississauga_on_canada": "Mississauga, ON, Canadá",
   "osasco_sp_brazil": "Osasco, SP, Brasil",
@@ -29,6 +30,7 @@
   "fluent": "Fluente",
   "basic": "Básico",
   "to": "até",
+  "present": "atualmente",
   "months": {
     "01": "janeiro",
     "02": "fevereiro",
