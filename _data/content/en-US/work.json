@@ -1,4 +1,12 @@
 {
+    "1Global": {
+    "position": "Software Engineer",
+    "skills": null,
+    "bullet_point": null,
+    "long_description": [
+      "Supporting and mantaining 1Global IoT's legacy platform (running on python), as well as planning and executing the new platform, using Typescript."
+    ]
+  },
   "Flash Benefícios": {
     "position": "Software Engineer",
     "skills": null,

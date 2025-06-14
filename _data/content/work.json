@@ -1,6 +1,25 @@
 [
   {
     "company": {
+      "short_name": "1Global",
+      "long_name": "1Global",
+      "legal_name": "1GLOBAL OPERATIONS (BRAZIL) LTDA",
+      "url": "https://1global.com",
+      "location": "sao_paulo_sp_brazil"
+    },
+    "hybrid": true,
+    "period": {
+      "start": {
+        "month": "03",
+        "year": 2025
+      },
+      "end": {
+        "simple": "present"
+      }
+    }
+  },
+  {
+    "company": {
       "short_name": "Flash",
       "long_name": "Flash Benefícios",
       "legal_name": "FLASH TECNOLOGIA E INSTITUICAO DE PAGAMENTO LTDA",
