@@ -1,4 +1,4 @@
-FROM ruby:V_RUBY-alpine
+FROM ruby:V_RUBY-alpineV_ALPINE
 
 COPY --chown=0:0 Gemfile /usr/src/Gemfile
 
