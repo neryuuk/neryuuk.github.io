@@ -18,12 +18,16 @@
 </div>
 <div>
   <h2>Skills</h2>
-  <p><strong>Proficient:</strong> Node.js, Javascript, Typescript, NestJS, Express, MongoDB</p>
-  <p><strong>Intermediate:</strong> MySQL, .NET, C#, Google Cloud (GCP), Amazon Web Services (AWS), Docker, CI/CD, Jest, Unit tests, Automated testing, PostgreSQL, MSSQL, RabbitMQ, Kafka, SQS, React, jQuery</p>
-  <p><strong>Beginner:</strong> Python, Grafana, Dynatrace, Datadog, Ansible, Redux</p>
+  <p><strong>Proficient:</strong> Node.js, Javascript, Typescript, NestJS, Express, MongoDB, MySQL</p>
+  <p><strong>Intermediate:</strong> .NET, C#, Google Cloud (GCP), Amazon Web Services (AWS), Docker, CI/CD, Jest, Unit tests, Automated testing, PostgreSQL, MSSQL, RabbitMQ, Kafka, SQS, React, jQuery, Python</p>
+  <p><strong>Beginner:</strong> Grafana, Dynatrace, Datadog, Django, Redux, Ansible</p>
 </div>
 <div>
   <h2>Work Experience</h2>
+  <h3>Software Engineer</h3>
+  <h4>1Global, São Paulo, SP, Brazil</h4>
+  <p>march 2025 to present</p>
+  <p>Supporting and mantaining 1Global IoT's legacy platform (running on python), as well as planning and executing the new platform, using Typescript.</p>
   <h3>Software Engineer</h3>
   <h4>Flash, São Paulo, SP, Brazil</h4>
   <p>september 2023 to december 2024</p>
