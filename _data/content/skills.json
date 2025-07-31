@@ -5,15 +5,15 @@
   },
   {
     "name": "NestJS, Express",
-    "level": 8
+    "level": 9
   },
   {
     "name": "MongoDB",
-    "level": 8
+    "level": 9
   },
   {
     "name": "MySQL",
-    "level": 7
+    "level": 8
   },
   {
     "name": ".NET, C#",
@@ -40,23 +40,19 @@
     "level": 5
   },
   {
-    "name": "React, jQuery",
+    "name": "React, jQuery, Python",
     "level": 5
-  },
-  {
-    "name": "Python",
-    "level": 4
   },
   {
     "name": "Grafana, Dynatrace, Datadog",
     "level": 3
   },
   {
-    "name": "Ansible",
+    "name": "Django, Redux",
     "level": 2
   },
   {
-    "name": "Redux",
+    "name": "Ansible",
     "level": 2
   }
 ]

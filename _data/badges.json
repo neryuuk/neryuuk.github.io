@@ -10,14 +10,14 @@
     "src": "https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fneryuuk.com%2F&logo=html5&logoColor=FFFFFF&label=HTML&labelColor=333A41"
   },
   {
-    "title": "docker/ruby:3.4.4-alpine3.22",
-    "href": "https://hub.docker.com/_/ruby/tags?name=3.4.4-alpine3.22",
-    "src": "https://img.shields.io/badge/docker/ruby-3.4.4--alpine3.22-purple?logo=docker&logoColor=FFFFFF&labelColor=333A41"
+    "title": "docker/ruby:3.4.5-alpine3.22",
+    "href": "https://hub.docker.com/_/ruby/tags?name=3.4.5-alpine3.22",
+    "src": "https://img.shields.io/badge/docker/ruby-3.4.5--alpine3.22-purple?logo=docker&logoColor=FFFFFF&labelColor=333A41"
   },
   {
-    "title": "ruby-3.4.4",
-    "href": "https://www.ruby-lang.org/en/news/2025/05/14/ruby-3-4-4-released",
-    "src": "https://img.shields.io/badge/ruby-3.4.4-purple?logo=ruby&logoColor=FFFFFF&labelColor=333A41"
+    "title": "ruby-3.4.5",
+    "href": "https://www.ruby-lang.org/en/news/2025/07/15/ruby-3-4-5-released",
+    "src": "https://img.shields.io/badge/ruby-3.4.5-purple?logo=ruby&logoColor=FFFFFF&labelColor=333A41"
   },
   {
     "title": "jekyll-4.4.1",
