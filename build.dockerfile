@@ -14,4 +14,4 @@ RUN ["bundle", "install"]
 
 VOLUME ["/usr/src"]
 
-ENTRYPOINT ["bundle", "exec", "jekyll", "build", "--future", "--safe", "--trace", "--future"]
+ENTRYPOINT ["bundle", "exec", "jekyll", "build", "--future", "--safe", "--trace"]
