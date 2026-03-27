@@ -11,9 +11,9 @@ setup ()
 
   export TAG="neryuuk.github.io"
   export V_RUBY=`grep -E '^ruby' Gemfile | grep -Eo '[0-9.]+'`;
-  export V_ALPINE="3.22";
-  export V_GEMS="3.7.1";
-  export V_BUNDLER="2.7.1";
+  export V_ALPINE="3.23";
+  export V_GEMS="4.0.9";
+  export V_BUNDLER="4.0.9";
 
   if [[ -z ${VOLUME+x} ]]; then export VOLUME=.; fi;
 }
